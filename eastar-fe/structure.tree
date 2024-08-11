@@ -11,12 +11,14 @@
 │  │  ├── components
 │  │  │  ├── default
 │  │  │  └── portal
+│  │  ├── constants
 │  │  ├── hooks
 │  │  ├── layouts
 │  │  ├── routes
 │  │  ├── services
 │  │  │  └── api
 │  │  ├── stores
+│  │  ├── types
 │  │  └── utilities
 │  ├── App.tsx
 │  ├── assets
