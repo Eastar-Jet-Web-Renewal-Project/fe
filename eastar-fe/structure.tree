@@ -7,17 +7,18 @@
 ├── package.json
 ├── public
 ├── src
+│  ├── @commons
+│  │  ├── apis
+│  │  ├── components
+│  │  │  ├── default
+│  │  │  └── portal
+│  │  ├── hooks
+│  │  ├── layouts
+│  │  ├── routes
+│  │  ├── stores
+│  │  └── utilities
 │  ├── App.tsx
 │  ├── assets
-│  ├── common-components
-│  │  ├── default
-│  │  └── portal
-│  │    └── Portal.tsx
-│  ├── common-layouts
-│  ├── common-utilities
-│  │  ├── apis
-│  │  ├── hooks
-│  │  └── stores
 │  ├── domains
 │  │  └── home
 │  │    ├── apis
@@ -27,7 +28,6 @@
 │  │    ├── pages
 │  │    └── types
 │  ├── main.tsx
-│  ├── routes
 │  └── vite-env.d.ts
 ├── structure.tree
 ├── tsconfig.app.json
