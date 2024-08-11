@@ -1,0 +1,39 @@
+├── .gitignore
+├── .prettierignore
+├── .prettierrc
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+├── src
+│  ├── @commons
+│  │  ├── components
+│  │  │  ├── default
+│  │  │  └── portal
+│  │  ├── constants
+│  │  ├── hooks
+│  │  ├── layouts
+│  │  ├── routes
+│  │  ├── services
+│  │  │  └── api
+│  │  ├── stores
+│  │  ├── types
+│  │  └── utilities
+│  ├── App.tsx
+│  ├── assets
+│  ├── domains
+│  │  └── home
+│  │    ├── apis
+│  │    ├── components
+│  │    ├── hooks
+│  │    ├── layouts
+│  │    ├── pages
+│  │    └── types
+│  ├── main.tsx
+│  └── vite-env.d.ts
+├── structure.tree
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
