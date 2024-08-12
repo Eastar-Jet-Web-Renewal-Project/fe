@@ -1,76 +1,46 @@
-import { createFolderStructure } from "eslint-plugin-project-structure";
+import {createFolderStructure} from "eslint-plugin-project-structure";
 
 export const folderStructureConfig = createFolderStructure({
   structure: {
     children: [
       {
-        // Allow any files in the root of your project, like package.json, eslint.config.mjs, etc. You can add rules for them separately.
-        // You can also add exceptions like this: "(?!folderStructure)*"
         name: "*",
       },
       {
         name: "src",
         children: [
-          {
-            name: "App.tsx",
-          },
-          {
-            name: "main.tsx",
-          },
-          {
-            name: "vite-env.d.ts",
-          },
+          {name: "App.tsx"},
+          {name: "main.tsx"},
+          {name: "vite-env.d.ts"},
           {
             name: "@commons",
             children: [
-              {
-                name: "components",
-                children: [
-                  { name: "{PascalCase}.tsx" },
-                  {
-                    name: "*",
-                  },
-                ],
-              },
-              {
-                name: "constants",
-              },
-              {
-                ruleId: "hooksRule",
-              },
-              {
-                name: "layouts",
-              },
-              {
-                name: "routes",
-              },
-              {
-                name: "services",
-              },
-              {
-                name: "stores",
-              },
-              {
-                name: "types",
-                children: [{ name: "{camelCase}" }],
-              },
-              {
-                name: "utilities",
-              },
+              {name: "components", ruleId: "componentRule"},
+              {name: "constants", ruleId: "tsRule"},
+              {name: "hooks", ruleId: "hooksRule"},
+              {name: "layouts", ruleId: "componentRule"},
+              {name: "routes", ruleId: "componentRule"},
+              {name: "services", ruleId: "tsRule"},
+              {name: "stores", ruleId: "tsRule"},
+              {name: "types", ruleId: "tsRule"},
+              {name: "utilities", ruleId: "tsRule"},
             ],
           },
-          {
-            name: "assets",
-          },
+          {name: "assets", children: [{name: "*"}]},
           {
             name: "domains",
             children: [
-              { name: "apis" },
-              { name: "components", children: [{ name: "{PascalCase}" }] },
-              { ruleId: "hooksRule" },
-              { name: "layouts", children: [{ name: "{PascalCase}" }] },
-              { name: "pages", children: [{ name: "{PascalCase}" }] },
-              { name: "types", children: [{ name: "{camelCase}" }] },
+              {
+                name: "*",
+                children: [
+                  {name: "apis", ruleId: "tsRule"},
+                  {name: "components", ruleId: "componentRule"},
+                  {name: "hooks", ruleId: "hooksRule"},
+                  {name: "layouts", ruleId: "componentRule"},
+                  {name: "pages", ruleId: "componentRule"},
+                  {name: "types", ruleId: "tsRule"},
+                ],
+              },
             ],
           },
         ],
@@ -79,10 +49,45 @@ export const folderStructureConfig = createFolderStructure({
   },
   rules: {
     hooksRule: {
-      name: "hooks",
       children: [
+        {name: ".gitkeep"},
+        {name: "use{PascalCase}.ts"},
         {
           name: "use{PascalCase}",
+          children: [
+            {
+              name: "use{PascalCase}",
+              children: [
+                {name: ".gitkeep"},
+                {name: "use{PascalCase}.ts"},
+                {name: "use{PascalCase}", ruleId: "hooksRule"},
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    componentRule: {
+      children: [
+        {name: ".gitkeep"},
+        {name: "{PascalCase}(.styled)?.tsx"},
+        {
+          name: "{PascalCase}",
+          children: [
+            {name: ".gitkeep"},
+            {name: "{PascalCase}(.styled)?.tsx"},
+            {name: "{PascalCase}", ruleId: "componentRule"},
+          ],
+        },
+      ],
+    },
+    tsRule: {
+      children: [
+        {name: ".gitkeep"},
+        {name: "{camelCase}(.*)?.ts"},
+        {
+          name: "{camelCase}",
+          children: [{name: ".gitkeep"}, {name: "{camelCase}(.*)?.ts"}, {name: "{camelCase}", ruleId: "tsRule"}],
         },
       ],
     },
