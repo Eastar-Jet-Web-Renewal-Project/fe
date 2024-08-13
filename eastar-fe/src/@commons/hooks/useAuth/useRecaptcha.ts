@@ -1,15 +1,15 @@
-import { getAuth, RecaptchaVerifier } from "firebase/auth";
-import { RefObject, useCallback, useRef, useState } from "react";
+import { RecaptchaVerifier } from "firebase/auth";
+import { RefObject, useCallback, useEffect, useRef, useState } from "react";
+import { auth } from "../../utilities/firebase";
 
 const useReCaptcha = (
   verifyButtonRef: RefObject<HTMLElement>,
   afterVerified: (response: string) => void,
-  expiredVerified: () => void,
+  expiredVerified: () => void = () => {},
 ) => {
   const [isVerified, setIsVerified] = useState<boolean>(false);
   // 재렌더링을 하지 않고, 하나의 RecaptchaVerifierRef만 유지하기 위함
   const recaptchaVerifierRef = useRef<RecaptchaVerifier | null>(null);
-  const auth = getAuth();
 
   const verify = useCallback(() => {
     if (!verifyButtonRef.current) return;
@@ -30,11 +30,16 @@ const useReCaptcha = (
     );
 
     return recaptchaVerifierRef.current.verify;
-  }, [afterVerified, expiredVerified]);
+  }, [verifyButtonRef, afterVerified, expiredVerified]);
+
+  useEffect(() => {
+    verify();
+  }, []);
 
   return {
     isVerified,
     verify,
+    recaptchaVerifier: recaptchaVerifierRef.current,
   };
 };
 
