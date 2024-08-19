@@ -15,7 +15,7 @@ export default function DesignSystem() {
       <h1>Design System</h1>
       <p>현재 테마는 Light 입니다</p>
       <DesignSystemWrapper>
-        {Object.entries(theme.colors).map(([name, value]) => (
+        {Object.entries(theme).map(([name, value]) => (
           <ColorBox key={name} name={name} color={value} />
         ))}
       </DesignSystemWrapper>
