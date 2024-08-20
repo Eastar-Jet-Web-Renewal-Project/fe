@@ -35,9 +35,6 @@ export const useHoverEvent = (
     const element = ref.current;
     if (!element) return;
 
-    // 텍스트 선택 방지를 위한 스타일 적용
-    element.style.userSelect = "none";
-
     element.addEventListener("pointerenter", handleHover);
     element.addEventListener("touchend", handleTouchEnd);
     element.addEventListener("mouseleave", handleMouseLeave);
