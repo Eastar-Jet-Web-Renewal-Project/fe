@@ -19,6 +19,18 @@ export const useHoverEvent = (
     setIsHover(false);
   };
 
+  const handleTouchEnd = (e: TouchEvent) => {
+    handleLeave(e);
+  };
+
+  const handleMouseLeave = (e: MouseEvent) => {
+    handleLeave(e);
+  };
+
+  const handlePointerEnter = (e: PointerEvent) => {
+    handleHover(e);
+  };
+
   useEffect(() => {
     const element = ref.current;
     if (!element) return;
@@ -27,11 +39,13 @@ export const useHoverEvent = (
     element.style.userSelect = "none";
 
     element.addEventListener("pointerenter", handleHover);
-    element.addEventListener("pointerleave", handleLeave);
+    element.addEventListener("touchend", handleTouchEnd);
+    element.addEventListener("mouseleave", handleMouseLeave);
 
     return () => {
-      element.removeEventListener("pointerenter", handleHover);
-      element.removeEventListener("pointerleave", handleLeave);
+      element.removeEventListener("pointerenter", handlePointerEnter);
+      element.removeEventListener("touchend", handleTouchEnd);
+      element.removeEventListener("mouseleave", handleMouseLeave);
     };
   }, [ref, onHover, onLeave]);
 
