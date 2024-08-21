@@ -15,10 +15,10 @@ export default function DesignComponentPage() {
       <p>현재 테마는 Light 입니다</p>
       <h2>Button</h2>
       {ButtonStyles.map((style) => (
-        <>
+        <div key={style}>
           <h3>{style}</h3>
           <Button style={style} content="Button" />
-        </>
+        </div>
       ))}
       <h3>diabled</h3>
       <Button content="Button" disabled />
