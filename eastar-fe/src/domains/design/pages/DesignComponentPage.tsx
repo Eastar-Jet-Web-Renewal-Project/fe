@@ -43,6 +43,7 @@ export default function DesignComponentPage() {
             style={style}
             value={value}
             onChange={onChangeValue}
+            placeholder={"아무 말이나 입력해봐요.."}
           />
         </div>
       ))}
