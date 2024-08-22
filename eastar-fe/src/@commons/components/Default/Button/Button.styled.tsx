@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components";
 import { Variants } from "../../../types/style";
 import theme from "../../../../styles/Theme/light.theme";
+import { textStyle } from "../../../../styles/font.styles";
 
 export type ButtonVariant =
   | "Elevated"
@@ -59,6 +60,9 @@ export const StyledButton = styled.div<StyledButtonProps>`
   gap: 8px;
 
   border-radius: 6px;
+
+  ${textStyle.subHeading[1].normal}
+
   cursor: pointer;
 
   //텍스트 선택 방지
