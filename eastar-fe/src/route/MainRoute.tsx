@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import DesignSystem from "../domains/design/pages/DesignSystem";
 import DesignComponentPage from "../domains/design/pages/DesignComponentPage";
+import SignInPage from "../domains/login/pages/SignInPage";
 
 const router = createBrowserRouter([
   {
@@ -10,6 +11,10 @@ const router = createBrowserRouter([
   {
     path: "design-component",
     element: <DesignComponentPage />,
+  },
+  {
+    path: "sign-in",
+    element: <SignInPage />,
   },
 ]);
 
