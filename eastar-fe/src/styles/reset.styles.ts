@@ -1,3 +1,4 @@
+import { color } from "./color.styles";
 import { css } from "styled-components";
 
 export const resetCSS = css`
@@ -93,6 +94,8 @@ export const resetCSS = css`
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    text-decoration: none;
+    color: inherit;
   }
   /* HTML5 display-role reset for older browsers */
   article,
