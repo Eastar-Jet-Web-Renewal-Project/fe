@@ -30,7 +30,7 @@ export const ButtonVariantStyles: Variants<ButtonVariant> = {
   Outlined: css`
     background-color: ${theme.onPrimary};
     color: ${theme.primary};
-    border: solid 1px ${theme.primary};
+    border: solid 2px ${theme.primary};
   `,
   Text: css`
     background-color: transparent;
