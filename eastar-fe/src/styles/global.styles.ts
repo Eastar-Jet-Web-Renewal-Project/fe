@@ -1,15 +1,18 @@
 import { createGlobalStyle } from "styled-components";
-import theme from "./Theme/light.theme";
 import { focusAccessibilityStyles } from "./accessibility.styles";
+import { resetCSS } from "./reset.styles";
 
 const GlobalStyles = createGlobalStyle`
 
 *{
+    ${resetCSS}
+
     -webkit-tap-highlight-color: transparent;
 
+    box-sizing: border-box;
 
-    /*  포커스 스타일 */
     ${focusAccessibilityStyles}
+
 }
 `;
 
