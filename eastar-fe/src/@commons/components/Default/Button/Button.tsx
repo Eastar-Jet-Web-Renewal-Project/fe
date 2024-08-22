@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import { useHoverEvent } from "../../../hooks/useHoverEvent";
 import Icon, { IconProps } from "../Icon/Icon";
 import { ButtonVariant, StyledButton } from "./Button.styled";
@@ -18,8 +17,6 @@ export default function Button({
   onClick,
   style,
 }: ButtonProps) {
-  const buttonRef = useRef<HTMLDivElement>(null);
-
   const handleClick = () => {
     if (disabled) return;
     onClick?.();
@@ -30,11 +27,11 @@ export default function Button({
     }
   };
 
-  const isHover = useHoverEvent(buttonRef);
+  const { ref, isHover } = useHoverEvent<HTMLDivElement>();
 
   return (
     <StyledButton
-      ref={buttonRef}
+      ref={ref}
       role="button"
       tabIndex={disabled ? -1 : 0}
       onClick={handleClick}

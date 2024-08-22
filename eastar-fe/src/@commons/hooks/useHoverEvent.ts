@@ -1,50 +1,44 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 
-// 데스크탑과 모바일 환경에서 모두 hover 이벤트를 처리하기 위한 hook
-export const useHoverEvent = (
-  ref: React.RefObject<HTMLElement>,
+export const useHoverEvent = <T extends HTMLElement>(
   onHover?: (e: EventTarget) => void,
   onLeave?: (e: EventTarget) => void,
 ) => {
   const [isHover, setIsHover] = useState(false);
+  const ref = useRef<T>(null);
 
-  const handleHover = (e: Event) => {
-    if (!e.target) return;
-    onHover?.(e.target);
-    setIsHover(true);
-  };
-  const handleLeave = (e: Event) => {
-    if (!e.target) return;
-    onLeave?.(e.target);
-    setIsHover(false);
-  };
+  const handleHover = useCallback(
+    (e: Event) => {
+      if (!e.target) return;
+      onHover?.(e.target);
+      setIsHover(true);
+    },
+    [onHover],
+  );
 
-  const handleTouchEnd = (e: TouchEvent) => {
-    handleLeave(e);
-  };
-
-  const handleMouseLeave = (e: MouseEvent) => {
-    handleLeave(e);
-  };
-
-  const handlePointerEnter = (e: PointerEvent) => {
-    handleHover(e);
-  };
+  const handleLeave = useCallback(
+    (e: Event) => {
+      if (!e.target) return;
+      onLeave?.(e.target);
+      setIsHover(false);
+    },
+    [onLeave],
+  );
 
   useEffect(() => {
     const element = ref.current;
     if (!element) return;
 
     element.addEventListener("pointerenter", handleHover);
-    element.addEventListener("touchend", handleTouchEnd);
-    element.addEventListener("mouseleave", handleMouseLeave);
+    element.addEventListener("touchend", handleLeave);
+    element.addEventListener("mouseleave", handleLeave);
 
     return () => {
-      element.removeEventListener("pointerenter", handlePointerEnter);
-      element.removeEventListener("touchend", handleTouchEnd);
-      element.removeEventListener("mouseleave", handleMouseLeave);
+      element.removeEventListener("pointerenter", handleHover);
+      element.removeEventListener("touchend", handleLeave);
+      element.removeEventListener("mouseleave", handleLeave);
     };
-  }, [ref, onHover, onLeave]);
+  }, [ref, handleHover, handleLeave]);
 
-  return isHover;
+  return { ref, isHover };
 };
