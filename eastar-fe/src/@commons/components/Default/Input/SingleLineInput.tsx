@@ -8,6 +8,7 @@ type SingleLineInputProps = {
   onChange: (value: string) => void;
   style?: SingleLineInputVariant;
   disabled?: boolean;
+  placeholder?: string;
 };
 
 export default function SingleLineInput({
@@ -15,6 +16,7 @@ export default function SingleLineInput({
   onChange,
   style,
   disabled,
+  placeholder,
 }: SingleLineInputProps) {
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     if (disabled) return;
@@ -27,6 +29,7 @@ export default function SingleLineInput({
       $isDisabled={disabled}
       onChange={handleChange}
       value={value}
+      placeholder={disabled ? "입력하실 수 없습니다" : placeholder}
     />
   );
 }

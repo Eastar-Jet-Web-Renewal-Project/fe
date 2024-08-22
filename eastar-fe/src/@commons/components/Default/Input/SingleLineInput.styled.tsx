@@ -2,6 +2,7 @@ import styled, { css } from "styled-components";
 import { Variants } from "../../../types/style";
 import theme from "../../../../styles/Theme/light.theme";
 import { border } from "../../../../styles/border.styles";
+import { textStyle } from "../../../../styles/font.styles";
 
 export type SingleLineInputVariant = "Filled" | "Outlined" | "Text";
 
@@ -20,8 +21,11 @@ export const SingleLineInputStyles: Variants<SingleLineInputVariant> = {
     color: ${theme.primary};
   `,
   Disabled: css`
-    background-color: ${theme.surfaceContainer};
-    color: ${theme.onSurfaceContainer};
+    background-color: ${theme.surfaceContainerHighest};
+    color: ${theme.onSurfaceContainerHighest};
+    &::placeholder {
+      color: ${theme.onSurfaceContainerHighest};
+    }
     cursor: not-allowed;
   `,
 };
@@ -43,6 +47,12 @@ const StyledSingleLineInput = styled.input<StyledSingleLineInputProps>`
 
   border: none;
   border-radius: ${border.radius.medium};
+
+  ${textStyle.body[1].normal}
+
+  &::placeholder {
+    color: ${theme.hint};
+  }
 
   ${(props) => SingleLineInputStyles[props.$variant]}
 
