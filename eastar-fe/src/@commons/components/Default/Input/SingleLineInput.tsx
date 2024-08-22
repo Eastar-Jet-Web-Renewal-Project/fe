@@ -17,6 +17,7 @@ export default function SingleLineInput({
   disabled,
 }: SingleLineInputProps) {
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+    if (disabled) return;
     onChange(e.target.value);
   };
   return (
