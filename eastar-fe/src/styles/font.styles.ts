@@ -1,8 +1,4 @@
 import { css } from "styled-components";
-const sfProFont = {
-  fontFamily: "SF Pro Display",
-  src: "url('https://fonts.cdnfonts.com/css/sf-pro-display')",
-};
 
 export const fontSize = {
   Hero: "36px",
@@ -95,10 +91,7 @@ export const textStyle = {
 };
 
 export const fontStyle = css`
-  @font-face {
-    font-family: ${sfProFont.fontFamily};
-    src: ${sfProFont.src};
-  }
+  @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
 
-  font-family: ${sfProFont.fontFamily};
+  font-family: "Pretendard Variable";
 `;
