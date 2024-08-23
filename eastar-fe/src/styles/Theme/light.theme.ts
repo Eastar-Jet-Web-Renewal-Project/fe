@@ -14,6 +14,7 @@ const theme = {
   onError: c.red[60], //에러색
   shadow: c.gray[60] + "3F", //그림자색
   hint: c.gray[60], //힌트색
+  divider: c.gray[70], //디바이더색
 };
 
 export default theme;

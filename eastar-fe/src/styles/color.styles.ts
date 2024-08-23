@@ -8,6 +8,7 @@ export const color = {
   gray: {
     100: "#F9F9F9",
     99: "#F3F3F3",
+    80: "D9D9D9",
     70: "#BDBDBD",
     60: "#9C9C9C",
     50: "#7E7E7E",
