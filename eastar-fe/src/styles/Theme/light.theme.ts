@@ -15,6 +15,7 @@ const theme = {
   shadow: c.gray[60] + "3F", //그림자색
   hint: c.gray[60], //힌트색
   divider: c.gray[70], //디바이더색
+  link: c.gray[40], //링크색
 };
 
 export default theme;
