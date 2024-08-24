@@ -3,6 +3,9 @@ import Button from "../../../@commons/components/Default/Button/Button";
 import { ButtonVariant } from "../../../@commons/components/Default/Button/Button.styled";
 import SingleLineInput from "../../../@commons/components/Default/Input/SingleLineInput";
 import { SingleLineInputVariant } from "../../../@commons/components/Default/Input/SingleLineInput.styled";
+import { fontSize } from "../../../styles/font.styles";
+import { TypographySize, TypographyType } from "../../../@commons/types/font";
+import Typography from "../../../@commons/components/Default/Typography/Typography";
 
 export default function DesignComponentPage() {
   const ButtonStyles: ButtonVariant[] = [
@@ -49,6 +52,23 @@ export default function DesignComponentPage() {
       ))}
       <h3>diabled</h3>
       <SingleLineInput value={value} onChange={onChangeValue} disabled />
+      <h2>Typography</h2>
+      {Object.entries(fontSize).map(([size, detailedSizeObj]) =>
+        Object.keys(detailedSizeObj).map((detailedSize) => (
+          <Typography
+            key={`${size}-${detailedSize}`}
+            type={size as TypographyType}
+            size={detailedSize as unknown as TypographySize}
+            color="primary"
+          >
+            {`${size} - ${detailedSize}`}
+            <br />
+            <span style={{ color: "blue", fontSize: "12px" }}>
+              children도 가능
+            </span>
+          </Typography>
+        )),
+      )}
     </>
   );
 }
