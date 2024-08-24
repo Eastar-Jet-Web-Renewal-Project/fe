@@ -6,11 +6,12 @@ export type StyledDividerListProps = {
 };
 
 export const StyledDividerList = styled.div<StyledDividerListProps>`
+  width: 100%;
+
   display: flex;
   flex-direction: ${({ $isVertical }) => ($isVertical ? "column" : "row")};
   justify-content: center;
   align-items: center;
-  width: 100%;
 `;
 
 export type StyledDividerProps = {
