@@ -55,3 +55,15 @@ export const getFontSize = (
   }
 };
 
+/**
+ * getFontWeight 함수는 주어진 타이포그래피 굵기에 따라 폰트 굵기를 반환합니다.
+ *
+ * @param {TyphographyWeight} [weight] - 선택적으로 타이포그래피 굵기를 지정합니다.
+ * @returns {number} - 주어진 굵기에 해당하는 폰트 굵기를 반환합니다. 만약 굵기가 지정되지 않았거나 유효하지 않으면 기본 굵기(normal)를 반환합니다.
+ *
+ * @example
+ * const fontWeight = getFontWeight('bold');
+ * // fontWeight는 'bold'에 해당하는 폰트 굵기를 포함합니다.
+ */
+export const getFontWeight = (weight?: TyphographyWeight): number =>
+  weight && weight in fontWeight ? fontWeight[weight] : fontWeight.normal;
