@@ -1,7 +1,13 @@
 import { css } from "styled-components";
 
-export const fontSize = {
-  Hero: "36px",
+export const fontSize: {
+  [key: string]: {
+    [key: string]: string;
+  };
+} = {
+  Hero: {
+    1: "36px",
+  },
   Heading: {
     1: "32px",
     2: "24px",
@@ -24,70 +30,6 @@ export const fontWeight = {
   semiBold: 600,
   normal: 500,
   light: 300,
-};
-
-//TODO: 데스크탑 스타일도 지원..?
-export const textStyle = {
-  Hero: {
-    normal: css`
-      font-size: ${fontSize.Hero};
-      font-weight: ${fontWeight.extraBold};
-    `,
-  },
-  Heading: {
-    1: {
-      normal: css`
-        font-size: ${fontSize.Heading[1]};
-        font-weight: ${fontWeight.bold};
-      `,
-    },
-    2: {
-      normal: css`
-        font-size: ${fontSize.Heading[2]};
-        font-weight: ${fontWeight.bold};
-      `,
-    },
-    3: {
-      normal: css`
-        font-size: ${fontSize.Heading[3]};
-        font-weight: ${fontWeight.bold};
-      `,
-    },
-  },
-  subHeading: {
-    1: {
-      normal: css`
-        font-size: ${fontSize.subHeading[1]};
-        font-weight: ${fontWeight.bold};
-      `,
-    },
-  },
-  body: {
-    1: {
-      normal: css`
-        font-size: ${fontSize.body[1]};
-        font-weight: ${fontWeight.normal};
-      `,
-    },
-    2: {
-      normal: css`
-        font-size: ${fontSize.body[2]};
-        font-weight: ${fontWeight.normal};
-      `,
-    },
-    3: {
-      normal: css`
-        font-size: ${fontSize.body[3]};
-        font-weight: ${fontWeight.normal};
-      `,
-    },
-    4: {
-      normal: css`
-        font-size: ${fontSize.body[4]};
-        font-weight: ${fontWeight.normal};
-      `,
-    },
-  },
 };
 
 export const fontStyle = css`
