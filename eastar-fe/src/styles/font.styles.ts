@@ -1,10 +1,6 @@
 import { css } from "styled-components";
 
-export const fontSize: {
-  [key: string]: {
-    [key: string]: string;
-  };
-} = {
+export const fontSize = {
   Hero: {
     1: "36px",
   },
