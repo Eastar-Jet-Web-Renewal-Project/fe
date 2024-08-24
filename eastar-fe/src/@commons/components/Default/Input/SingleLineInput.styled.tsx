@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 import { Variants } from "../../../types/style";
 import theme from "../../../../styles/Theme/light.theme";
 import { border } from "../../../../styles/border.styles";
-import { textStyle } from "../../../../styles/font.styles";
+import { getFontStyleCSS } from "../../../utilities/style/textUtility";
 
 export type SingleLineInputVariant = "Filled" | "Outlined" | "Text";
 
@@ -48,7 +48,7 @@ const StyledSingleLineInput = styled.input<StyledSingleLineInputProps>`
   border: none;
   border-radius: ${border.radius.medium};
 
-  ${textStyle.body[1].normal}
+  ${getFontStyleCSS("body", 1, "normal", theme.onSurfaceContainer)};
 
   &::placeholder {
     color: ${theme.hint};

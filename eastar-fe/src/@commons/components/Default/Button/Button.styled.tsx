@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 import { Variants } from "../../../types/style";
 import theme from "../../../../styles/Theme/light.theme";
-import { textStyle } from "../../../../styles/font.styles";
+import { getFontStyleCSS } from "../../../utilities/style/textUtility";
 
 export type ButtonVariant =
   | "Elevated"
@@ -61,7 +61,7 @@ export const StyledButton = styled.div<StyledButtonProps>`
 
   border-radius: 6px;
 
-  ${textStyle.subHeading[1].normal}
+  ${getFontStyleCSS("body", 1, "bold")};
 
   cursor: pointer;
 
