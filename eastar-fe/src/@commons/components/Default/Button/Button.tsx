@@ -1,10 +1,8 @@
 import { useHoverEvent } from "../../../hooks/useHoverEvent";
-import Icon, { IconProps } from "../Icon/Icon";
 import { ButtonVariant, StyledButton } from "./Button.styled";
 
 type ButtonProps = {
   content: string;
-  icon?: IconProps;
   disabled?: boolean;
   onClick?: () => void;
   style?: ButtonVariant;
@@ -12,7 +10,6 @@ type ButtonProps = {
 
 export default function Button({
   content,
-  icon,
   disabled,
   onClick,
   style,
@@ -42,7 +39,6 @@ export default function Button({
       $isDisabled={disabled}
       $isHover={isHover}
     >
-      {icon && <Icon {...icon} />}
       {content}
     </StyledButton>
   );
