@@ -1,12 +1,7 @@
 import styled from "styled-components";
 
-export const SignInLayoutContainer = styled.div`
-  margin: 0 auto;
-  padding: 120px 20px;
-
+export const StyledSignInForm = styled.form`
   width: 100%;
-  max-width: 320px;
-  height: 100%;
 
   display: flex;
   flex-direction: column;

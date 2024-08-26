@@ -1,67 +1,26 @@
-import Button from "@commons/components/Default/Button/Button";
-import SingleLineInput from "@commons/components/Default/Input/SingleLineInput";
-import {
-  SignInForm,
-  SignInLayoutContainer,
-  SignInLayoutDivider,
-} from "./SignInLayout.styled";
-import DividerList from "@commons/components/Default/Divider/DividerList";
-import Divider from "@commons/components/Default/Divider/Divider";
-import Typography from "@commons/components/Default/Typography/Typography";
-import theme from "@styles/Theme/light.theme";
+import { SignInLayoutContainer } from "./SignInLayout.styled";
 import Spacer from "@commons/components/Default/Spacer";
-import S from "@commons/components/Default/Images/SvgComponents";
-import Row from "@commons/components/Default/Layer/Row";
-import { LoginLink } from "../components/LoginLink";
+import SignInHeader from "../components/SignInHeader";
+import SignInForm from "../components/SignInForm/SignInForm";
+import SnsLogin from "../components/SnsLogin";
+import SignInDetailMenu from "../components/SignInDetailMenu/SignInDetailMenu";
+import SignInLayoutDivider from "../components/SignInLayoutDivider/SignInLayoutDivider";
+import SignInMenu from "../components/SignInMenu/SignInMenu";
 
 export default function SignInLayout() {
   return (
     <SignInLayoutContainer>
-      <S.Logo />
-      <Typography type="subHeading" size={1} color="onSurfaceContainer">
-        기분 좋은 만남.
-      </Typography>
+      <SignInHeader />
       <Spacer size={48} />
-      <SignInForm>
-        <SingleLineInput value="" onChange={() => {}} placeholder="아이디" />
-        <Spacer size={16} />
-        <SingleLineInput
-          value=""
-          onChange={() => {}}
-          placeholder="비밀번호"
-          type="password"
-        />
-        <Spacer size={20} />
-        <Button content="로그인" style="Filled" />
-      </SignInForm>
+      <SignInForm />
       <Spacer size={32} />
-      <DividerList>
-        {/* //TODO: Link 연결 */}
-        <LoginLink to={""}>아이디 찾기</LoginLink>
-        <LoginLink to={""}>비밀번호 찾기</LoginLink>
-      </DividerList>
+      <SignInMenu />
       <Spacer size={60} />
-      <SignInLayoutDivider>
-        <Divider />
-        <Typography type="body" size={4} color={theme.hint}>
-          또는
-        </Typography>
-        <Divider />
-      </SignInLayoutDivider>
+      <SignInLayoutDivider />
       <Spacer size={22} />
-      <Row gap={16}>
-        <S.SNS.Google />
-        <S.SNS.Kakao />
-        <S.SNS.Facebook />
-        <S.SNS.Apple />
-      </Row>
+      <SnsLogin />
       <Spacer size={32} />
-      <DividerList gap={8}>
-        {/* //TODO: Link 연결 */}
-        <LoginLink to={""}>회원가입</LoginLink>
-        <LoginLink to={""}>이메일 로그인</LoginLink>
-        <LoginLink to={""}>문의하기</LoginLink>
-      </DividerList>
+      <SignInDetailMenu />
     </SignInLayoutContainer>
   );
 }
