@@ -10,7 +10,7 @@ function App() {
   const [isSMSSent, setIsSMSSent] = useState<boolean>(false);
   const buttonRef = useRef<HTMLButtonElement>(null);
   const [code, setCode] = useState<string>("");
-  const { isVerified, _, recaptchaVerifier } = useReCaptcha(
+  const { isVerified, recaptchaVerifier } = useReCaptcha(
     buttonRef,
     (response) => {
       console.log(response);
