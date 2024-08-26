@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { color } from "../../../styles/color.styles";
 import theme from "../../../styles/Theme/light.theme";
 import { ColorBox } from "../components/ColorBox";
 

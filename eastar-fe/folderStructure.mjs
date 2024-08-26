@@ -50,10 +50,6 @@ export const folderStructureConfig = createFolderStructure({
               { name: "Theme", children: [{ name: "*.theme.ts" }] },
             ],
           },
-          {
-            name: "route",
-            children: [],
-          },
         ],
       },
     ],
