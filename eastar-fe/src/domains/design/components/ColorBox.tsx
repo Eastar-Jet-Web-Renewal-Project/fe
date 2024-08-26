@@ -1,4 +1,4 @@
-import { getLuminance, setLightness } from "polished";
+import { getLuminance } from "polished";
 import styled from "styled-components";
 import { color } from "../../../styles/color.styles";
 
