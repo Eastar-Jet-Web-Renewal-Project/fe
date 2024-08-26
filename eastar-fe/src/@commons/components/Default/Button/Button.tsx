@@ -8,6 +8,17 @@ type ButtonProps = {
   style?: ButtonVariant;
 };
 
+/**
+ * Button 컴포넌트는 클릭 가능한 버튼을 렌더링합니다.
+ *
+ * @example
+ * <Button
+ *   content="Click me"
+ *   onClick={handleClick}
+ *   style="Filled"
+ *   disabled={false}
+ * />
+ */
 export default function Button({
   content,
   disabled,

@@ -12,6 +12,17 @@ type SingleLineInputProps = {
   type?: InputHTMLAttributes<HTMLInputElement>["type"];
 };
 
+/**
+ * SingleLineInput 컴포넌트는 한 줄 텍스트 입력을 위한 입력 필드를 렌더링합니다.
+ *
+ * @example
+ * <SingleLineInput
+ *   value={inputValue}
+ *   onChange={handleInputChange}
+ *   style="Filled"
+ *   placeholder="Enter text..."
+ * />
+ */
 export default function SingleLineInput({
   value,
   onChange,

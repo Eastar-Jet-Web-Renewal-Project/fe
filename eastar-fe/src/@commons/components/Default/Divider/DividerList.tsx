@@ -7,7 +7,16 @@ type DividerListProps = {
   gap?: number;
   className?: string;
 };
-
+/**
+ * DividerList 컴포넌트는 자식 요소들 사이에 구분선을 포함하여 렌더링합니다.
+ *
+ * @example
+ * <DividerList isVertical gap={10}>
+ *   <div>Item 1</div>
+ *   <div>Item 2</div>
+ *   <div>Item 3</div>
+ * </DividerList>
+ */
 export default function DividerList({
   children,
   isVertical,
