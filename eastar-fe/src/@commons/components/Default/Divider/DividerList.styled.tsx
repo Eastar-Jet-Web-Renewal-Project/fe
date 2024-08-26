@@ -16,11 +16,12 @@ export const StyledDividerList = styled.div<StyledDividerListProps>`
 
 export type StyledDividerProps = {
   $isVertical?: boolean;
+  $gap?: number;
 };
 
 export const StyledDivider = styled.span<StyledDividerProps>`
-  ${({ $isVertical }) => `
-      ${$isVertical ? "padding-block" : "padding-inline"}: 15px;
+  ${({ $isVertical, $gap }) => `
+      ${$isVertical ? "padding-block" : "padding-inline"}: ${$gap || 15}px;
     `}
   &:not(:last-child) {
     ${({ $isVertical }) => `
