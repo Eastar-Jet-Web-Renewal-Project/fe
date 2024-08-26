@@ -1,4 +1,4 @@
-import { ChangeEvent } from "react";
+import { ChangeEvent, InputHTMLAttributes } from "react";
 import StyledSingleLineInput, {
   SingleLineInputVariant,
 } from "./SingleLineInput.styled";
@@ -9,6 +9,7 @@ type SingleLineInputProps = {
   style?: SingleLineInputVariant;
   disabled?: boolean;
   placeholder?: string;
+  type?: InputHTMLAttributes<HTMLInputElement>["type"];
 };
 
 export default function SingleLineInput({
@@ -17,6 +18,7 @@ export default function SingleLineInput({
   style,
   disabled,
   placeholder,
+  type,
 }: SingleLineInputProps) {
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     if (disabled) return;
@@ -24,6 +26,7 @@ export default function SingleLineInput({
   };
   return (
     <StyledSingleLineInput
+      type={type || "text"}
       tabIndex={disabled ? -1 : 0}
       $variant={style || "Filled"}
       $isDisabled={disabled}
