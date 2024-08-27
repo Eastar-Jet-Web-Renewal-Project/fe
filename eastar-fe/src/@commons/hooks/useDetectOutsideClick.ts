@@ -12,7 +12,6 @@ export const useDetectOutsideClick = (
         if (refs.some((ref) => ref.current?.contains(target))) return;
       }
 
-      console.log("down");
       onClickOutside();
     },
     [onClickOutside, refs],
