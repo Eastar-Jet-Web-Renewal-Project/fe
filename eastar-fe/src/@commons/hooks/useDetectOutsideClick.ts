@@ -1,6 +1,6 @@
 import { RefObject, useCallback, useEffect } from "react";
 
-export const useDetectOutSideClick = (
+export const useDetectOutsideClick = (
   refs: RefObject<HTMLElement>[],
   onClickOutside: () => void,
 ) => {
@@ -12,16 +12,17 @@ export const useDetectOutSideClick = (
         if (refs.some((ref) => ref.current?.contains(target))) return;
       }
 
+      console.log("down");
       onClickOutside();
     },
     [onClickOutside, refs],
   );
 
   useEffect(() => {
-    document.addEventListener("mousedown", handleClick);
+    document.addEventListener("click", handleClick);
 
     return () => {
-      document.removeEventListener("mousedown", handleClick);
+      document.removeEventListener("click", handleClick);
     };
   }, [onClickOutside]);
 };
