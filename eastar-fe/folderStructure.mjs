@@ -29,19 +29,7 @@ export const folderStructureConfig = createFolderStructure({
           { name: "assets", children: [{ name: "*" }] },
           {
             name: "domains",
-            children: [
-              {
-                name: "*",
-                children: [
-                  { name: "apis", ruleId: "tsRule" },
-                  { name: "components", ruleId: "componentRule" },
-                  { name: "hooks", ruleId: "hooksRule" },
-                  { name: "layouts", ruleId: "componentRule" },
-                  { name: "pages", ruleId: "componentRule" },
-                  { name: "types", ruleId: "tsRule" },
-                ],
-              },
-            ],
+            ruleId: "domainRule",
           },
           {
             name: "styles",
@@ -93,6 +81,22 @@ export const folderStructureConfig = createFolderStructure({
             { name: ".gitkeep" },
             { name: "{camelCase}(.*)?.ts" },
             { name: "{camelCase}", ruleId: "tsRule" },
+          ],
+        },
+      ],
+    },
+    domainRule: {
+      children: [
+        {
+          name: "{kebab-case}",
+          children: [
+            { name: "apis", ruleId: "tsRule" },
+            { name: "components", ruleId: "componentRule" },
+            { name: "hooks", ruleId: "hooksRule" },
+            { name: "layouts", ruleId: "componentRule" },
+            { name: "pages", ruleId: "componentRule" },
+            { name: "types", ruleId: "tsRule" },
+            { name: "{kebab-case}", ruldId: "domainRule" },
           ],
         },
       ],
