@@ -7,6 +7,7 @@ import { useTrackElementPosition } from "@commons/hooks/useTrackElementPosition"
 type TriggerProps = {
   Trigger: React.ReactNode;
   PopoverContent: React.ReactNode;
+  isOpen: boolean;
   onClick?: (isTrigger: boolean) => void;
   doNotCloseOnOutsideClick?: boolean;
 };
@@ -15,10 +16,9 @@ export default function Popover({
   Trigger,
   PopoverContent,
   onClick,
+  isOpen,
   doNotCloseOnOutsideClick,
 }: TriggerProps) {
-  const [isTrigger, setIsTrigger] = useState(false);
-
   const triggerRef = useRef<HTMLDivElement>(null);
   const popoverRef = useRef<HTMLDivElement>(null);
 
@@ -26,12 +26,11 @@ export default function Popover({
 
   const handleOutsideClick = () => {
     if (doNotCloseOnOutsideClick) return;
-    if (isTrigger) setIsTrigger(false);
+    if (isOpen) onClick?.(false);
   };
 
   const handleToggle = () => {
-    setIsTrigger((prev) => !prev);
-    onClick?.(isTrigger);
+    onClick?.(!isOpen);
   };
 
   useDetectOutsideClick([triggerRef, popoverRef], handleOutsideClick);
@@ -41,7 +40,7 @@ export default function Popover({
       <StyledPopoverTrigger onClick={handleToggle} ref={triggerRef}>
         {Trigger}
       </StyledPopoverTrigger>
-      {isTrigger && (
+      {isOpen && (
         <Portal>
           <StylePopoverContent
             $x={x}

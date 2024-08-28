@@ -3,7 +3,7 @@ import {
   StyledDropdownTrigger,
 } from "./DropdownTrigger.styled";
 
-type DropdownTriggerProps = {
+export type DropdownTriggerProps = {
   content?: string;
   style?: DropdownTriggerVariant;
   disabled?: boolean;
