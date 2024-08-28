@@ -1,8 +1,8 @@
+import { Variants } from "@commons/types/style";
+import { getFontStyleCSS } from "@commons/utilities/style/textUtility";
+import { border } from "@styles/border.styles";
+import theme from "@styles/Theme/light.theme";
 import styled, { css } from "styled-components";
-import { Variants } from "../../../types/style";
-import theme from "../../../../styles/Theme/light.theme";
-import { border } from "../../../../styles/border.styles";
-import { getFontStyleCSS } from "../../../utilities/style/textUtility";
 
 export type SingleLineInputVariant = "Filled" | "Outlined" | "Text";
 
