@@ -1,6 +1,4 @@
 import { Variants } from "@commons/types/style";
-import { getFontStyleCSS } from "@commons/utilities/style/textUtility";
-import { border } from "@styles/border.styles";
 import theme from "@styles/Theme/light.theme";
 import styled, { css } from "styled-components";
 import { DefaultStyleFormElement } from "../DefaultFormElementStyle";
