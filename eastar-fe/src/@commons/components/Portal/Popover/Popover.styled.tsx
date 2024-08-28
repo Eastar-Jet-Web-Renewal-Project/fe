@@ -7,10 +7,8 @@ export const StyledPopoverTrigger = styled.div.attrs((props) => ({
   "aria-haspopup": true,
   role: "button",
 }))`
+  width: 100%;
   margin-bottom: 8px;
-
-  display: inline-block;
-
   cursor: pointer;
 `;
 
@@ -29,6 +27,5 @@ export const StylePopoverContent = styled.div.attrs<StylePopoverContentProps>(
   left: ${({ $x }) => $x}px;
   z-index: ${z_index.popover};
 
-  width: fit-content;
-  height: fit-content;
+  width: 100%;
 `;
