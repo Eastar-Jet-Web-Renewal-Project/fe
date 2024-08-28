@@ -3,6 +3,7 @@ import { getFontStyleCSS } from "@commons/utilities/style/textUtility";
 import { border } from "@styles/border.styles";
 import theme from "@styles/Theme/light.theme";
 import styled, { css } from "styled-components";
+import { DefaultStyleFormElement } from "../DefaultFormElementStyle";
 
 export type SingleLineInputVariant = "Filled" | "Outlined" | "Text";
 
@@ -35,21 +36,11 @@ export type StyledSingleLineInputProps = {
   $isDisabled?: boolean;
 };
 
-const StyledSingleLineInput = styled.input<StyledSingleLineInputProps>`
-  width: 100%;
-
-  padding: 18px 20px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-
-  border: none;
-  border-radius: ${border.radius.medium};
-
-  ${getFontStyleCSS("body", 1, "normal", theme.onSurfaceContainer)};
-
+const StyledSingleLineInput = styled(
+  DefaultStyleFormElement,
+).attrs<StyledSingleLineInputProps>(() => ({
+  as: "input",
+}))`
   &::placeholder {
     color: ${theme.hint};
   }
