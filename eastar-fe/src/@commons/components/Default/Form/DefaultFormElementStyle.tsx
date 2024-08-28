@@ -12,11 +12,6 @@ export const DefaultStyleFormElement = styled.div`
 
   padding: 18px 20px;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-
   border: none;
   border-radius: ${border.radius.medium};
 
