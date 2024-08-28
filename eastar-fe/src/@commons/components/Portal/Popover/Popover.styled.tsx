@@ -7,10 +7,11 @@ export const StyledPopoverTrigger = styled.div.attrs((props) => ({
   "aria-haspopup": true,
   role: "button",
 }))`
-  width: fit-content;
-  height: fit-content;
-  cursor: pointer;
   margin-bottom: 8px;
+
+  display: inline-block;
+
+  cursor: pointer;
 `;
 
 type StylePopoverContentProps = {
