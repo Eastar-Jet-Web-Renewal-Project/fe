@@ -1,3 +1,4 @@
+import { z_index } from "@styles/zindex.styles";
 import styled from "styled-components";
 
 export const StyledPopoverTrigger = styled.div.attrs((props) => ({
@@ -6,6 +7,8 @@ export const StyledPopoverTrigger = styled.div.attrs((props) => ({
   "aria-haspopup": true,
   role: "button",
 }))`
+  width: fit-content;
+  height: fit-content;
   cursor: pointer;
   margin-bottom: 8px;
 `;
@@ -23,4 +26,8 @@ export const StylePopoverContent = styled.div.attrs<StylePopoverContentProps>(
   position: fixed;
   top: ${({ $y }) => $y}px;
   left: ${({ $x }) => $x}px;
+  z-index: ${z_index.popover};
+
+  width: fit-content;
+  height: fit-content;
 `;
