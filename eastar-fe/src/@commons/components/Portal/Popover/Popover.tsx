@@ -8,14 +8,14 @@ type TriggerProps = {
   Trigger: React.ReactNode;
   PopoverContent: React.ReactNode;
   isOpen: boolean;
-  onClick?: (isTrigger: boolean) => void;
+  onToggle?: (isTrigger: boolean) => void;
   doNotCloseOnOutsideClick?: boolean;
 };
 
 export default function Popover({
   Trigger,
   PopoverContent,
-  onClick,
+  onToggle,
   isOpen,
   doNotCloseOnOutsideClick,
 }: TriggerProps) {
@@ -26,11 +26,11 @@ export default function Popover({
 
   const handleOutsideClick = () => {
     if (doNotCloseOnOutsideClick) return;
-    if (isOpen) onClick?.(false);
+    if (isOpen) onToggle?.(false);
   };
 
   const handleToggle = () => {
-    onClick?.(!isOpen);
+    onToggle?.(!isOpen);
   };
 
   useDetectOutsideClick([triggerRef, popoverRef], handleOutsideClick);

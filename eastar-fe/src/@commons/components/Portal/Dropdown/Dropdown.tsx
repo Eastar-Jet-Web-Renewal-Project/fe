@@ -19,12 +19,13 @@ export default function Dropdown<T>({
   contentProps,
   isCloseWhenClick,
 }: DropdownProps<T>) {
-  const [isTrigger, setIsTrigger] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
 
   const handleContentClick = (option: Option<T>) => {
     contentProps.onClick?.(option);
     if (isCloseWhenClick) {
-      setIsTrigger(false);
+      setIsOpen(false);
     }
   };
 
@@ -36,8 +37,8 @@ export default function Dropdown<T>({
           <DropdownContent {...contentProps} onClick={handleContentClick} />
         )
       }
-      isOpen={isTrigger}
-      onClick={setIsTrigger}
+      isOpen={isOpen}
+      onToggle={setIsOpen}
     />
   );
 }
