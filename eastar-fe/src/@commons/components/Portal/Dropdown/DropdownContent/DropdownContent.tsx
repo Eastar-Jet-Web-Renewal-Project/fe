@@ -4,6 +4,7 @@ import {
   StyledDropdownContent,
   StyledDropdownContentContainer,
 } from "./DropdownContent.styled";
+import { useHoverEventList } from "@commons/hooks/useHoverEventList";
 
 export type DropdownContentProps<T> = {
   options: Option<T>[];
@@ -18,6 +19,12 @@ export default function DropdownContent<T>({
   variant,
   isDisabled,
 }: DropdownContentProps<T>) {
+  const { setRef, hoverStates } = useHoverEventList(
+    options.reduce(
+      (acc, option) => [...acc, option.label],
+      new Array<string>(),
+    ),
+  );
   return (
     <StyledDropdownContentContainer
       $variant={variant || "Filled"}
@@ -28,6 +35,10 @@ export default function DropdownContent<T>({
           key={option.label}
           onClick={() => {
             onClick?.(option);
+          }}
+          $isHover={hoverStates[option.label]}
+          ref={(el) => {
+            setRef(option.label)(el);
           }}
         >
           {option.label}
