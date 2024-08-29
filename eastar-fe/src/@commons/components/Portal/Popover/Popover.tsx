@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import Portal from "../Portal";
 import { StyledPopoverTrigger, StylePopoverContent } from "./Popover.styled";
 import { useDetectOutsideClick } from "@commons/hooks/useDetectOutsideClick";

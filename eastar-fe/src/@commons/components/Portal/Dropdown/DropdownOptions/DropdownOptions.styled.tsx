@@ -66,6 +66,5 @@ export const StyledDropdownOption = styled.div<StyledDropdownOptionProps>`
     border-bottom: solid 1px ${theme.divider};
   }
   cursor: pointer;
-  ${({ $variant, $isHover }) =>
-    DropdownOptionVariantStyles[$variant || "Filled"]}
+  ${({ $variant }) => DropdownOptionVariantStyles[$variant || "Filled"]}
 `;

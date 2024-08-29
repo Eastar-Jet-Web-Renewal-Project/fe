@@ -1,7 +1,7 @@
 import { z_index } from "@styles/zindex.styles";
 import styled from "styled-components";
 
-export const StyledPopoverTrigger = styled.div.attrs((props) => ({
+export const StyledPopoverTrigger = styled.div.attrs(() => ({
   tabIndex: 0,
   "aria-label": "pop over trigger",
   "aria-haspopup": true,
