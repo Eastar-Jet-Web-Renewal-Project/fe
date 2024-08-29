@@ -1,3 +1,5 @@
+// @ts-check
+
 import { createFolderStructure } from "eslint-plugin-project-structure";
 
 export const folderStructureConfig = createFolderStructure({
@@ -96,9 +98,19 @@ export const folderStructureConfig = createFolderStructure({
             { name: "layouts", ruleId: "componentRule" },
             { name: "pages", ruleId: "componentRule" },
             { name: "types", ruleId: "tsRule" },
+            {
+              name: "{kebab-case}",
+              children: [
+                { name: "apis", ruleId: "tsRule" },
+                { name: "components", ruleId: "componentRule" },
+                { name: "hooks", ruleId: "hooksRule" },
+                { name: "layouts", ruleId: "componentRule" },
+                { name: "pages", ruleId: "componentRule" },
+                { name: "types", ruleId: "tsRule" },
+              ],
+            },
           ],
         },
-        { name: "{kebab-case}", ruleId: "domainRule" },
       ],
     },
   },
