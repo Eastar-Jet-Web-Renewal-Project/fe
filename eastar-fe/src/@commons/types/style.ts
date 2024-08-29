@@ -3,10 +3,10 @@ import theme from "../../styles/Theme/light.theme";
 import { RemovePrefix } from "./utilType";
 
 // Disabled 포함
-export type Variants<G extends string> = {
-  [key in G]: RuleSet<object>;
+export type Variants<G extends string, P extends object = object> = {
+  [key in G]: RuleSet<P>;
 } & {
-  Disabled: RuleSet<object>;
+  Disabled: RuleSet<P>;
 };
 
 export type Theme = keyof typeof theme;
