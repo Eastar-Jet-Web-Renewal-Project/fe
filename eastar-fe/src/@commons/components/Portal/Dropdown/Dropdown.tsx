@@ -21,6 +21,9 @@ export default function Dropdown<T>({
 }: DropdownProps<T>) {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleToggle = (isOpen: boolean) => {
+    setIsOpen(isOpen);
+  };
 
   const handleContentClick = (option: Option<T>) => {
     contentProps.onClick?.(option);
@@ -38,7 +41,7 @@ export default function Dropdown<T>({
         )
       }
       isOpen={isOpen}
-      onToggle={setIsOpen}
+      onToggle={handleToggle}
     />
   );
 }
