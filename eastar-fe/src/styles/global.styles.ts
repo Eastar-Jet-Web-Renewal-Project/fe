@@ -4,9 +4,9 @@ import { resetCSS } from "./reset.styles";
 import { fontStyle } from "./font.styles";
 
 const GlobalStyles = createGlobalStyle`
+    ${resetCSS}
 
 *{
-    ${resetCSS}
     -webkit-tap-highlight-color: transparent;
     box-sizing: border-box;
 
