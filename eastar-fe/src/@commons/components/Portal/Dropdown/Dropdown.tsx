@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Popover from "../Popover/Popover";
-import DropdownContent, {
-  DropdownContentProps,
-} from "./DropdownContent/DropdownContent";
+import DropdownOptions, {
+  DropdownOptionsProps,
+} from "./DropdownOptions/DropdownOptions";
 import DropdownTrigger, {
   DropdownTriggerProps,
 } from "./DropdownTrigger/DropdownTrigger";
@@ -10,7 +10,7 @@ import { Option } from "@commons/types/commons";
 
 type DropdownProps<T> = {
   triggerProps: DropdownTriggerProps;
-  contentProps: DropdownContentProps<T>;
+  contentProps: DropdownOptionsProps<T>;
   isCloseWhenClick?: boolean;
 };
 
@@ -37,7 +37,7 @@ export default function Dropdown<T>({
       Trigger={<DropdownTrigger {...triggerProps} />}
       PopoverContent={
         contentProps.options && (
-          <DropdownContent {...contentProps} onClick={handleContentClick} />
+          <DropdownOptions {...contentProps} onClick={handleContentClick} />
         )
       }
       isOpen={isOpen}

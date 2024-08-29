@@ -4,8 +4,8 @@ import { DropdownTriggerVariant } from "../DropdownTrigger/DropdownTrigger.style
 import { Variants } from "@commons/types/style";
 import theme from "@styles/Theme/light.theme";
 
-export type DropdownContentVariant = DropdownTriggerVariant;
-const DropdownContentContainerVariantStyles: Variants<DropdownContentVariant> =
+export type DropdownOptionsVariant = DropdownTriggerVariant;
+const DropdownOptionsContainerVariantStyles: Variants<DropdownOptionsVariant> =
   {
     Filled: css`
       background-color: ${theme.surfaceContainer};
@@ -21,33 +21,33 @@ const DropdownContentContainerVariantStyles: Variants<DropdownContentVariant> =
     `,
   };
 
-type StyledDropdownContentContainerProps = {
-  $variant: DropdownContentVariant;
+type StyledDropdownOptionsContainerProps = {
+  $variant: DropdownOptionsVariant;
   $isDisabled?: boolean;
 };
 
-export const StyledDropdownContentContainer = styled(
+export const StyledDropdownOptionsContainer = styled(
   DefaultStyleFormElement,
-)<StyledDropdownContentContainerProps>`
+)<StyledDropdownOptionsContainerProps>`
   width: 100%;
   max-height: 240px;
   box-shadow: 0px 4px 4px ${theme.shadow};
   overflow-y: auto;
-  ${(props) => DropdownContentContainerVariantStyles[props.$variant]}
+  ${(props) => DropdownOptionsContainerVariantStyles[props.$variant]}
 
   //disabled일 경우 위 속성을 모두 무효화
   ${(props) =>
-    props.$isDisabled && DropdownContentContainerVariantStyles["Disabled"]}
+    props.$isDisabled && DropdownOptionsContainerVariantStyles["Disabled"]}
 `;
 
-type StyledDropdownContentProps = {
-  $variant?: DropdownContentVariant;
+type StyledDropdownOptionProps = {
+  $variant?: DropdownOptionsVariant;
   $isHover: boolean;
 };
 
-const DropdownContentVariantStyles: Variants<
-  DropdownContentVariant,
-  Pick<StyledDropdownContentProps, "$isHover">
+const DropdownOptionVariantStyles: Variants<
+  DropdownOptionsVariant,
+  Pick<StyledDropdownOptionProps, "$isHover">
 > = {
   Filled: css<{ $isHover: boolean }>`
     ${({ $isHover }) =>
@@ -59,7 +59,7 @@ const DropdownContentVariantStyles: Variants<
   Disabled: css<{ $isHover: boolean }>``,
 };
 
-export const StyledDropdownContent = styled.div<StyledDropdownContentProps>`
+export const StyledDropdownOption = styled.div<StyledDropdownOptionProps>`
   width: 100%;
   padding: 8px 16px;
   &:not(:last-child) {
@@ -67,5 +67,5 @@ export const StyledDropdownContent = styled.div<StyledDropdownContentProps>`
   }
   cursor: pointer;
   ${({ $variant, $isHover }) =>
-    DropdownContentVariantStyles[$variant || "Filled"]}
+    DropdownOptionVariantStyles[$variant || "Filled"]}
 `;

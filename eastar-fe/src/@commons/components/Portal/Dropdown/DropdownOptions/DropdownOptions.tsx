@@ -1,24 +1,24 @@
 import { Option } from "@commons/types/commons";
 import {
-  DropdownContentVariant,
-  StyledDropdownContent,
-  StyledDropdownContentContainer,
-} from "./DropdownContent.styled";
+  DropdownOptionsVariant,
+  StyledDropdownOption,
+  StyledDropdownOptionsContainer,
+} from "./DropdownOptions.styled";
 import { useHoverEventList } from "@commons/hooks/useHoverEventList";
 
-export type DropdownContentProps<T> = {
+export type DropdownOptionsProps<T> = {
   options: Option<T>[];
   onClick?: (option: Option<T>) => void;
-  variant?: DropdownContentVariant;
+  variant?: DropdownOptionsVariant;
   isDisabled?: boolean;
 };
 
-export default function DropdownContent<T>({
+export default function DropdownOptions<T>({
   options,
   onClick,
   variant,
   isDisabled,
-}: DropdownContentProps<T>) {
+}: DropdownOptionsProps<T>) {
   const { setRef, hoverStates } = useHoverEventList(
     options.reduce(
       (acc, option) => [...acc, option.label],
@@ -26,12 +26,12 @@ export default function DropdownContent<T>({
     ),
   );
   return (
-    <StyledDropdownContentContainer
+    <StyledDropdownOptionsContainer
       $variant={variant || "Filled"}
       $isDisabled={isDisabled}
     >
       {options.map((option) => (
-        <StyledDropdownContent
+        <StyledDropdownOption
           key={option.label}
           onClick={() => {
             onClick?.(option);
@@ -42,8 +42,8 @@ export default function DropdownContent<T>({
           }}
         >
           {option.label}
-        </StyledDropdownContent>
+        </StyledDropdownOption>
       ))}
-    </StyledDropdownContentContainer>
+    </StyledDropdownOptionsContainer>
   );
 }
