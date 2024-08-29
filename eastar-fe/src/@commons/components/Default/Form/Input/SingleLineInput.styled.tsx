@@ -34,9 +34,9 @@ export type StyledSingleLineInputProps = {
   $isDisabled?: boolean;
 };
 
-const StyledSingleLineInput = styled(
-  DefaultStyleFormElement,
-).attrs<StyledSingleLineInputProps>(() => ({
+const StyledSingleLineInput = styled(DefaultStyleFormElement).attrs<
+  StyledSingleLineInputProps & React.InputHTMLAttributes<HTMLInputElement>
+>(() => ({
   as: "input",
 }))`
   &::placeholder {
