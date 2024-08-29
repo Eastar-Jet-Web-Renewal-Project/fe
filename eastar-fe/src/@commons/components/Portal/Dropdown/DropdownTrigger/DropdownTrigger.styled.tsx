@@ -25,13 +25,12 @@ export type StyledDropdownTriggerProps = {
   $isDisabled?: boolean;
 };
 
-export const StyledDropdownTrigger = styled(
-  DefaultStyleFormElement,
-).attrs<StyledDropdownTriggerProps>(() => ({
-  as: "p",
-}))`
-  width: 100%;
-  justify-content: start;
+export const StyledDropdownTrigger = styled.div.attrs<StyledDropdownTriggerProps>(
+  () => ({
+    as: "p",
+  }),
+)`
+  ${DefaultStyleFormElement}
 
   cursor: pointer;
 

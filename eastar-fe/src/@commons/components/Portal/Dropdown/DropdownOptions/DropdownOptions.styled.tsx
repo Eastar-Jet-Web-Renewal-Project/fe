@@ -26,10 +26,9 @@ type StyledDropdownOptionsContainerProps = {
   $isDisabled?: boolean;
 };
 
-export const StyledDropdownOptionsContainer = styled(
-  DefaultStyleFormElement,
-)<StyledDropdownOptionsContainerProps>`
-  width: 100%;
+export const StyledDropdownOptionsContainer = styled.div<StyledDropdownOptionsContainerProps>`
+  ${DefaultStyleFormElement}
+
   max-height: 240px;
   box-shadow: 0px 4px 4px ${theme.shadow};
   overflow-y: auto;

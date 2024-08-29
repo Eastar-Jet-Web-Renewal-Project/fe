@@ -1,8 +1,7 @@
-import styled, { css } from "styled-components";
 import { DefaultStyleFormElement } from "../../DefaultFormElementStyle";
-import React from "react";
 import { Variants } from "@commons/types/style";
 import theme from "@styles/Theme/light.theme";
+import styled, { css } from "styled-components";
 
 export type TimePickerVariant = "Filled";
 const TimePickerVariantStyle: Variants<TimePickerVariant> = {
@@ -23,11 +22,14 @@ type StyledTimePickerProps = {
   $isDisabled?: boolean;
 };
 
-export const StyledTimePicker = styled(DefaultStyleFormElement).attrs<
-  StyledTimePickerProps & React.InputHTMLAttributes<HTMLInputElement>
->({
-  as: "input",
-})`
+export const StyledTimePicker = styled.input.attrs<StyledTimePickerProps>(
+  () => ({
+    as: "input",
+    type: "time",
+  }),
+)`
+  ${DefaultStyleFormElement}
+
   ${(props) => TimePickerVariantStyle[props.$variant || "Filled"]}
 
   ${(props) => props.$isDisabled && TimePickerVariantStyle.Disabled}

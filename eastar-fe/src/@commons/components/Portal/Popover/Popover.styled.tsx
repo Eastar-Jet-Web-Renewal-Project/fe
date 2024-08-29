@@ -8,7 +8,6 @@ export const StyledPopoverTrigger = styled.div.attrs(() => ({
   role: "button",
 }))`
   width: 100%;
-  margin-bottom: 8px;
   cursor: pointer;
 `;
 
