@@ -29,7 +29,5 @@ export const fontWeight = {
 };
 
 export const fontStyle = css`
-  @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
-
-  font-family: "Pretendard Variable";
+  font-family: "SF Pro Display", sans-serif;
 `;
