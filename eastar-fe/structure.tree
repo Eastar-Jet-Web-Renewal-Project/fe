@@ -1,38 +1,190 @@
+├── .env
+├── .env.development.local
+├── .env.production.local
+├── .gitconfig
 ├── .gitignore
 ├── .prettierignore
 ├── .prettierrc
+├── dist
+│  ├── .gitkeep
+│  ├── assets
+│  │  └── index-BfGn8VCu.js
+│  └── index.html
 ├── eslint.config.js
+├── folderStructure.mjs
 ├── index.html
 ├── package-lock.json
 ├── package.json
 ├── public
+│  └── .gitkeep
 ├── src
 │  ├── @commons
 │  │  ├── components
-│  │  │  ├── default
-│  │  │  └── portal
+│  │  │  ├── Default
+│  │  │  │  ├── .gitkeep
+│  │  │  │  ├── Button
+│  │  │  │  │  ├── Button.styled.tsx
+│  │  │  │  │  └── Button.tsx
+│  │  │  │  ├── Divider
+│  │  │  │  │  ├── Divider.styled.tsx
+│  │  │  │  │  ├── Divider.tsx
+│  │  │  │  │  ├── DividerList.styled.tsx
+│  │  │  │  │  └── DividerList.tsx
+│  │  │  │  ├── Form
+│  │  │  │  │  ├── DefaultFormElementStyle.tsx
+│  │  │  │  │  └── Input
+│  │  │  │  │    ├── SingleLineInput.styled.tsx
+│  │  │  │  │    └── SingleLineInput.tsx
+│  │  │  │  ├── Images
+│  │  │  │  │  └── SvgComponents.tsx
+│  │  │  │  ├── Layer
+│  │  │  │  │  ├── Column.tsx
+│  │  │  │  │  ├── Flex.tsx
+│  │  │  │  │  └── Row.tsx
+│  │  │  │  ├── Spacer.tsx
+│  │  │  │  └── Typography
+│  │  │  │    ├── Typography.styled.tsx
+│  │  │  │    └── Typography.tsx
+│  │  │  └── Portal
+│  │  │    ├── Dropdown
+│  │  │    │  ├── Dropdown.tsx
+│  │  │    │  ├── DropdownOptions
+│  │  │    │  │  ├── DropdownOptions.styled.tsx
+│  │  │    │  │  └── DropdownOptions.tsx
+│  │  │    │  └── DropdownTrigger
+│  │  │    │    ├── DropdownTrigger.styled.tsx
+│  │  │    │    └── DropdownTrigger.tsx
+│  │  │    ├── Popover
+│  │  │    │  ├── Popover.styled.tsx
+│  │  │    │  └── Popover.tsx
+│  │  │    └── Portal.tsx
 │  │  ├── constants
+│  │  │  └── .gitkeep
 │  │  ├── hooks
+│  │  │  ├── useAuth
+│  │  │  │  └── useRecaptcha.ts
+│  │  │  ├── useDetectOutsideClick.ts
+│  │  │  ├── useHoverEvent.ts
+│  │  │  ├── useHoverEventList.ts
+│  │  │  └── useTrackElementPosition.ts
 │  │  ├── layouts
+│  │  │  └── .gitkeep
 │  │  ├── routes
+│  │  │  ├── AdminRoute.tsx
+│  │  │  ├── MainRoute.tsx
+│  │  │  └── Route.tsx
 │  │  ├── services
 │  │  │  └── api
+│  │  │    └── .gitkeep
 │  │  ├── stores
+│  │  │  └── .gitkeep
 │  │  ├── types
+│  │  │  ├── commons.ts
+│  │  │  ├── font.ts
+│  │  │  ├── math.ts
+│  │  │  ├── style.ts
+│  │  │  └── utilType.ts
 │  │  └── utilities
+│  │    ├── firebase
+│  │    │  ├── auth.ts
+│  │    │  ├── config.ts
+│  │    │  ├── firebase.ts
+│  │    │  └── index.ts
+│  │    └── style
+│  │      ├── colorUtility.ts
+│  │      ├── propUtility.ts
+│  │      └── textUtility.ts
 │  ├── App.tsx
 │  ├── assets
+│  │  ├── .gitkeep
+│  │  ├── icons
+│  │  ├── logos
+│  │  │  └── logo.svg
+│  │  └── sns
+│  │    ├── apple.svg
+│  │    ├── facebook.svg
+│  │    ├── google.svg
+│  │    └── kakao.svg
 │  ├── domains
-│  │  └── home
+│  │  ├── admin
+│  │  │  └── manage-flight
+│  │  │    ├── apis
+│  │  │    │  └── .gitkeep
+│  │  │    ├── components
+│  │  │    │  └── .gitkeep
+│  │  │    ├── hooks
+│  │  │    │  └── .gitkeep
+│  │  │    ├── layouts
+│  │  │    │  ├── CreateFlightLayout.tsx
+│  │  │    │  ├── FlightDetailLayout.tsx
+│  │  │    │  └── ManageFlightLayout.tsx
+│  │  │    ├── pages
+│  │  │    │  ├── CreateFlightPage.tsx
+│  │  │    │  ├── FlightDetailPage.tsx
+│  │  │    │  └── ManageFlightPage.tsx
+│  │  │    └── types
+│  │  │      └── .gitkeep
+│  │  ├── design
+│  │  │  ├── components
+│  │  │  │  └── ColorBox.tsx
+│  │  │  └── pages
+│  │  │    ├── DesignComponentPage.tsx
+│  │  │    └── DesignSystem.tsx
+│  │  ├── home
+│  │  │  ├── apis
+│  │  │  │  └── .gitkeep
+│  │  │  ├── components
+│  │  │  │  └── .gitkeep
+│  │  │  ├── hooks
+│  │  │  │  └── .gitkeep
+│  │  │  ├── layouts
+│  │  │  │  └── .gitkeep
+│  │  │  ├── pages
+│  │  │  │  └── .gitkeep
+│  │  │  └── types
+│  │  │    └── .gitkeep
+│  │  └── sign-in
 │  │    ├── apis
+│  │    │  └── .gitkeep
 │  │    ├── components
+│  │    │  ├── .gitkeep
+│  │    │  ├── LoginLink.tsx
+│  │    │  ├── SignInDetailMenu
+│  │    │  │  ├── SignInDetailMenu.styled.tsx
+│  │    │  │  └── SignInDetailMenu.tsx
+│  │    │  ├── SignInForm
+│  │    │  │  ├── SignInForm.styled.tsx
+│  │    │  │  └── SignInForm.tsx
+│  │    │  ├── SignInHeader.tsx
+│  │    │  ├── SignInLayoutDivider
+│  │    │  │  ├── SignInLayoutDivider.styled.tsx
+│  │    │  │  └── SignInLayoutDivider.tsx
+│  │    │  ├── SignInMenu
+│  │    │  │  └── SignInMenu.tsx
+│  │    │  └── SnsLogin.tsx
 │  │    ├── hooks
+│  │    │  └── .gitkeep
 │  │    ├── layouts
+│  │    │  ├── .gitkeep
+│  │    │  ├── SignInLayout.styled.tsx
+│  │    │  └── SignInLayout.tsx
 │  │    ├── pages
+│  │    │  ├── .gitkeep
+│  │    │  └── SignInPage.tsx
 │  │    └── types
+│  │      └── .gitkeep
 │  ├── main.tsx
+│  ├── styles
+│  │  ├── accessibility.styles.ts
+│  │  ├── border.styles.ts
+│  │  ├── color.styles.ts
+│  │  ├── font.styles.ts
+│  │  ├── global.styles.ts
+│  │  ├── reset.styles.ts
+│  │  ├── Theme
+│  │  │  └── light.theme.ts
+│  │  └── zindex.styles.ts
 │  └── vite-env.d.ts
-├── structure.tree
 ├── tsconfig.app.json
 ├── tsconfig.json
 ├── tsconfig.node.json
