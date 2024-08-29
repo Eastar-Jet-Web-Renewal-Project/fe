@@ -1,11 +1,12 @@
 import {
-  DropdownTriggerVariant,
-  StyledDropdownTrigger,
-} from "./DropdownTrigger.styled";
+  DefaultStyleFormElement,
+  DefaultStyleFormElementVariant,
+} from "@commons/components/Default/Form/DefaultFormElementStyle";
+import { StyledDropdownTrigger } from "./DropdownTrigger.styled";
 
 export type DropdownTriggerProps = {
   content?: string;
-  style?: DropdownTriggerVariant;
+  style?: DefaultStyleFormElementVariant;
   disabled?: boolean;
   placeholder?: string;
 };
@@ -17,8 +18,13 @@ export default function DropdownTrigger({
   placeholder,
 }: DropdownTriggerProps) {
   return (
-    <StyledDropdownTrigger $variant={style || "Filled"} $isDisabled={disabled}>
-      {content || placeholder || "이 곳을 눌러 가능한 값을 얻을 수 있습니다"}
-    </StyledDropdownTrigger>
+    <DefaultStyleFormElement
+      $variant={style || "Filled"}
+      $isDisabled={disabled}
+    >
+      <StyledDropdownTrigger $isPlaceholder={!content}>
+        {content || placeholder || "이 곳을 눌러 가능한 값을 얻을 수 있습니다"}
+      </StyledDropdownTrigger>
+    </DefaultStyleFormElement>
   );
 }
