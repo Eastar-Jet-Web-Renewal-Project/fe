@@ -11,13 +11,13 @@ import { Option } from "@commons/types/commons";
 type DropdownProps<T> = {
   triggerProps: DropdownTriggerProps;
   optionsProps: DropdownOptionsProps<T>;
-  isCloseWhenClick?: boolean;
+  isCloseWhenClickOption?: boolean;
 };
 
 export default function Dropdown<T>({
   triggerProps,
   optionsProps,
-  isCloseWhenClick,
+  isCloseWhenClickOption,
 }: DropdownProps<T>) {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -27,7 +27,7 @@ export default function Dropdown<T>({
 
   const handleContentClick = (option: Option<T>) => {
     optionsProps.onClick?.(option);
-    if (isCloseWhenClick) {
+    if (isCloseWhenClickOption) {
       setIsOpen(false);
     }
   };
