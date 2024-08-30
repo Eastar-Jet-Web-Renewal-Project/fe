@@ -22,7 +22,6 @@ export const useHoverEventList = <T extends HTMLElement, K extends string>(
     (key: K) => (e: Event) => {
       if (!e.target) return;
       onHover?.(key, e.target);
-      console.log(`hovered: ${key}`);
       setHoverStates((prev) => ({ ...prev, [key]: true }));
     },
     [onHover],
@@ -32,7 +31,6 @@ export const useHoverEventList = <T extends HTMLElement, K extends string>(
     (key: K) => (e: Event) => {
       if (!e.target) return;
       onLeave?.(key, e.target);
-      console.log(`left: ${key}`);
       setHoverStates((prev) => ({ ...prev, [key]: false }));
     },
     [onLeave],
