@@ -23,3 +23,13 @@ export function mapValuesToLabels<T>(
     }
   });
 }
+
+export function mapValueToLabels<T>(
+  labelValuePairs: Option<T>[],
+  value: T,
+  options: {
+    keepOriginalIfNotFound?: boolean;
+  } = {},
+) {
+  return mapValuesToLabels(labelValuePairs, [value], options)[0];
+}
