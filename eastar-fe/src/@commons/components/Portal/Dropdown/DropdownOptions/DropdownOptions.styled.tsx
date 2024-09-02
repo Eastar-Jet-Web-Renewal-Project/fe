@@ -3,7 +3,6 @@ import {
   DefaultStyleFormElementVariant,
 } from "@commons/components/Default/Form/DefaultFormElementStyle";
 import styled, { css } from "styled-components";
-import { Variants } from "@commons/types/style";
 import theme from "@styles/Theme/light.theme";
 import { border } from "@styles/border.styles";
 
