@@ -5,6 +5,7 @@ import {
 import styled, { css } from "styled-components";
 import { Variants } from "@commons/types/style";
 import theme from "@styles/Theme/light.theme";
+import { border } from "@styles/border.styles";
 
 type StyledDropdownOptionsContainerProps = {
   $isDisabled?: boolean;
@@ -14,6 +15,8 @@ export const StyledDropdownOptionsContainer = styled.div<StyledDropdownOptionsCo
   max-height: 240px;
   box-shadow: 0px 4px 4px ${theme.shadow};
   overflow-y: auto;
+
+  border-radius: ${border.radius.medium};
 `;
 
 type StyledDropdownOptionProps = {
@@ -23,7 +26,7 @@ type StyledDropdownOptionProps = {
 
 export const StyledDropdownOption = styled.div<StyledDropdownOptionProps>`
   width: 100%;
-  padding: 8px 16px;
+  padding: 16px;
   &:not(:last-child) {
     border-bottom: solid 1px ${theme.divider};
   }
