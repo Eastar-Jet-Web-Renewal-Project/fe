@@ -39,7 +39,7 @@ export default function ManageFlightLayout() {
       </Typography>
       <Spacer size={40} />
       <Table>
-        <Thead columns={flightColumn} />
+        <Thead columns={flightColumn.map((value) => value.label)} />
         <Tbody>
           {/* 현재는 mock data */}
           {flights.map((flight) => (
