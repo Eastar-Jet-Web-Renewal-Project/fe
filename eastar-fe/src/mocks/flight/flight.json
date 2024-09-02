@@ -1,2687 +1,1802 @@
 [
   {
     "id": "1",
-    "flightName": "ZE9631",
+    "flightCode": "ZE9631",
     "departureAirport": "PUS",
     "arrivalAirport": "HND",
     "departureTime": "10:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "FRI",
-      "SAT"
-    ]
+    "flightDay": ["FRI", "SAT"]
   },
   {
     "id": "2",
-    "flightName": "ZE6843",
+    "flightCode": "ZE6843",
     "departureAirport": "GMP",
     "arrivalAirport": "SFO",
     "departureTime": "16:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "TUE",
-      "FRI",
-      "THU",
-      "WED"
-    ]
+    "flightDay": ["TUE", "FRI", "THU", "WED"]
   },
   {
     "id": "3",
-    "flightName": "ZE2816",
+    "flightCode": "ZE2816",
     "departureAirport": "PUS",
     "arrivalAirport": "PEK",
     "departureTime": "08:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "THU",
-      "FRI",
-      "SAT",
-      "WED"
-    ]
+    "flightDay": ["THU", "FRI", "SAT", "WED"]
   },
   {
     "id": "4",
-    "flightName": "ZE2681",
+    "flightCode": "ZE2681",
     "departureAirport": "PUS",
     "arrivalAirport": "NRT",
     "departureTime": "12:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "THU",
-      "TUE",
-      "MON"
-    ]
+    "flightDay": ["THU", "TUE", "MON"]
   },
   {
     "id": "5",
-    "flightName": "ZE2554",
+    "flightCode": "ZE2554",
     "departureAirport": "PUS",
     "arrivalAirport": "LAX",
     "departureTime": "14:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "WED",
-      "SAT",
-      "MON",
-      "TUE"
-    ]
+    "flightDay": ["WED", "SAT", "MON", "TUE"]
   },
   {
     "id": "6",
-    "flightName": "ZE7653",
+    "flightCode": "ZE7653",
     "departureAirport": "GMP",
     "arrivalAirport": "LAX",
     "departureTime": "06:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "WED",
-      "THU",
-      "FRI",
-      "MON"
-    ]
+    "flightDay": ["WED", "THU", "FRI", "MON"]
   },
   {
     "id": "7",
-    "flightName": "ZE2750",
+    "flightCode": "ZE2750",
     "departureAirport": "CJU",
     "arrivalAirport": "SFO",
     "departureTime": "08:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "MON",
-      "THU",
-      "TUE",
-      "SUN",
-      "SAT"
-    ]
+    "flightDay": ["MON", "THU", "TUE", "SUN", "SAT"]
   },
   {
     "id": "8",
-    "flightName": "ZE9474",
+    "flightCode": "ZE9474",
     "departureAirport": "ICN",
     "arrivalAirport": "HND",
     "departureTime": "18:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "WED",
-      "MON",
-      "THU"
-    ]
+    "flightDay": ["WED", "MON", "THU"]
   },
   {
     "id": "9",
-    "flightName": "ZE6247",
+    "flightCode": "ZE6247",
     "departureAirport": "GMP",
     "arrivalAirport": "HND",
     "departureTime": "16:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "FRI",
-      "SAT",
-      "WED"
-    ]
+    "flightDay": ["FRI", "SAT", "WED"]
   },
   {
     "id": "10",
-    "flightName": "ZE1938",
+    "flightCode": "ZE1938",
     "departureAirport": "CJU",
     "arrivalAirport": "NRT",
     "departureTime": "18:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "SAT",
-      "MON"
-    ]
+    "flightDay": ["SAT", "MON"]
   },
   {
     "id": "11",
-    "flightName": "ZE3366",
+    "flightCode": "ZE3366",
     "departureAirport": "GMP",
     "arrivalAirport": "NRT",
     "departureTime": "16:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "SUN",
-      "WED"
-    ]
+    "flightDay": ["SUN", "WED"]
   },
   {
     "id": "12",
-    "flightName": "ZE4530",
+    "flightCode": "ZE4530",
     "departureAirport": "ICN",
     "arrivalAirport": "NRT",
     "departureTime": "06:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "MON",
-      "SUN",
-      "FRI"
-    ]
+    "flightDay": ["MON", "SUN", "FRI"]
   },
   {
     "id": "13",
-    "flightName": "ZE8961",
+    "flightCode": "ZE8961",
     "departureAirport": "GMP",
     "arrivalAirport": "SFO",
     "departureTime": "16:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "THU",
-      "MON",
-      "WED",
-      "SUN"
-    ]
+    "flightDay": ["THU", "MON", "WED", "SUN"]
   },
   {
     "id": "14",
-    "flightName": "ZE6871",
+    "flightCode": "ZE6871",
     "departureAirport": "CJU",
     "arrivalAirport": "NRT",
     "departureTime": "06:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "SAT",
-      "SUN"
-    ]
+    "flightDay": ["SAT", "SUN"]
   },
   {
     "id": "15",
-    "flightName": "ZE8793",
+    "flightCode": "ZE8793",
     "departureAirport": "CJU",
     "arrivalAirport": "LAX",
     "departureTime": "06:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "THU",
-      "TUE",
-      "MON",
-      "SUN",
-      "FRI"
-    ]
+    "flightDay": ["THU", "TUE", "MON", "SUN", "FRI"]
   },
   {
     "id": "16",
-    "flightName": "ZE4476",
+    "flightCode": "ZE4476",
     "departureAirport": "GMP",
     "arrivalAirport": "SFO",
     "departureTime": "06:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "WED",
-      "SAT"
-    ]
+    "flightDay": ["WED", "SAT"]
   },
   {
     "id": "17",
-    "flightName": "ZE3449",
+    "flightCode": "ZE3449",
     "departureAirport": "GMP",
     "arrivalAirport": "HND",
     "departureTime": "16:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "WED",
-      "MON",
-      "FRI",
-      "THU",
-      "SAT"
-    ]
+    "flightDay": ["WED", "MON", "FRI", "THU", "SAT"]
   },
   {
     "id": "18",
-    "flightName": "ZE9477",
+    "flightCode": "ZE9477",
     "departureAirport": "CJU",
     "arrivalAirport": "SFO",
     "departureTime": "18:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "WED",
-      "FRI"
-    ]
+    "flightDay": ["WED", "FRI"]
   },
   {
     "id": "19",
-    "flightName": "ZE5476",
+    "flightCode": "ZE5476",
     "departureAirport": "PUS",
     "arrivalAirport": "NRT",
     "departureTime": "16:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "FRI",
-      "SAT",
-      "WED"
-    ]
+    "flightDay": ["FRI", "SAT", "WED"]
   },
   {
     "id": "20",
-    "flightName": "ZE7960",
+    "flightCode": "ZE7960",
     "departureAirport": "PUS",
     "arrivalAirport": "NRT",
     "departureTime": "06:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "MON",
-      "SAT",
-      "SUN"
-    ]
+    "flightDay": ["MON", "SAT", "SUN"]
   },
   {
     "id": "21",
-    "flightName": "ZE2457",
+    "flightCode": "ZE2457",
     "departureAirport": "CJU",
     "arrivalAirport": "LAX",
     "departureTime": "12:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "SUN",
-      "SAT"
-    ]
+    "flightDay": ["SUN", "SAT"]
   },
   {
     "id": "22",
-    "flightName": "ZE4858",
+    "flightCode": "ZE4858",
     "departureAirport": "CJU",
     "arrivalAirport": "PEK",
     "departureTime": "18:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "MON",
-      "THU"
-    ]
+    "flightDay": ["MON", "THU"]
   },
   {
     "id": "23",
-    "flightName": "ZE7978",
+    "flightCode": "ZE7978",
     "departureAirport": "GMP",
     "arrivalAirport": "SFO",
     "departureTime": "14:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "SAT",
-      "THU",
-      "MON",
-      "SUN"
-    ]
+    "flightDay": ["SAT", "THU", "MON", "SUN"]
   },
   {
     "id": "24",
-    "flightName": "ZE7584",
+    "flightCode": "ZE7584",
     "departureAirport": "ICN",
     "arrivalAirport": "LAX",
     "departureTime": "18:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "SAT",
-      "FRI"
-    ]
+    "flightDay": ["SAT", "FRI"]
   },
   {
     "id": "25",
-    "flightName": "ZE4589",
+    "flightCode": "ZE4589",
     "departureAirport": "CJU",
     "arrivalAirport": "HND",
     "departureTime": "18:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "MON",
-      "SAT",
-      "TUE",
-      "WED",
-      "SUN"
-    ]
+    "flightDay": ["MON", "SAT", "TUE", "WED", "SUN"]
   },
   {
     "id": "26",
-    "flightName": "ZE3955",
+    "flightCode": "ZE3955",
     "departureAirport": "GMP",
     "arrivalAirport": "NRT",
     "departureTime": "18:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "SUN",
-      "MON",
-      "FRI"
-    ]
+    "flightDay": ["SUN", "MON", "FRI"]
   },
   {
     "id": "27",
-    "flightName": "ZE5336",
+    "flightCode": "ZE5336",
     "departureAirport": "ICN",
     "arrivalAirport": "HND",
     "departureTime": "10:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "MON",
-      "SUN",
-      "TUE"
-    ]
+    "flightDay": ["MON", "SUN", "TUE"]
   },
   {
     "id": "28",
-    "flightName": "ZE7341",
+    "flightCode": "ZE7341",
     "departureAirport": "CJU",
     "arrivalAirport": "HND",
     "departureTime": "10:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "SAT",
-      "SUN",
-      "FRI",
-      "MON",
-      "TUE"
-    ]
+    "flightDay": ["SAT", "SUN", "FRI", "MON", "TUE"]
   },
   {
     "id": "29",
-    "flightName": "ZE5302",
+    "flightCode": "ZE5302",
     "departureAirport": "CJU",
     "arrivalAirport": "PEK",
     "departureTime": "10:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "MON",
-      "FRI",
-      "SAT",
-      "THU"
-    ]
+    "flightDay": ["MON", "FRI", "SAT", "THU"]
   },
   {
     "id": "30",
-    "flightName": "ZE5567",
+    "flightCode": "ZE5567",
     "departureAirport": "PUS",
     "arrivalAirport": "HND",
     "departureTime": "18:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "SUN",
-      "TUE",
-      "WED",
-      "THU"
-    ]
+    "flightDay": ["SUN", "TUE", "WED", "THU"]
   },
   {
     "id": "31",
-    "flightName": "ZE1740",
+    "flightCode": "ZE1740",
     "departureAirport": "GMP",
     "arrivalAirport": "PEK",
     "departureTime": "16:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "FRI",
-      "MON"
-    ]
+    "flightDay": ["FRI", "MON"]
   },
   {
     "id": "32",
-    "flightName": "ZE7119",
+    "flightCode": "ZE7119",
     "departureAirport": "CJU",
     "arrivalAirport": "NRT",
     "departureTime": "10:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "SUN",
-      "THU",
-      "WED",
-      "MON"
-    ]
+    "flightDay": ["SUN", "THU", "WED", "MON"]
   },
   {
     "id": "33",
-    "flightName": "ZE5209",
+    "flightCode": "ZE5209",
     "departureAirport": "CJU",
     "arrivalAirport": "NRT",
     "departureTime": "12:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "THU",
-      "MON",
-      "TUE"
-    ]
+    "flightDay": ["THU", "MON", "TUE"]
   },
   {
     "id": "34",
-    "flightName": "ZE2748",
+    "flightCode": "ZE2748",
     "departureAirport": "PUS",
     "arrivalAirport": "HND",
     "departureTime": "06:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "SUN",
-      "MON",
-      "WED"
-    ]
+    "flightDay": ["SUN", "MON", "WED"]
   },
   {
     "id": "35",
-    "flightName": "ZE9339",
+    "flightCode": "ZE9339",
     "departureAirport": "PUS",
     "arrivalAirport": "NRT",
     "departureTime": "18:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "FRI",
-      "THU"
-    ]
+    "flightDay": ["FRI", "THU"]
   },
   {
     "id": "36",
-    "flightName": "ZE1170",
+    "flightCode": "ZE1170",
     "departureAirport": "CJU",
     "arrivalAirport": "NRT",
     "departureTime": "18:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "MON",
-      "SUN",
-      "SAT",
-      "TUE"
-    ]
+    "flightDay": ["MON", "SUN", "SAT", "TUE"]
   },
   {
     "id": "37",
-    "flightName": "ZE1146",
+    "flightCode": "ZE1146",
     "departureAirport": "CJU",
     "arrivalAirport": "HND",
     "departureTime": "08:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "MON",
-      "THU",
-      "TUE",
-      "SUN"
-    ]
+    "flightDay": ["MON", "THU", "TUE", "SUN"]
   },
   {
     "id": "38",
-    "flightName": "ZE7234",
+    "flightCode": "ZE7234",
     "departureAirport": "PUS",
     "arrivalAirport": "HND",
     "departureTime": "18:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "FRI",
-      "MON",
-      "SAT",
-      "WED",
-      "SUN"
-    ]
+    "flightDay": ["FRI", "MON", "SAT", "WED", "SUN"]
   },
   {
     "id": "39",
-    "flightName": "ZE2493",
+    "flightCode": "ZE2493",
     "departureAirport": "CJU",
     "arrivalAirport": "PEK",
     "departureTime": "16:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "TUE",
-      "WED",
-      "SUN",
-      "THU"
-    ]
+    "flightDay": ["TUE", "WED", "SUN", "THU"]
   },
   {
     "id": "40",
-    "flightName": "ZE1615",
+    "flightCode": "ZE1615",
     "departureAirport": "ICN",
     "arrivalAirport": "PEK",
     "departureTime": "06:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "THU",
-      "FRI",
-      "WED",
-      "TUE",
-      "SAT"
-    ]
+    "flightDay": ["THU", "FRI", "WED", "TUE", "SAT"]
   },
   {
     "id": "41",
-    "flightName": "ZE1918",
+    "flightCode": "ZE1918",
     "departureAirport": "GMP",
     "arrivalAirport": "SFO",
     "departureTime": "18:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "FRI",
-      "SUN",
-      "THU"
-    ]
+    "flightDay": ["FRI", "SUN", "THU"]
   },
   {
     "id": "42",
-    "flightName": "ZE1133",
+    "flightCode": "ZE1133",
     "departureAirport": "ICN",
     "arrivalAirport": "PEK",
     "departureTime": "08:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "THU",
-      "SAT",
-      "WED",
-      "TUE",
-      "MON"
-    ]
+    "flightDay": ["THU", "SAT", "WED", "TUE", "MON"]
   },
   {
     "id": "43",
-    "flightName": "ZE8581",
+    "flightCode": "ZE8581",
     "departureAirport": "GMP",
     "arrivalAirport": "SFO",
     "departureTime": "14:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "SAT",
-      "MON",
-      "FRI",
-      "WED"
-    ]
+    "flightDay": ["SAT", "MON", "FRI", "WED"]
   },
   {
     "id": "44",
-    "flightName": "ZE9155",
+    "flightCode": "ZE9155",
     "departureAirport": "CJU",
     "arrivalAirport": "PEK",
     "departureTime": "14:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "TUE",
-      "MON"
-    ]
+    "flightDay": ["TUE", "MON"]
   },
   {
     "id": "45",
-    "flightName": "ZE4475",
+    "flightCode": "ZE4475",
     "departureAirport": "ICN",
     "arrivalAirport": "SFO",
     "departureTime": "12:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "WED",
-      "SUN",
-      "FRI"
-    ]
+    "flightDay": ["WED", "SUN", "FRI"]
   },
   {
     "id": "46",
-    "flightName": "ZE6996",
+    "flightCode": "ZE6996",
     "departureAirport": "GMP",
     "arrivalAirport": "LAX",
     "departureTime": "08:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "SUN",
-      "THU"
-    ]
+    "flightDay": ["SUN", "THU"]
   },
   {
     "id": "47",
-    "flightName": "ZE6127",
+    "flightCode": "ZE6127",
     "departureAirport": "CJU",
     "arrivalAirport": "LAX",
     "departureTime": "16:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "SUN",
-      "FRI",
-      "SAT"
-    ]
+    "flightDay": ["SUN", "FRI", "SAT"]
   },
   {
     "id": "48",
-    "flightName": "ZE4289",
+    "flightCode": "ZE4289",
     "departureAirport": "GMP",
     "arrivalAirport": "LAX",
     "departureTime": "08:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "TUE",
-      "THU",
-      "SAT",
-      "SUN",
-      "MON"
-    ]
+    "flightDay": ["TUE", "THU", "SAT", "SUN", "MON"]
   },
   {
     "id": "49",
-    "flightName": "ZE9673",
+    "flightCode": "ZE9673",
     "departureAirport": "GMP",
     "arrivalAirport": "LAX",
     "departureTime": "06:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "SUN",
-      "FRI"
-    ]
+    "flightDay": ["SUN", "FRI"]
   },
   {
     "id": "50",
-    "flightName": "ZE2940",
+    "flightCode": "ZE2940",
     "departureAirport": "GMP",
     "arrivalAirport": "HND",
     "departureTime": "06:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "SUN",
-      "SAT",
-      "WED",
-      "THU",
-      "TUE"
-    ]
+    "flightDay": ["SUN", "SAT", "WED", "THU", "TUE"]
   },
   {
     "id": "51",
-    "flightName": "ZE2488",
+    "flightCode": "ZE2488",
     "departureAirport": "GMP",
     "arrivalAirport": "NRT",
     "departureTime": "10:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "TUE",
-      "SUN",
-      "WED",
-      "SAT",
-      "FRI"
-    ]
+    "flightDay": ["TUE", "SUN", "WED", "SAT", "FRI"]
   },
   {
     "id": "52",
-    "flightName": "ZE8184",
+    "flightCode": "ZE8184",
     "departureAirport": "ICN",
     "arrivalAirport": "LAX",
     "departureTime": "16:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "MON",
-      "WED",
-      "FRI"
-    ]
+    "flightDay": ["MON", "WED", "FRI"]
   },
   {
     "id": "53",
-    "flightName": "ZE1889",
+    "flightCode": "ZE1889",
     "departureAirport": "ICN",
     "arrivalAirport": "NRT",
     "departureTime": "10:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "SUN",
-      "WED"
-    ]
+    "flightDay": ["SUN", "WED"]
   },
   {
     "id": "54",
-    "flightName": "ZE5588",
+    "flightCode": "ZE5588",
     "departureAirport": "CJU",
     "arrivalAirport": "LAX",
     "departureTime": "10:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "MON",
-      "FRI",
-      "WED",
-      "SAT",
-      "SUN"
-    ]
+    "flightDay": ["MON", "FRI", "WED", "SAT", "SUN"]
   },
   {
     "id": "55",
-    "flightName": "ZE8979",
+    "flightCode": "ZE8979",
     "departureAirport": "GMP",
     "arrivalAirport": "LAX",
     "departureTime": "16:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "SUN",
-      "FRI",
-      "THU",
-      "MON",
-      "TUE"
-    ]
+    "flightDay": ["SUN", "FRI", "THU", "MON", "TUE"]
   },
   {
     "id": "56",
-    "flightName": "ZE4818",
+    "flightCode": "ZE4818",
     "departureAirport": "ICN",
     "arrivalAirport": "HND",
     "departureTime": "12:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "TUE",
-      "MON",
-      "WED",
-      "SUN",
-      "FRI"
-    ]
+    "flightDay": ["TUE", "MON", "WED", "SUN", "FRI"]
   },
   {
     "id": "57",
-    "flightName": "ZE6550",
+    "flightCode": "ZE6550",
     "departureAirport": "CJU",
     "arrivalAirport": "NRT",
     "departureTime": "18:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "WED",
-      "MON",
-      "SUN",
-      "TUE",
-      "THU"
-    ]
+    "flightDay": ["WED", "MON", "SUN", "TUE", "THU"]
   },
   {
     "id": "58",
-    "flightName": "ZE5415",
+    "flightCode": "ZE5415",
     "departureAirport": "ICN",
     "arrivalAirport": "NRT",
     "departureTime": "12:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "SAT",
-      "THU"
-    ]
+    "flightDay": ["SAT", "THU"]
   },
   {
     "id": "59",
-    "flightName": "ZE7763",
+    "flightCode": "ZE7763",
     "departureAirport": "PUS",
     "arrivalAirport": "LAX",
     "departureTime": "12:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "THU",
-      "WED",
-      "FRI",
-      "TUE",
-      "SAT"
-    ]
+    "flightDay": ["THU", "WED", "FRI", "TUE", "SAT"]
   },
   {
     "id": "60",
-    "flightName": "ZE9410",
+    "flightCode": "ZE9410",
     "departureAirport": "GMP",
     "arrivalAirport": "NRT",
     "departureTime": "16:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "SUN",
-      "TUE",
-      "WED",
-      "MON",
-      "FRI"
-    ]
+    "flightDay": ["SUN", "TUE", "WED", "MON", "FRI"]
   },
   {
     "id": "61",
-    "flightName": "ZE5530",
+    "flightCode": "ZE5530",
     "departureAirport": "ICN",
     "arrivalAirport": "LAX",
     "departureTime": "06:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "SAT",
-      "THU",
-      "WED",
-      "SUN",
-      "FRI"
-    ]
+    "flightDay": ["SAT", "THU", "WED", "SUN", "FRI"]
   },
   {
     "id": "62",
-    "flightName": "ZE8647",
+    "flightCode": "ZE8647",
     "departureAirport": "GMP",
     "arrivalAirport": "HND",
     "departureTime": "14:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "SUN",
-      "TUE",
-      "MON",
-      "THU",
-      "WED"
-    ]
+    "flightDay": ["SUN", "TUE", "MON", "THU", "WED"]
   },
   {
     "id": "63",
-    "flightName": "ZE8397",
+    "flightCode": "ZE8397",
     "departureAirport": "CJU",
     "arrivalAirport": "LAX",
     "departureTime": "08:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "TUE",
-      "WED"
-    ]
+    "flightDay": ["TUE", "WED"]
   },
   {
     "id": "64",
-    "flightName": "ZE5051",
+    "flightCode": "ZE5051",
     "departureAirport": "CJU",
     "arrivalAirport": "SFO",
     "departureTime": "06:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "TUE",
-      "THU",
-      "MON",
-      "FRI"
-    ]
+    "flightDay": ["TUE", "THU", "MON", "FRI"]
   },
   {
     "id": "65",
-    "flightName": "ZE4122",
+    "flightCode": "ZE4122",
     "departureAirport": "CJU",
     "arrivalAirport": "LAX",
     "departureTime": "18:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "SUN",
-      "MON",
-      "FRI"
-    ]
+    "flightDay": ["SUN", "MON", "FRI"]
   },
   {
     "id": "66",
-    "flightName": "ZE3596",
+    "flightCode": "ZE3596",
     "departureAirport": "PUS",
     "arrivalAirport": "HND",
     "departureTime": "10:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "TUE",
-      "MON",
-      "THU",
-      "SAT"
-    ]
+    "flightDay": ["TUE", "MON", "THU", "SAT"]
   },
   {
     "id": "67",
-    "flightName": "ZE8418",
+    "flightCode": "ZE8418",
     "departureAirport": "PUS",
     "arrivalAirport": "NRT",
     "departureTime": "06:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "WED",
-      "TUE"
-    ]
+    "flightDay": ["WED", "TUE"]
   },
   {
     "id": "68",
-    "flightName": "ZE4946",
+    "flightCode": "ZE4946",
     "departureAirport": "GMP",
     "arrivalAirport": "PEK",
     "departureTime": "10:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "TUE",
-      "FRI"
-    ]
+    "flightDay": ["TUE", "FRI"]
   },
   {
     "id": "69",
-    "flightName": "ZE5613",
+    "flightCode": "ZE5613",
     "departureAirport": "CJU",
     "arrivalAirport": "LAX",
     "departureTime": "16:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "THU",
-      "SAT",
-      "SUN",
-      "TUE"
-    ]
+    "flightDay": ["THU", "SAT", "SUN", "TUE"]
   },
   {
     "id": "70",
-    "flightName": "ZE3063",
+    "flightCode": "ZE3063",
     "departureAirport": "CJU",
     "arrivalAirport": "PEK",
     "departureTime": "06:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "MON",
-      "SUN",
-      "WED",
-      "SAT",
-      "THU"
-    ]
+    "flightDay": ["MON", "SUN", "WED", "SAT", "THU"]
   },
   {
     "id": "71",
-    "flightName": "ZE8502",
+    "flightCode": "ZE8502",
     "departureAirport": "PUS",
     "arrivalAirport": "PEK",
     "departureTime": "06:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "SAT",
-      "SUN",
-      "WED",
-      "THU"
-    ]
+    "flightDay": ["SAT", "SUN", "WED", "THU"]
   },
   {
     "id": "72",
-    "flightName": "ZE5517",
+    "flightCode": "ZE5517",
     "departureAirport": "PUS",
     "arrivalAirport": "HND",
     "departureTime": "12:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "SUN",
-      "WED"
-    ]
+    "flightDay": ["SUN", "WED"]
   },
   {
     "id": "73",
-    "flightName": "ZE9118",
+    "flightCode": "ZE9118",
     "departureAirport": "CJU",
     "arrivalAirport": "LAX",
     "departureTime": "06:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "FRI",
-      "THU",
-      "SUN",
-      "SAT"
-    ]
+    "flightDay": ["FRI", "THU", "SUN", "SAT"]
   },
   {
     "id": "74",
-    "flightName": "ZE8612",
+    "flightCode": "ZE8612",
     "departureAirport": "ICN",
     "arrivalAirport": "SFO",
     "departureTime": "14:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "SAT",
-      "FRI"
-    ]
+    "flightDay": ["SAT", "FRI"]
   },
   {
     "id": "75",
-    "flightName": "ZE4335",
+    "flightCode": "ZE4335",
     "departureAirport": "CJU",
     "arrivalAirport": "PEK",
     "departureTime": "08:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "SUN",
-      "FRI"
-    ]
+    "flightDay": ["SUN", "FRI"]
   },
   {
     "id": "76",
-    "flightName": "ZE6278",
+    "flightCode": "ZE6278",
     "departureAirport": "CJU",
     "arrivalAirport": "LAX",
     "departureTime": "16:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "THU",
-      "SAT"
-    ]
+    "flightDay": ["THU", "SAT"]
   },
   {
     "id": "77",
-    "flightName": "ZE5868",
+    "flightCode": "ZE5868",
     "departureAirport": "CJU",
     "arrivalAirport": "HND",
     "departureTime": "08:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "MON",
-      "SAT",
-      "FRI",
-      "WED",
-      "THU"
-    ]
+    "flightDay": ["MON", "SAT", "FRI", "WED", "THU"]
   },
   {
     "id": "78",
-    "flightName": "ZE8511",
+    "flightCode": "ZE8511",
     "departureAirport": "ICN",
     "arrivalAirport": "PEK",
     "departureTime": "18:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "WED",
-      "FRI"
-    ]
+    "flightDay": ["WED", "FRI"]
   },
   {
     "id": "79",
-    "flightName": "ZE2342",
+    "flightCode": "ZE2342",
     "departureAirport": "PUS",
     "arrivalAirport": "HND",
     "departureTime": "16:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "TUE",
-      "WED",
-      "THU",
-      "FRI"
-    ]
+    "flightDay": ["TUE", "WED", "THU", "FRI"]
   },
   {
     "id": "80",
-    "flightName": "ZE4243",
+    "flightCode": "ZE4243",
     "departureAirport": "CJU",
     "arrivalAirport": "HND",
     "departureTime": "08:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "WED",
-      "SUN"
-    ]
+    "flightDay": ["WED", "SUN"]
   },
   {
     "id": "81",
-    "flightName": "ZE7456",
+    "flightCode": "ZE7456",
     "departureAirport": "PUS",
     "arrivalAirport": "PEK",
     "departureTime": "10:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "SAT",
-      "WED",
-      "SUN",
-      "FRI"
-    ]
+    "flightDay": ["SAT", "WED", "SUN", "FRI"]
   },
   {
     "id": "82",
-    "flightName": "ZE9540",
+    "flightCode": "ZE9540",
     "departureAirport": "PUS",
     "arrivalAirport": "SFO",
     "departureTime": "14:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "WED",
-      "THU",
-      "MON",
-      "FRI",
-      "TUE"
-    ]
+    "flightDay": ["WED", "THU", "MON", "FRI", "TUE"]
   },
   {
     "id": "83",
-    "flightName": "ZE8439",
+    "flightCode": "ZE8439",
     "departureAirport": "GMP",
     "arrivalAirport": "SFO",
     "departureTime": "08:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "WED",
-      "SUN",
-      "MON",
-      "TUE",
-      "FRI"
-    ]
+    "flightDay": ["WED", "SUN", "MON", "TUE", "FRI"]
   },
   {
     "id": "84",
-    "flightName": "ZE3414",
+    "flightCode": "ZE3414",
     "departureAirport": "GMP",
     "arrivalAirport": "NRT",
     "departureTime": "18:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "FRI",
-      "TUE",
-      "THU",
-      "WED",
-      "SAT"
-    ]
+    "flightDay": ["FRI", "TUE", "THU", "WED", "SAT"]
   },
   {
     "id": "85",
-    "flightName": "ZE8309",
+    "flightCode": "ZE8309",
     "departureAirport": "GMP",
     "arrivalAirport": "SFO",
     "departureTime": "12:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "MON",
-      "WED",
-      "FRI",
-      "SAT"
-    ]
+    "flightDay": ["MON", "WED", "FRI", "SAT"]
   },
   {
     "id": "86",
-    "flightName": "ZE3719",
+    "flightCode": "ZE3719",
     "departureAirport": "CJU",
     "arrivalAirport": "PEK",
     "departureTime": "18:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "THU",
-      "WED",
-      "SAT"
-    ]
+    "flightDay": ["THU", "WED", "SAT"]
   },
   {
     "id": "87",
-    "flightName": "ZE4304",
+    "flightCode": "ZE4304",
     "departureAirport": "ICN",
     "arrivalAirport": "PEK",
     "departureTime": "18:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "WED",
-      "THU"
-    ]
+    "flightDay": ["WED", "THU"]
   },
   {
     "id": "88",
-    "flightName": "ZE3648",
+    "flightCode": "ZE3648",
     "departureAirport": "CJU",
     "arrivalAirport": "LAX",
     "departureTime": "06:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "TUE",
-      "WED",
-      "FRI",
-      "SAT",
-      "SUN"
-    ]
+    "flightDay": ["TUE", "WED", "FRI", "SAT", "SUN"]
   },
   {
     "id": "89",
-    "flightName": "ZE2415",
+    "flightCode": "ZE2415",
     "departureAirport": "CJU",
     "arrivalAirport": "LAX",
     "departureTime": "06:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "SUN",
-      "WED",
-      "SAT",
-      "FRI"
-    ]
+    "flightDay": ["SUN", "WED", "SAT", "FRI"]
   },
   {
     "id": "90",
-    "flightName": "ZE1600",
+    "flightCode": "ZE1600",
     "departureAirport": "CJU",
     "arrivalAirport": "HND",
     "departureTime": "08:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "SUN",
-      "FRI",
-      "THU",
-      "SAT"
-    ]
+    "flightDay": ["SUN", "FRI", "THU", "SAT"]
   },
   {
     "id": "91",
-    "flightName": "ZE6628",
+    "flightCode": "ZE6628",
     "departureAirport": "ICN",
     "arrivalAirport": "HND",
     "departureTime": "06:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "TUE",
-      "SAT"
-    ]
+    "flightDay": ["TUE", "SAT"]
   },
   {
     "id": "92",
-    "flightName": "ZE8197",
+    "flightCode": "ZE8197",
     "departureAirport": "GMP",
     "arrivalAirport": "LAX",
     "departureTime": "14:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "FRI",
-      "SUN"
-    ]
+    "flightDay": ["FRI", "SUN"]
   },
   {
     "id": "93",
-    "flightName": "ZE8890",
+    "flightCode": "ZE8890",
     "departureAirport": "ICN",
     "arrivalAirport": "PEK",
     "departureTime": "12:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "FRI",
-      "TUE",
-      "SAT"
-    ]
+    "flightDay": ["FRI", "TUE", "SAT"]
   },
   {
     "id": "94",
-    "flightName": "ZE8989",
+    "flightCode": "ZE8989",
     "departureAirport": "GMP",
     "arrivalAirport": "SFO",
     "departureTime": "14:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "SAT",
-      "MON",
-      "FRI",
-      "SUN"
-    ]
+    "flightDay": ["SAT", "MON", "FRI", "SUN"]
   },
   {
     "id": "95",
-    "flightName": "ZE2130",
+    "flightCode": "ZE2130",
     "departureAirport": "PUS",
     "arrivalAirport": "PEK",
     "departureTime": "18:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "SUN",
-      "THU"
-    ]
+    "flightDay": ["SUN", "THU"]
   },
   {
     "id": "96",
-    "flightName": "ZE5691",
+    "flightCode": "ZE5691",
     "departureAirport": "ICN",
     "arrivalAirport": "LAX",
     "departureTime": "08:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "SUN",
-      "SAT"
-    ]
+    "flightDay": ["SUN", "SAT"]
   },
   {
     "id": "97",
-    "flightName": "ZE7034",
+    "flightCode": "ZE7034",
     "departureAirport": "CJU",
     "arrivalAirport": "NRT",
     "departureTime": "12:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "MON",
-      "TUE",
-      "WED",
-      "SAT",
-      "FRI"
-    ]
+    "flightDay": ["MON", "TUE", "WED", "SAT", "FRI"]
   },
   {
     "id": "98",
-    "flightName": "ZE8755",
+    "flightCode": "ZE8755",
     "departureAirport": "PUS",
     "arrivalAirport": "PEK",
     "departureTime": "06:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "MON",
-      "SAT",
-      "FRI"
-    ]
+    "flightDay": ["MON", "SAT", "FRI"]
   },
   {
     "id": "99",
-    "flightName": "ZE9276",
+    "flightCode": "ZE9276",
     "departureAirport": "CJU",
     "arrivalAirport": "NRT",
     "departureTime": "08:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "SAT",
-      "FRI",
-      "SUN",
-      "WED",
-      "TUE"
-    ]
+    "flightDay": ["SAT", "FRI", "SUN", "WED", "TUE"]
   },
   {
     "id": "100",
-    "flightName": "ZE3322",
+    "flightCode": "ZE3322",
     "departureAirport": "CJU",
     "arrivalAirport": "NRT",
     "departureTime": "16:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "FRI",
-      "TUE",
-      "MON",
-      "THU",
-      "SUN"
-    ]
+    "flightDay": ["FRI", "TUE", "MON", "THU", "SUN"]
   },
   {
     "id": "101",
-    "flightName": "ZE9491",
+    "flightCode": "ZE9491",
     "departureAirport": "GMP",
     "arrivalAirport": "NRT",
     "departureTime": "16:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "MON",
-      "SAT"
-    ]
+    "flightDay": ["MON", "SAT"]
   },
   {
     "id": "102",
-    "flightName": "ZE7480",
+    "flightCode": "ZE7480",
     "departureAirport": "CJU",
     "arrivalAirport": "HND",
     "departureTime": "14:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "FRI",
-      "THU"
-    ]
+    "flightDay": ["FRI", "THU"]
   },
   {
     "id": "103",
-    "flightName": "ZE3823",
+    "flightCode": "ZE3823",
     "departureAirport": "ICN",
     "arrivalAirport": "LAX",
     "departureTime": "08:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "MON",
-      "FRI",
-      "TUE",
-      "SUN"
-    ]
+    "flightDay": ["MON", "FRI", "TUE", "SUN"]
   },
   {
     "id": "104",
-    "flightName": "ZE6386",
+    "flightCode": "ZE6386",
     "departureAirport": "CJU",
     "arrivalAirport": "PEK",
     "departureTime": "06:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "FRI",
-      "SAT",
-      "SUN",
-      "WED",
-      "TUE"
-    ]
+    "flightDay": ["FRI", "SAT", "SUN", "WED", "TUE"]
   },
   {
     "id": "105",
-    "flightName": "ZE8087",
+    "flightCode": "ZE8087",
     "departureAirport": "GMP",
     "arrivalAirport": "LAX",
     "departureTime": "12:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "WED",
-      "THU",
-      "SAT",
-      "TUE"
-    ]
+    "flightDay": ["WED", "THU", "SAT", "TUE"]
   },
   {
     "id": "106",
-    "flightName": "ZE7745",
+    "flightCode": "ZE7745",
     "departureAirport": "GMP",
     "arrivalAirport": "LAX",
     "departureTime": "18:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "THU",
-      "SAT",
-      "SUN",
-      "MON"
-    ]
+    "flightDay": ["THU", "SAT", "SUN", "MON"]
   },
   {
     "id": "107",
-    "flightName": "ZE1118",
+    "flightCode": "ZE1118",
     "departureAirport": "GMP",
     "arrivalAirport": "PEK",
     "departureTime": "10:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "MON",
-      "FRI",
-      "TUE",
-      "SAT"
-    ]
+    "flightDay": ["MON", "FRI", "TUE", "SAT"]
   },
   {
     "id": "108",
-    "flightName": "ZE2183",
+    "flightCode": "ZE2183",
     "departureAirport": "CJU",
     "arrivalAirport": "NRT",
     "departureTime": "06:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "MON",
-      "SUN"
-    ]
+    "flightDay": ["MON", "SUN"]
   },
   {
     "id": "109",
-    "flightName": "ZE6178",
+    "flightCode": "ZE6178",
     "departureAirport": "ICN",
     "arrivalAirport": "LAX",
     "departureTime": "08:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "MON",
-      "FRI",
-      "TUE"
-    ]
+    "flightDay": ["MON", "FRI", "TUE"]
   },
   {
     "id": "110",
-    "flightName": "ZE9504",
+    "flightCode": "ZE9504",
     "departureAirport": "CJU",
     "arrivalAirport": "HND",
     "departureTime": "06:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "THU",
-      "TUE"
-    ]
+    "flightDay": ["THU", "TUE"]
   },
   {
     "id": "111",
-    "flightName": "ZE7745",
+    "flightCode": "ZE7745",
     "departureAirport": "ICN",
     "arrivalAirport": "SFO",
     "departureTime": "14:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "SUN",
-      "TUE"
-    ]
+    "flightDay": ["SUN", "TUE"]
   },
   {
     "id": "112",
-    "flightName": "ZE6828",
+    "flightCode": "ZE6828",
     "departureAirport": "GMP",
     "arrivalAirport": "NRT",
     "departureTime": "14:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "TUE",
-      "WED"
-    ]
+    "flightDay": ["TUE", "WED"]
   },
   {
     "id": "113",
-    "flightName": "ZE5661",
+    "flightCode": "ZE5661",
     "departureAirport": "PUS",
     "arrivalAirport": "LAX",
     "departureTime": "12:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "FRI",
-      "MON",
-      "SAT",
-      "WED"
-    ]
+    "flightDay": ["FRI", "MON", "SAT", "WED"]
   },
   {
     "id": "114",
-    "flightName": "ZE7895",
+    "flightCode": "ZE7895",
     "departureAirport": "GMP",
     "arrivalAirport": "NRT",
     "departureTime": "10:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "WED",
-      "MON"
-    ]
+    "flightDay": ["WED", "MON"]
   },
   {
     "id": "115",
-    "flightName": "ZE6700",
+    "flightCode": "ZE6700",
     "departureAirport": "CJU",
     "arrivalAirport": "LAX",
     "departureTime": "12:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "TUE",
-      "SUN",
-      "WED"
-    ]
+    "flightDay": ["TUE", "SUN", "WED"]
   },
   {
     "id": "116",
-    "flightName": "ZE4280",
+    "flightCode": "ZE4280",
     "departureAirport": "CJU",
     "arrivalAirport": "HND",
     "departureTime": "12:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "TUE",
-      "SUN"
-    ]
+    "flightDay": ["TUE", "SUN"]
   },
   {
     "id": "117",
-    "flightName": "ZE4128",
+    "flightCode": "ZE4128",
     "departureAirport": "ICN",
     "arrivalAirport": "LAX",
     "departureTime": "12:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "FRI",
-      "SAT",
-      "MON",
-      "WED",
-      "TUE"
-    ]
+    "flightDay": ["FRI", "SAT", "MON", "WED", "TUE"]
   },
   {
     "id": "118",
-    "flightName": "ZE8333",
+    "flightCode": "ZE8333",
     "departureAirport": "PUS",
     "arrivalAirport": "PEK",
     "departureTime": "12:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "TUE",
-      "WED",
-      "FRI",
-      "THU",
-      "MON"
-    ]
+    "flightDay": ["TUE", "WED", "FRI", "THU", "MON"]
   },
   {
     "id": "119",
-    "flightName": "ZE9180",
+    "flightCode": "ZE9180",
     "departureAirport": "GMP",
     "arrivalAirport": "HND",
     "departureTime": "14:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "FRI",
-      "THU",
-      "SAT"
-    ]
+    "flightDay": ["FRI", "THU", "SAT"]
   },
   {
     "id": "120",
-    "flightName": "ZE8749",
+    "flightCode": "ZE8749",
     "departureAirport": "GMP",
     "arrivalAirport": "SFO",
     "departureTime": "06:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "TUE",
-      "SUN"
-    ]
+    "flightDay": ["TUE", "SUN"]
   },
   {
     "id": "121",
-    "flightName": "ZE7143",
+    "flightCode": "ZE7143",
     "departureAirport": "CJU",
     "arrivalAirport": "HND",
     "departureTime": "16:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "TUE",
-      "SUN",
-      "THU"
-    ]
+    "flightDay": ["TUE", "SUN", "THU"]
   },
   {
     "id": "122",
-    "flightName": "ZE4776",
+    "flightCode": "ZE4776",
     "departureAirport": "PUS",
     "arrivalAirport": "SFO",
     "departureTime": "06:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "SAT",
-      "THU",
-      "SUN"
-    ]
+    "flightDay": ["SAT", "THU", "SUN"]
   },
   {
     "id": "123",
-    "flightName": "ZE6936",
+    "flightCode": "ZE6936",
     "departureAirport": "CJU",
     "arrivalAirport": "NRT",
     "departureTime": "14:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "WED",
-      "TUE",
-      "THU",
-      "SAT",
-      "FRI"
-    ]
+    "flightDay": ["WED", "TUE", "THU", "SAT", "FRI"]
   },
   {
     "id": "124",
-    "flightName": "ZE9376",
+    "flightCode": "ZE9376",
     "departureAirport": "GMP",
     "arrivalAirport": "HND",
     "departureTime": "10:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "WED",
-      "SAT",
-      "FRI",
-      "TUE"
-    ]
+    "flightDay": ["WED", "SAT", "FRI", "TUE"]
   },
   {
     "id": "125",
-    "flightName": "ZE3761",
+    "flightCode": "ZE3761",
     "departureAirport": "ICN",
     "arrivalAirport": "NRT",
     "departureTime": "08:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "SUN",
-      "MON",
-      "WED"
-    ]
+    "flightDay": ["SUN", "MON", "WED"]
   },
   {
     "id": "126",
-    "flightName": "ZE2775",
+    "flightCode": "ZE2775",
     "departureAirport": "GMP",
     "arrivalAirport": "LAX",
     "departureTime": "14:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "TUE",
-      "FRI"
-    ]
+    "flightDay": ["TUE", "FRI"]
   },
   {
     "id": "127",
-    "flightName": "ZE8869",
+    "flightCode": "ZE8869",
     "departureAirport": "ICN",
     "arrivalAirport": "SFO",
     "departureTime": "18:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "WED",
-      "TUE"
-    ]
+    "flightDay": ["WED", "TUE"]
   },
   {
     "id": "128",
-    "flightName": "ZE1219",
+    "flightCode": "ZE1219",
     "departureAirport": "CJU",
     "arrivalAirport": "PEK",
     "departureTime": "14:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "WED",
-      "SAT",
-      "TUE"
-    ]
+    "flightDay": ["WED", "SAT", "TUE"]
   },
   {
     "id": "129",
-    "flightName": "ZE8497",
+    "flightCode": "ZE8497",
     "departureAirport": "CJU",
     "arrivalAirport": "PEK",
     "departureTime": "16:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "SUN",
-      "FRI",
-      "TUE"
-    ]
+    "flightDay": ["SUN", "FRI", "TUE"]
   },
   {
     "id": "130",
-    "flightName": "ZE8399",
+    "flightCode": "ZE8399",
     "departureAirport": "PUS",
     "arrivalAirport": "NRT",
     "departureTime": "12:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "WED",
-      "SAT",
-      "SUN"
-    ]
+    "flightDay": ["WED", "SAT", "SUN"]
   },
   {
     "id": "131",
-    "flightName": "ZE2454",
+    "flightCode": "ZE2454",
     "departureAirport": "PUS",
     "arrivalAirport": "SFO",
     "departureTime": "12:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "THU",
-      "MON",
-      "SUN",
-      "WED",
-      "SAT"
-    ]
+    "flightDay": ["THU", "MON", "SUN", "WED", "SAT"]
   },
   {
     "id": "132",
-    "flightName": "ZE6868",
+    "flightCode": "ZE6868",
     "departureAirport": "ICN",
     "arrivalAirport": "HND",
     "departureTime": "06:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "TUE",
-      "FRI",
-      "MON",
-      "SUN",
-      "THU"
-    ]
+    "flightDay": ["TUE", "FRI", "MON", "SUN", "THU"]
   },
   {
     "id": "133",
-    "flightName": "ZE3347",
+    "flightCode": "ZE3347",
     "departureAirport": "ICN",
     "arrivalAirport": "LAX",
     "departureTime": "18:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "THU",
-      "MON",
-      "SAT",
-      "FRI"
-    ]
+    "flightDay": ["THU", "MON", "SAT", "FRI"]
   },
   {
     "id": "134",
-    "flightName": "ZE5175",
+    "flightCode": "ZE5175",
     "departureAirport": "PUS",
     "arrivalAirport": "PEK",
     "departureTime": "06:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "FRI",
-      "TUE",
-      "SUN"
-    ]
+    "flightDay": ["FRI", "TUE", "SUN"]
   },
   {
     "id": "135",
-    "flightName": "ZE2625",
+    "flightCode": "ZE2625",
     "departureAirport": "ICN",
     "arrivalAirport": "LAX",
     "departureTime": "12:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "THU",
-      "SAT",
-      "WED",
-      "SUN",
-      "FRI"
-    ]
+    "flightDay": ["THU", "SAT", "WED", "SUN", "FRI"]
   },
   {
     "id": "136",
-    "flightName": "ZE5523",
+    "flightCode": "ZE5523",
     "departureAirport": "CJU",
     "arrivalAirport": "SFO",
     "departureTime": "16:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "THU",
-      "MON"
-    ]
+    "flightDay": ["THU", "MON"]
   },
   {
     "id": "137",
-    "flightName": "ZE6737",
+    "flightCode": "ZE6737",
     "departureAirport": "ICN",
     "arrivalAirport": "SFO",
     "departureTime": "12:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "WED",
-      "MON",
-      "FRI"
-    ]
+    "flightDay": ["WED", "MON", "FRI"]
   },
   {
     "id": "138",
-    "flightName": "ZE4799",
+    "flightCode": "ZE4799",
     "departureAirport": "PUS",
     "arrivalAirport": "NRT",
     "departureTime": "08:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "SUN",
-      "THU",
-      "WED",
-      "SAT"
-    ]
+    "flightDay": ["SUN", "THU", "WED", "SAT"]
   },
   {
     "id": "139",
-    "flightName": "ZE6103",
+    "flightCode": "ZE6103",
     "departureAirport": "GMP",
     "arrivalAirport": "NRT",
     "departureTime": "18:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "SAT",
-      "FRI",
-      "THU"
-    ]
+    "flightDay": ["SAT", "FRI", "THU"]
   },
   {
     "id": "140",
-    "flightName": "ZE9111",
+    "flightCode": "ZE9111",
     "departureAirport": "PUS",
     "arrivalAirport": "HND",
     "departureTime": "14:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "FRI",
-      "MON",
-      "SAT",
-      "WED",
-      "SUN"
-    ]
+    "flightDay": ["FRI", "MON", "SAT", "WED", "SUN"]
   },
   {
     "id": "141",
-    "flightName": "ZE9790",
+    "flightCode": "ZE9790",
     "departureAirport": "GMP",
     "arrivalAirport": "NRT",
     "departureTime": "06:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "SAT",
-      "SUN",
-      "WED",
-      "FRI",
-      "TUE"
-    ]
+    "flightDay": ["SAT", "SUN", "WED", "FRI", "TUE"]
   },
   {
     "id": "142",
-    "flightName": "ZE9860",
+    "flightCode": "ZE9860",
     "departureAirport": "PUS",
     "arrivalAirport": "SFO",
     "departureTime": "18:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "TUE",
-      "MON"
-    ]
+    "flightDay": ["TUE", "MON"]
   },
   {
     "id": "143",
-    "flightName": "ZE4836",
+    "flightCode": "ZE4836",
     "departureAirport": "PUS",
     "arrivalAirport": "LAX",
     "departureTime": "08:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "SAT",
-      "THU"
-    ]
+    "flightDay": ["SAT", "THU"]
   },
   {
     "id": "144",
-    "flightName": "ZE5809",
+    "flightCode": "ZE5809",
     "departureAirport": "PUS",
     "arrivalAirport": "HND",
     "departureTime": "08:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "THU",
-      "MON"
-    ]
+    "flightDay": ["THU", "MON"]
   },
   {
     "id": "145",
-    "flightName": "ZE6843",
+    "flightCode": "ZE6843",
     "departureAirport": "CJU",
     "arrivalAirport": "LAX",
     "departureTime": "18:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "TUE",
-      "THU",
-      "SUN",
-      "SAT",
-      "MON"
-    ]
+    "flightDay": ["TUE", "THU", "SUN", "SAT", "MON"]
   },
   {
     "id": "146",
-    "flightName": "ZE5711",
+    "flightCode": "ZE5711",
     "departureAirport": "ICN",
     "arrivalAirport": "SFO",
     "departureTime": "08:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "SAT",
-      "FRI",
-      "SUN",
-      "WED",
-      "MON"
-    ]
+    "flightDay": ["SAT", "FRI", "SUN", "WED", "MON"]
   },
   {
     "id": "147",
-    "flightName": "ZE3803",
+    "flightCode": "ZE3803",
     "departureAirport": "GMP",
     "arrivalAirport": "LAX",
     "departureTime": "14:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "SAT",
-      "THU"
-    ]
+    "flightDay": ["SAT", "THU"]
   },
   {
     "id": "148",
-    "flightName": "ZE6632",
+    "flightCode": "ZE6632",
     "departureAirport": "CJU",
     "arrivalAirport": "PEK",
     "departureTime": "16:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "TUE",
-      "FRI",
-      "MON",
-      "THU"
-    ]
+    "flightDay": ["TUE", "FRI", "MON", "THU"]
   },
   {
     "id": "149",
-    "flightName": "ZE7092",
+    "flightCode": "ZE7092",
     "departureAirport": "CJU",
     "arrivalAirport": "HND",
     "departureTime": "16:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "MON",
-      "SUN",
-      "WED",
-      "FRI",
-      "TUE"
-    ]
+    "flightDay": ["MON", "SUN", "WED", "FRI", "TUE"]
   },
   {
     "id": "150",
-    "flightName": "ZE5015",
+    "flightCode": "ZE5015",
     "departureAirport": "GMP",
     "arrivalAirport": "LAX",
     "departureTime": "06:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "SAT",
-      "FRI",
-      "SUN",
-      "TUE"
-    ]
+    "flightDay": ["SAT", "FRI", "SUN", "TUE"]
   },
   {
     "id": "151",
-    "flightName": "ZE1232",
+    "flightCode": "ZE1232",
     "departureAirport": "GMP",
     "arrivalAirport": "SFO",
     "departureTime": "12:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "THU",
-      "SUN"
-    ]
+    "flightDay": ["THU", "SUN"]
   },
   {
     "id": "152",
-    "flightName": "ZE8010",
+    "flightCode": "ZE8010",
     "departureAirport": "PUS",
     "arrivalAirport": "LAX",
     "departureTime": "08:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "SUN",
-      "MON",
-      "WED",
-      "FRI",
-      "SAT"
-    ]
+    "flightDay": ["SUN", "MON", "WED", "FRI", "SAT"]
   },
   {
     "id": "153",
-    "flightName": "ZE4125",
+    "flightCode": "ZE4125",
     "departureAirport": "PUS",
     "arrivalAirport": "PEK",
     "departureTime": "06:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "FRI",
-      "SAT",
-      "WED"
-    ]
+    "flightDay": ["FRI", "SAT", "WED"]
   },
   {
     "id": "154",
-    "flightName": "ZE3735",
+    "flightCode": "ZE3735",
     "departureAirport": "CJU",
     "arrivalAirport": "LAX",
     "departureTime": "10:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "TUE",
-      "WED",
-      "MON",
-      "THU"
-    ]
+    "flightDay": ["TUE", "WED", "MON", "THU"]
   },
   {
     "id": "155",
-    "flightName": "ZE7486",
+    "flightCode": "ZE7486",
     "departureAirport": "ICN",
     "arrivalAirport": "LAX",
     "departureTime": "16:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "WED",
-      "MON"
-    ]
+    "flightDay": ["WED", "MON"]
   },
   {
     "id": "156",
-    "flightName": "ZE1242",
+    "flightCode": "ZE1242",
     "departureAirport": "GMP",
     "arrivalAirport": "SFO",
     "departureTime": "16:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "TUE",
-      "MON",
-      "WED",
-      "SAT"
-    ]
+    "flightDay": ["TUE", "MON", "WED", "SAT"]
   },
   {
     "id": "157",
-    "flightName": "ZE4298",
+    "flightCode": "ZE4298",
     "departureAirport": "GMP",
     "arrivalAirport": "NRT",
     "departureTime": "14:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "TUE",
-      "SUN"
-    ]
+    "flightDay": ["TUE", "SUN"]
   },
   {
     "id": "158",
-    "flightName": "ZE1042",
+    "flightCode": "ZE1042",
     "departureAirport": "CJU",
     "arrivalAirport": "LAX",
     "departureTime": "16:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "MON",
-      "WED",
-      "FRI",
-      "SAT"
-    ]
+    "flightDay": ["MON", "WED", "FRI", "SAT"]
   },
   {
     "id": "159",
-    "flightName": "ZE7422",
+    "flightCode": "ZE7422",
     "departureAirport": "GMP",
     "arrivalAirport": "NRT",
     "departureTime": "18:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "THU",
-      "FRI",
-      "SUN"
-    ]
+    "flightDay": ["THU", "FRI", "SUN"]
   },
   {
     "id": "160",
-    "flightName": "ZE1719",
+    "flightCode": "ZE1719",
     "departureAirport": "PUS",
     "arrivalAirport": "SFO",
     "departureTime": "12:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "SUN",
-      "SAT",
-      "MON"
-    ]
+    "flightDay": ["SUN", "SAT", "MON"]
   },
   {
     "id": "161",
-    "flightName": "ZE9030",
+    "flightCode": "ZE9030",
     "departureAirport": "GMP",
     "arrivalAirport": "LAX",
     "departureTime": "06:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "THU",
-      "SAT",
-      "SUN",
-      "WED",
-      "TUE"
-    ]
+    "flightDay": ["THU", "SAT", "SUN", "WED", "TUE"]
   },
   {
     "id": "162",
-    "flightName": "ZE7999",
+    "flightCode": "ZE7999",
     "departureAirport": "CJU",
     "arrivalAirport": "NRT",
     "departureTime": "16:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "FRI",
-      "TUE",
-      "THU",
-      "SAT"
-    ]
+    "flightDay": ["FRI", "TUE", "THU", "SAT"]
   },
   {
     "id": "163",
-    "flightName": "ZE9099",
+    "flightCode": "ZE9099",
     "departureAirport": "PUS",
     "arrivalAirport": "LAX",
     "departureTime": "14:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "WED",
-      "TUE"
-    ]
+    "flightDay": ["WED", "TUE"]
   },
   {
     "id": "164",
-    "flightName": "ZE3035",
+    "flightCode": "ZE3035",
     "departureAirport": "ICN",
     "arrivalAirport": "SFO",
     "departureTime": "14:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "TUE",
-      "SAT"
-    ]
+    "flightDay": ["TUE", "SAT"]
   },
   {
     "id": "165",
-    "flightName": "ZE1434",
+    "flightCode": "ZE1434",
     "departureAirport": "PUS",
     "arrivalAirport": "LAX",
     "departureTime": "08:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "TUE",
-      "SUN"
-    ]
+    "flightDay": ["TUE", "SUN"]
   },
   {
     "id": "166",
-    "flightName": "ZE1603",
+    "flightCode": "ZE1603",
     "departureAirport": "CJU",
     "arrivalAirport": "NRT",
     "departureTime": "10:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "FRI",
-      "THU",
-      "WED",
-      "MON"
-    ]
+    "flightDay": ["FRI", "THU", "WED", "MON"]
   },
   {
     "id": "167",
-    "flightName": "ZE3359",
+    "flightCode": "ZE3359",
     "departureAirport": "CJU",
     "arrivalAirport": "PEK",
     "departureTime": "18:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "THU",
-      "FRI",
-      "MON"
-    ]
+    "flightDay": ["THU", "FRI", "MON"]
   },
   {
     "id": "168",
-    "flightName": "ZE7393",
+    "flightCode": "ZE7393",
     "departureAirport": "GMP",
     "arrivalAirport": "HND",
     "departureTime": "06:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "SUN",
-      "MON",
-      "THU"
-    ]
+    "flightDay": ["SUN", "MON", "THU"]
   },
   {
     "id": "169",
-    "flightName": "ZE9365",
+    "flightCode": "ZE9365",
     "departureAirport": "ICN",
     "arrivalAirport": "SFO",
     "departureTime": "12:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "FRI",
-      "SAT",
-      "WED",
-      "TUE"
-    ]
+    "flightDay": ["FRI", "SAT", "WED", "TUE"]
   },
   {
     "id": "170",
-    "flightName": "ZE5528",
+    "flightCode": "ZE5528",
     "departureAirport": "GMP",
     "arrivalAirport": "HND",
     "departureTime": "12:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "FRI",
-      "TUE"
-    ]
+    "flightDay": ["FRI", "TUE"]
   },
   {
     "id": "171",
-    "flightName": "ZE4243",
+    "flightCode": "ZE4243",
     "departureAirport": "ICN",
     "arrivalAirport": "PEK",
     "departureTime": "12:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "SAT",
-      "FRI",
-      "THU"
-    ]
+    "flightDay": ["SAT", "FRI", "THU"]
   },
   {
     "id": "172",
-    "flightName": "ZE5167",
+    "flightCode": "ZE5167",
     "departureAirport": "ICN",
     "arrivalAirport": "PEK",
     "departureTime": "14:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "SAT",
-      "MON",
-      "FRI"
-    ]
+    "flightDay": ["SAT", "MON", "FRI"]
   },
   {
     "id": "173",
-    "flightName": "ZE3663",
+    "flightCode": "ZE3663",
     "departureAirport": "ICN",
     "arrivalAirport": "SFO",
     "departureTime": "14:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "FRI",
-      "THU"
-    ]
+    "flightDay": ["FRI", "THU"]
   },
   {
     "id": "174",
-    "flightName": "ZE6296",
+    "flightCode": "ZE6296",
     "departureAirport": "PUS",
     "arrivalAirport": "NRT",
     "departureTime": "14:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "MON",
-      "SAT",
-      "TUE"
-    ]
+    "flightDay": ["MON", "SAT", "TUE"]
   },
   {
     "id": "175",
-    "flightName": "ZE4181",
+    "flightCode": "ZE4181",
     "departureAirport": "GMP",
     "arrivalAirport": "HND",
     "departureTime": "06:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "SAT",
-      "TUE",
-      "SUN"
-    ]
+    "flightDay": ["SAT", "TUE", "SUN"]
   },
   {
     "id": "176",
-    "flightName": "ZE4834",
+    "flightCode": "ZE4834",
     "departureAirport": "CJU",
     "arrivalAirport": "HND",
     "departureTime": "14:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "FRI",
-      "WED",
-      "SAT",
-      "THU"
-    ]
+    "flightDay": ["FRI", "WED", "SAT", "THU"]
   },
   {
     "id": "177",
-    "flightName": "ZE6041",
+    "flightCode": "ZE6041",
     "departureAirport": "CJU",
     "arrivalAirport": "SFO",
     "departureTime": "16:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "SAT",
-      "WED",
-      "SUN"
-    ]
+    "flightDay": ["SAT", "WED", "SUN"]
   },
   {
     "id": "178",
-    "flightName": "ZE8484",
+    "flightCode": "ZE8484",
     "departureAirport": "CJU",
     "arrivalAirport": "PEK",
     "departureTime": "18:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "SUN",
-      "WED",
-      "SAT",
-      "THU",
-      "MON"
-    ]
+    "flightDay": ["SUN", "WED", "SAT", "THU", "MON"]
   },
   {
     "id": "179",
-    "flightName": "ZE2742",
+    "flightCode": "ZE2742",
     "departureAirport": "GMP",
     "arrivalAirport": "SFO",
     "departureTime": "16:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "TUE",
-      "FRI",
-      "MON",
-      "WED",
-      "SUN"
-    ]
+    "flightDay": ["TUE", "FRI", "MON", "WED", "SUN"]
   },
   {
     "id": "180",
-    "flightName": "ZE5390",
+    "flightCode": "ZE5390",
     "departureAirport": "CJU",
     "arrivalAirport": "SFO",
     "departureTime": "08:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "FRI",
-      "MON",
-      "WED"
-    ]
+    "flightDay": ["FRI", "MON", "WED"]
   },
   {
     "id": "181",
-    "flightName": "ZE7344",
+    "flightCode": "ZE7344",
     "departureAirport": "CJU",
     "arrivalAirport": "LAX",
     "departureTime": "08:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "MON",
-      "THU",
-      "SUN",
-      "FRI",
-      "WED"
-    ]
+    "flightDay": ["MON", "THU", "SUN", "FRI", "WED"]
   },
   {
     "id": "182",
-    "flightName": "ZE4650",
+    "flightCode": "ZE4650",
     "departureAirport": "CJU",
     "arrivalAirport": "NRT",
     "departureTime": "14:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "MON",
-      "SAT",
-      "WED",
-      "SUN",
-      "THU"
-    ]
+    "flightDay": ["MON", "SAT", "WED", "SUN", "THU"]
   },
   {
     "id": "183",
-    "flightName": "ZE4713",
+    "flightCode": "ZE4713",
     "departureAirport": "PUS",
     "arrivalAirport": "NRT",
     "departureTime": "16:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "FRI",
-      "SAT",
-      "THU",
-      "TUE"
-    ]
+    "flightDay": ["FRI", "SAT", "THU", "TUE"]
   },
   {
     "id": "184",
-    "flightName": "ZE1689",
+    "flightCode": "ZE1689",
     "departureAirport": "CJU",
     "arrivalAirport": "HND",
     "departureTime": "08:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "FRI",
-      "MON",
-      "WED",
-      "SUN"
-    ]
+    "flightDay": ["FRI", "MON", "WED", "SUN"]
   },
   {
     "id": "185",
-    "flightName": "ZE5538",
+    "flightCode": "ZE5538",
     "departureAirport": "PUS",
     "arrivalAirport": "PEK",
     "departureTime": "10:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "WED",
-      "TUE",
-      "SUN"
-    ]
+    "flightDay": ["WED", "TUE", "SUN"]
   },
   {
     "id": "186",
-    "flightName": "ZE7027",
+    "flightCode": "ZE7027",
     "departureAirport": "CJU",
     "arrivalAirport": "NRT",
     "departureTime": "12:00",
     "arrivalTime": "10:00",
-    "flightDay": [
-      "MON",
-      "WED"
-    ]
+    "flightDay": ["MON", "WED"]
   },
   {
     "id": "187",
-    "flightName": "ZE4525",
+    "flightCode": "ZE4525",
     "departureAirport": "CJU",
     "arrivalAirport": "SFO",
     "departureTime": "10:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "SUN",
-      "SAT",
-      "FRI"
-    ]
+    "flightDay": ["SUN", "SAT", "FRI"]
   },
   {
     "id": "188",
-    "flightName": "ZE8857",
+    "flightCode": "ZE8857",
     "departureAirport": "ICN",
     "arrivalAirport": "PEK",
     "departureTime": "14:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "WED",
-      "THU",
-      "SAT",
-      "TUE",
-      "MON"
-    ]
+    "flightDay": ["WED", "THU", "SAT", "TUE", "MON"]
   },
   {
     "id": "189",
-    "flightName": "ZE7428",
+    "flightCode": "ZE7428",
     "departureAirport": "ICN",
     "arrivalAirport": "HND",
     "departureTime": "18:00",
     "arrivalTime": "14:00",
-    "flightDay": [
-      "MON",
-      "FRI"
-    ]
+    "flightDay": ["MON", "FRI"]
   },
   {
     "id": "190",
-    "flightName": "ZE1187",
+    "flightCode": "ZE1187",
     "departureAirport": "GMP",
     "arrivalAirport": "NRT",
     "departureTime": "06:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "SAT",
-      "MON",
-      "TUE",
-      "SUN"
-    ]
+    "flightDay": ["SAT", "MON", "TUE", "SUN"]
   },
   {
     "id": "191",
-    "flightName": "ZE8751",
+    "flightCode": "ZE8751",
     "departureAirport": "GMP",
     "arrivalAirport": "LAX",
     "departureTime": "12:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "TUE",
-      "SUN"
-    ]
+    "flightDay": ["TUE", "SUN"]
   },
   {
     "id": "192",
-    "flightName": "ZE2746",
+    "flightCode": "ZE2746",
     "departureAirport": "PUS",
     "arrivalAirport": "LAX",
     "departureTime": "06:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "WED",
-      "MON"
-    ]
+    "flightDay": ["WED", "MON"]
   },
   {
     "id": "193",
-    "flightName": "ZE7027",
+    "flightCode": "ZE7027",
     "departureAirport": "PUS",
     "arrivalAirport": "PEK",
     "departureTime": "10:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "SAT",
-      "FRI"
-    ]
+    "flightDay": ["SAT", "FRI"]
   },
   {
     "id": "194",
-    "flightName": "ZE4632",
+    "flightCode": "ZE4632",
     "departureAirport": "ICN",
     "arrivalAirport": "PEK",
     "departureTime": "08:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "TUE",
-      "WED",
-      "FRI",
-      "SUN",
-      "MON"
-    ]
+    "flightDay": ["TUE", "WED", "FRI", "SUN", "MON"]
   },
   {
     "id": "195",
-    "flightName": "ZE4212",
+    "flightCode": "ZE4212",
     "departureAirport": "ICN",
     "arrivalAirport": "HND",
     "departureTime": "18:00",
     "arrivalTime": "18:00",
-    "flightDay": [
-      "FRI",
-      "SAT",
-      "THU",
-      "TUE"
-    ]
+    "flightDay": ["FRI", "SAT", "THU", "TUE"]
   },
   {
     "id": "196",
-    "flightName": "ZE8141",
+    "flightCode": "ZE8141",
     "departureAirport": "CJU",
     "arrivalAirport": "PEK",
     "departureTime": "06:00",
     "arrivalTime": "12:00",
-    "flightDay": [
-      "SAT",
-      "WED",
-      "TUE",
-      "THU"
-    ]
+    "flightDay": ["SAT", "WED", "TUE", "THU"]
   },
   {
     "id": "197",
-    "flightName": "ZE5903",
+    "flightCode": "ZE5903",
     "departureAirport": "CJU",
     "arrivalAirport": "LAX",
     "departureTime": "16:00",
     "arrivalTime": "06:00",
-    "flightDay": [
-      "TUE",
-      "FRI",
-      "SAT",
-      "SUN"
-    ]
+    "flightDay": ["TUE", "FRI", "SAT", "SUN"]
   },
   {
     "id": "198",
-    "flightName": "ZE9966",
+    "flightCode": "ZE9966",
     "departureAirport": "CJU",
     "arrivalAirport": "PEK",
     "departureTime": "06:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "SAT",
-      "SUN",
-      "WED"
-    ]
+    "flightDay": ["SAT", "SUN", "WED"]
   },
   {
     "id": "199",
-    "flightName": "ZE7062",
+    "flightCode": "ZE7062",
     "departureAirport": "GMP",
     "arrivalAirport": "HND",
     "departureTime": "10:00",
     "arrivalTime": "16:00",
-    "flightDay": [
-      "SAT",
-      "THU",
-      "FRI"
-    ]
+    "flightDay": ["SAT", "THU", "FRI"]
   },
   {
     "id": "200",
-    "flightName": "ZE4094",
+    "flightCode": "ZE4094",
     "departureAirport": "GMP",
     "arrivalAirport": "SFO",
     "departureTime": "12:00",
     "arrivalTime": "08:00",
-    "flightDay": [
-      "MON",
-      "THU",
-      "SUN",
-      "WED"
-    ]
+    "flightDay": ["MON", "THU", "SUN", "WED"]
   }
 ]

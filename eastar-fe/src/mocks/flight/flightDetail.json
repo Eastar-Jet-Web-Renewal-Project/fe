@@ -1,0 +1,31 @@
+{
+  "id": 1,
+  "flightCode": "ZE9631",
+  "departAirportCode": "PUS",
+  "arrivalAirportCode": "HND",
+  "departureTime": "10:00",
+  "arrivalTime": "14:00",
+  "dayOfOperation": ["FRI", "SAT"],
+  "prices": {
+    "Y": 120000,
+    "B": 70000,
+    "H": 65000,
+    "J": 60000,
+    "K": 55000,
+    "L": 50000,
+    "M": 45000,
+    "N": 40000,
+    "O": 35000,
+    "P": 30000,
+    "Q": 25000,
+    "R": 20000,
+    "S": 15000,
+    "U": 10000,
+    "V": 5000,
+    "W": 4000,
+    "X": 3000,
+    "T": 2000,
+    "Z": 1000,
+    "I": 0
+  }
+}
