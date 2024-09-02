@@ -7,9 +7,9 @@ import {
 type FormElementProps = {
   label: string;
   children: React.ReactNode;
-  isRequired: boolean;
-  isDisabled: boolean;
-  isVertical: boolean;
+  isRequired?: boolean;
+  isDisabled?: boolean;
+  isVertical?: boolean;
 };
 
 export default function FormElement({
@@ -19,7 +19,7 @@ export default function FormElement({
   isVertical,
 }: FormElementProps) {
   return (
-    <StyledFormElement $isVertical={isVertical}>
+    <StyledFormElement $isVertical={isVertical ? true : false}>
       <StyledLabelElement>
         {label}
         {isRequired && <StyledAstrik> *</StyledAstrik>}
