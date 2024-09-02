@@ -19,7 +19,7 @@ export const StyledFormElement = styled.div<StyledFormElementProps>`
 export const StyledLabelElement = styled.label`
   min-width: 100px;
   font-size: ${getFontSize("subHeading", 4)};
-  text-align: center;
+  text-align: start;
 `;
 
 export const StyledAstrik = styled.span`
