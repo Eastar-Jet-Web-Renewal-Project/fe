@@ -8,7 +8,7 @@ import TableItem from "@commons/components/Default/Table/Tbody/TableItem";
 import Spacer from "@commons/components/Default/Spacer";
 import { flightColumn } from "@commons/constants/flight/flightTableColumn";
 import { ManageFlightLayoutContainer } from "./ManageFlightLayout.styled";
-import FlightInfoForm from "../components/FlightForm/FlightInfoForm";
+import FlightInfoForm from "../../../../@commons/components/Flight/FlightForm/FlightInfoForm";
 import { DAYS } from "@commons/constants/time/days";
 import { mapValuesToLabels } from "@commons/utilities/mapping/labelMapping";
 import Divider from "@commons/components/Default/Divider/Divider";
