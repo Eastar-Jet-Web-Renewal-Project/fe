@@ -7,7 +7,7 @@ import TableRow from "@commons/components/Default/Table/Tbody/TableRow";
 import TableItem from "@commons/components/Default/Table/Tbody/TableItem";
 import Spacer from "@commons/components/Default/Spacer";
 import { flightColumn } from "@commons/constants/flight/flightTableColumn";
-import { ManageFlightLayoutContainer } from "./ManageFlightLayout.styled";
+import { StyledManageFlightLayout } from "./ManageFlightLayout.styled";
 import FlightInfoForm from "../../../../@commons/components/Flight/FlightForm/FlightInfoForm";
 import { DAYS } from "@commons/constants/time/days";
 import { mapValuesToLabels } from "@commons/utilities/mapping/labelMapping";
@@ -16,7 +16,7 @@ import Button from "@commons/components/Default/Button/Button";
 
 export default function ManageFlightLayout() {
   return (
-    <ManageFlightLayoutContainer>
+    <StyledManageFlightLayout>
       <Typography type={"Heading"} weight={"extraBold"}>
         항공편 조회
       </Typography>
@@ -61,6 +61,6 @@ export default function ManageFlightLayout() {
           ))}
         </Tbody>
       </Table>
-    </ManageFlightLayoutContainer>
+    </StyledManageFlightLayout>
   );
 }
