@@ -11,6 +11,7 @@ import { ManageFlightLayoutContainer } from "./ManageFlightLayout.styled";
 import FlightFindForm from "../components/FlightFindForm/FlightFindForm";
 import { DAYS } from "@commons/constants/time/days";
 import { mapValuesToLabels } from "@commons/utilities/mapping/labelMapping";
+import Divider from "@commons/components/Default/Divider/Divider";
 
 export default function ManageFlightLayout() {
   return (
@@ -18,15 +19,17 @@ export default function ManageFlightLayout() {
       <Typography type={"Heading"} weight={"extraBold"}>
         항공편 조회
       </Typography>
-
-      <Spacer size={20} />
+      <Spacer size={40} />
       <FlightFindForm />
-      <Spacer size={20} />
+
+      <Spacer size={25} />
+      <Divider />
+      <Spacer size={25} />
 
       <Typography type={"Heading"} weight={"extraBold"}>
         항공편 조회 결과
       </Typography>
-      <Spacer size={20} />
+      <Spacer size={40} />
       <Table>
         <Thead columns={flightColumn} />
         <Tbody>
