@@ -23,10 +23,6 @@ export default function FlightInfoForm() {
 
   return (
     <form>
-      <Typography type={"Heading"} size={3} weight="semiBold">
-        항공편 검색
-      </Typography>
-      <Spacer size={20} />
       <FormElement label="항공편 명">
         <SingleLineInput
           placeholder="항공편 명"
@@ -85,8 +81,6 @@ export default function FlightInfoForm() {
           onCheckboxClick={setFlightDay}
         />
       </FormElement>
-      <Spacer size={20} />
-      <Button content="검색" style="Filled" />
     </form>
   );
 }

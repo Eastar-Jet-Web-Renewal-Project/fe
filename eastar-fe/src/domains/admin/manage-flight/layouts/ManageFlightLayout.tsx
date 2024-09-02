@@ -12,6 +12,7 @@ import FlightInfoForm from "../components/FlightForm/FlightInfoForm";
 import { DAYS } from "@commons/constants/time/days";
 import { mapValuesToLabels } from "@commons/utilities/mapping/labelMapping";
 import Divider from "@commons/components/Default/Divider/Divider";
+import Button from "@commons/components/Default/Button/Button";
 
 export default function ManageFlightLayout() {
   return (
@@ -20,7 +21,14 @@ export default function ManageFlightLayout() {
         항공편 조회
       </Typography>
       <Spacer size={40} />
+
+      <Typography type={"Heading"} size={3} weight="semiBold">
+        항공편 검색
+      </Typography>
+      <Spacer size={20} />
       <FlightInfoForm />
+      <Spacer size={20} />
+      <Button content="검색" style="Filled" />
 
       <Spacer size={25} />
       <Divider />
