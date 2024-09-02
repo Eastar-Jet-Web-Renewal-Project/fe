@@ -16,4 +16,10 @@ export const StyledTableRow = styled.tr<StyledTableRowProps>`
         color: ${theme.onSurfaceContainerHighest};
       }
     `}
+
+  ${({ $isClickable }) =>
+    $isClickable &&
+    css`
+      cursor: pointer;
+    `}
 `;
