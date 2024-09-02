@@ -42,6 +42,7 @@ export default function Dropdown<T>({
       }
       isOpen={isOpen}
       onToggle={handleToggle}
+      isContentFitTriggerWidth
     />
   );
 }
