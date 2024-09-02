@@ -7,7 +7,6 @@ export type TableVariant = "Filled" | "Outlined" | "Text";
 
 const TableVariantStyles: Variants<TableVariant> = {
   Filled: css`
-    padding: 32px;
     border-radius: ${border.radius.small};
     border: 1px solid ${theme.surfaceContainer};
 
