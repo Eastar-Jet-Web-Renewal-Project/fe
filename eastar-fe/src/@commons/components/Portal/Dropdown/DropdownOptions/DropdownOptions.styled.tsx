@@ -32,4 +32,9 @@ export const StyledDropdownOption = styled.div<StyledDropdownOptionProps>`
   }
   cursor: pointer;
   ${({ $variant }) => DefaultStyleFormElementStyles[$variant || "Filled"]}
+  ${({ $isHover }) =>
+    $isHover &&
+    css`
+      background-color: ${theme.onPrimary};
+    `}
 `;
