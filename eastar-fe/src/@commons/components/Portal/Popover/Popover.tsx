@@ -2,7 +2,7 @@ import { useRef } from "react";
 import Portal from "../Portal";
 import { StyledPopoverTrigger, StylePopoverContent } from "./Popover.styled";
 import { useDetectOutsideClick } from "@commons/hooks/useDetectOutsideClick";
-import { useTrackElementPosition } from "@commons/hooks/useTrackElementPosition";
+import { useTrackElementRect } from "@commons/hooks/useTrackElementRect";
 
 type TriggerProps = {
   Trigger: React.ReactNode;
@@ -10,6 +10,7 @@ type TriggerProps = {
   isOpen: boolean;
   onToggle?: (isTrigger: boolean) => void;
   doNotCloseOnOutsideClick?: boolean;
+  isContentFitTriggerWidth?: boolean;
 };
 
 export default function Popover({
@@ -18,11 +19,12 @@ export default function Popover({
   onToggle,
   isOpen,
   doNotCloseOnOutsideClick,
+  isContentFitTriggerWidth,
 }: TriggerProps) {
   const triggerRef = useRef<HTMLDivElement>(null);
   const popoverRef = useRef<HTMLDivElement>(null);
 
-  const { x, y } = useTrackElementPosition(triggerRef);
+  const { x, y, width } = useTrackElementRect(triggerRef);
 
   const handleOutsideClick = () => {
     if (doNotCloseOnOutsideClick) return;
@@ -45,6 +47,7 @@ export default function Popover({
           <StylePopoverContent
             $x={x}
             $y={y + triggerRef.current?.clientHeight!}
+            $width={isContentFitTriggerWidth ? width : undefined}
             ref={popoverRef}
           >
             {PopoverContent}

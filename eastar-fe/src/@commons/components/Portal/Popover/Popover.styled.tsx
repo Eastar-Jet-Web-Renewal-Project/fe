@@ -14,6 +14,7 @@ export const StyledPopoverTrigger = styled.div.attrs(() => ({
 type StylePopoverContentProps = {
   $x: number;
   $y: number;
+  $width?: number;
 };
 export const StylePopoverContent = styled.div.attrs<StylePopoverContentProps>(
   () => ({
@@ -26,5 +27,5 @@ export const StylePopoverContent = styled.div.attrs<StylePopoverContentProps>(
   left: ${({ $x }) => $x}px;
   z-index: ${z_index.popover};
 
-  width: 100%;
+  width: ${({ $width }) => ($width ? `${$width}px` : "100%")};
 `;
