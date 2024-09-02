@@ -8,7 +8,7 @@ import TableItem from "@commons/components/Default/Table/Tbody/TableItem";
 import Spacer from "@commons/components/Default/Spacer";
 import { flightColumn } from "@commons/constants/flight/flightTableColumn";
 import { ManageFlightLayoutContainer } from "./ManageFlightLayout.styled";
-import FlightFindForm from "../components/FlightFindForm/FlightFindForm";
+import FlightInfoForm from "../components/FlightForm/FlightInfoForm";
 import { DAYS } from "@commons/constants/time/days";
 import { mapValuesToLabels } from "@commons/utilities/mapping/labelMapping";
 import Divider from "@commons/components/Default/Divider/Divider";
@@ -20,7 +20,7 @@ export default function ManageFlightLayout() {
         항공편 조회
       </Typography>
       <Spacer size={40} />
-      <FlightFindForm />
+      <FlightInfoForm />
 
       <Spacer size={25} />
       <Divider />

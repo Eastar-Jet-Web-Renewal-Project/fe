@@ -12,7 +12,7 @@ import airports from "@mocks/airport/airports.json";
 import { DAYS } from "@commons/constants/time/days";
 import Spacer from "@commons/components/Default/Spacer";
 
-export default function FlightFindForm() {
+export default function FlightInfoForm() {
   //TODO: 추후 object로 처리
   const [flightName, setFlightName] = useState<string>("");
   const [departure, setDeparture] = useState<Option | null>(null);
