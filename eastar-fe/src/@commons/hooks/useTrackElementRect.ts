@@ -1,17 +1,22 @@
-import { Position } from "@commons/types/math";
 import { useEffect, useRef, useState } from "react";
 
-export const useTrackElementPosition = (
+export const useTrackElementRect = (
   trackElementRef: React.RefObject<HTMLElement>,
 ) => {
-  const [position, setPosition] = useState<Position>({ x: 0, y: 0 });
+  const [rect, setRect] = useState({
+    height: 0,
+    width: 0,
+    x: 0,
+    y: 0,
+  });
 
   const rafRef = useRef<number | null>(null);
 
   const getTrackElementPosition = () => {
     if (trackElementRef.current) {
-      const { x, y } = trackElementRef.current.getBoundingClientRect();
-      setPosition({ x, y });
+      const { x, y, width, height } =
+        trackElementRef.current.getBoundingClientRect();
+      setRect({ x, y, width, height });
     }
 
     rafRef.current = requestAnimationFrame(getTrackElementPosition);
@@ -26,5 +31,5 @@ export const useTrackElementPosition = (
     };
   }, []);
 
-  return position;
+  return rect;
 };
