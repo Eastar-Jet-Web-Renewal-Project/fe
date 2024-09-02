@@ -8,7 +8,7 @@ import {
 type SingleLineInputProps = {
   value: string;
   onChange: (value: string) => void;
-  disabled?: boolean;
+  isDisabled?: boolean;
   placeholder?: string;
   style?: DefaultStyleFormElementVariant;
   type?: React.HTMLInputTypeAttribute;
@@ -24,7 +24,7 @@ type SingleLineInputProps = {
  * Props:
  * - value: string - 입력 필드의 초기 값
  * - onChange: (value: string) => void - 입력 값이 변경될 때 호출되는 콜백 함수
- * - disabled?: boolean - 입력 필드를 비활성화할지 여부 (선택 사항)
+ * - isDisabled?: boolean - 입력 필드를 비활성화할지 여부 (선택 사항)
  * - placeholder?: string - 입력 필드의 플레이스홀더 텍스트 (선택 사항)
  * - style?: DefaultStyleFormElementVariant - 입력 필드의 스타일 (선택 사항)
  * - type?: React.HTMLInputTypeAttribute - 입력 필드의 타입 (예: 'text', 'password') (선택 사항)
@@ -36,7 +36,7 @@ type SingleLineInputProps = {
  *   value={inputValue}
  *   onChange={handleInputChange}
  *   placeholder="Enter text here"
- *   disabled={false}
+ *   isDisabled
  *   style={customStyle}
  *   type="text"
  *   options={{ maxLength: 50 }}
@@ -47,25 +47,25 @@ export default function SingleLineInput({
   value,
   onChange,
   style,
-  disabled,
+  isDisabled,
   placeholder,
   type,
   options,
 }: SingleLineInputProps) {
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
-    if (disabled) return;
+    if (isDisabled) return;
     onChange(e.target.value);
   };
   return (
     <DefaultStyleFormElement
       $variant={style || "Filled"}
-      $isDisabled={disabled}
+      $isDisabled={isDisabled}
     >
       <StyledSingleLineInput
         type={type || "text"}
         onChange={handleChange}
         value={value}
-        placeholder={disabled ? "입력하실 수 없습니다" : placeholder}
+        placeholder={isDisabled ? "입력하실 수 없습니다" : placeholder}
         {...options}
       />
     </DefaultStyleFormElement>

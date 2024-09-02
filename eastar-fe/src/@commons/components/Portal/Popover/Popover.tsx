@@ -11,6 +11,7 @@ type TriggerProps = {
   onToggle?: (isTrigger: boolean) => void;
   doNotCloseOnOutsideClick?: boolean;
   isContentFitTriggerWidth?: boolean;
+  isDisabled?: boolean;
 };
 
 export default function Popover({
@@ -20,6 +21,7 @@ export default function Popover({
   isOpen,
   doNotCloseOnOutsideClick,
   isContentFitTriggerWidth,
+  isDisabled,
 }: TriggerProps) {
   const triggerRef = useRef<HTMLDivElement>(null);
   const popoverRef = useRef<HTMLDivElement>(null);
@@ -42,7 +44,7 @@ export default function Popover({
       <StyledPopoverTrigger onClick={handleToggle} ref={triggerRef}>
         {Trigger}
       </StyledPopoverTrigger>
-      {isOpen && (
+      {!isDisabled && isOpen && (
         <Portal>
           <StylePopoverContent
             $x={x}

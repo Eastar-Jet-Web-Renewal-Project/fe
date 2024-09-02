@@ -12,12 +12,14 @@ type DropdownProps<T> = {
   triggerProps: DropdownTriggerProps;
   optionsProps: DropdownOptionsProps<T>;
   isCloseWhenClickOption?: boolean;
+  isDisabled?: boolean;
 };
 
 export default function Dropdown<T>({
   triggerProps,
   optionsProps,
   isCloseWhenClickOption,
+  isDisabled,
 }: DropdownProps<T>) {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -34,7 +36,7 @@ export default function Dropdown<T>({
 
   return (
     <Popover
-      Trigger={<DropdownTrigger {...triggerProps} />}
+      Trigger={<DropdownTrigger {...triggerProps} isDisabled={isDisabled} />}
       PopoverContent={
         optionsProps.options && (
           <DropdownOptions {...optionsProps} onClick={handleContentClick} />
@@ -43,6 +45,7 @@ export default function Dropdown<T>({
       isOpen={isOpen}
       onToggle={handleToggle}
       isContentFitTriggerWidth
+      isDisabled={isDisabled}
     />
   );
 }

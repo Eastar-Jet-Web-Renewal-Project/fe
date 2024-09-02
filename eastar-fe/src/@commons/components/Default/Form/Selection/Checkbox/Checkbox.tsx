@@ -10,6 +10,7 @@ type CheckboxProps = {
   selectedOptions: Option[];
   onCheckboxClick: (selectedOptions: Option[]) => void;
   variant?: DefaultStyleFormElementVariant;
+  isDisabled?: boolean;
 };
 
 export default function Checkbox({
@@ -18,8 +19,11 @@ export default function Checkbox({
   selectedOptions,
   onCheckboxClick,
   variant,
+  isDisabled,
 }: CheckboxProps) {
   const handleCheckboxClick = (option: Option) => {
+    if (isDisabled) return;
+
     const newSelectedOptions = selectedOptions.includes(option)
       ? selectedOptions.filter((selectedOption) => selectedOption !== option)
       : [...selectedOptions, option];
