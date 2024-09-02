@@ -13,7 +13,7 @@ type SingleLineInputProps = {
   style?: DefaultStyleFormElementVariant;
   type?: React.HTMLInputTypeAttribute;
   options?: Omit<
-    React.HTMLAttributes<HTMLInputElement>,
+    React.InputHTMLAttributes<HTMLInputElement>,
     "value" | "onChange" | "placeholder" | "type"
   >;
 };
