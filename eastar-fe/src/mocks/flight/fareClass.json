@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "classification": "Normal Fare",
+    "fareclass": "Y"
+  },
+  {
+    "id": 2,
+    "classification": "Discount Fare",
+    "fareclass": "B"
+  },
+  {
+    "id": 3,
+    "classification": "Discount Fare",
+    "fareclass": "H"
+  },
+  {
+    "id": 4,
+    "classification": "Discount Fare",
+    "fareclass": "J"
+  },
+  {
+    "id": 5,
+    "classification": "Discount Fare",
+    "fareclass": "K"
+  },
+  {
+    "id": 6,
+    "classification": "Discount Fare",
+    "fareclass": "L"
+  },
+  {
+    "id": 7,
+    "classification": "Discount Fare",
+    "fareclass": "M"
+  },
+  {
+    "id": 8,
+    "classification": "Discount Fare",
+    "fareclass": "N"
+  },
+  {
+    "id": 9,
+    "classification": "Discount Fare",
+    "fareclass": "O"
+  },
+  {
+    "id": 10,
+    "classification": "Discount Fare",
+    "fareclass": "P"
+  },
+  {
+    "id": 11,
+    "classification": "Discount Fare",
+    "fareclass": "Q"
+  },
+  {
+    "id": 12,
+    "classification": "Discount Fare",
+    "fareclass": "R"
+  },
+  {
+    "id": 13,
+    "classification": "Discount Fare",
+    "fareclass": "S"
+  },
+  {
+    "id": 14,
+    "classification": "Discount Fare",
+    "fareclass": "U"
+  },
+  {
+    "id": 15,
+    "classification": "Discount Fare",
+    "fareclass": "V"
+  },
+  {
+    "id": 16,
+    "classification": "Discount Fare",
+    "fareclass": "W"
+  },
+  {
+    "id": 17,
+    "classification": "Discount Fare",
+    "fareclass": "X"
+  },
+  {
+    "id": 18,
+    "classification": "Special Fare",
+    "fareclass": "T"
+  },
+  {
+    "id": 19,
+    "classification": "Special Fare",
+    "fareclass": "E"
+  },
+  {
+    "id": 20,
+    "classification": "Special Fare",
+    "fareclass": "I"
+  }
+]
