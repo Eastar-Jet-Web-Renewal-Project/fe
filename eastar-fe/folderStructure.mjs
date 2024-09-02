@@ -40,6 +40,13 @@ export const folderStructureConfig = createFolderStructure({
               { name: "Theme", children: [{ name: "*.theme.ts" }] },
             ],
           },
+          {
+            name: "mocks",
+            children: [
+              { name: "*.json" },
+              { name: "{camelCase}", children: [{ name: "*.json" }] },
+            ],
+          },
         ],
       },
     ],

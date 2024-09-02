@@ -26,7 +26,8 @@
       "@commons/*": ["src/@commons/*"],
       "@domains/*": ["src/domains/*"],
       "@assets/*": ["src/assets/*"],
-      "@styles/*": ["src/styles/*"]
+      "@styles/*": ["src/styles/*"],
+      "@mocks/*": ["src/mocks/*"]
     }
   },
   "include": ["src"]
