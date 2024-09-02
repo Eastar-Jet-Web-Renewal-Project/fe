@@ -1,11 +1,11 @@
+import Button from "@commons/components/Default/Button/Button";
+import { ButtonVariant } from "@commons/components/Default/Button/Button.styled";
+import { DefaultStyleFormElementVariant } from "@commons/components/Default/Form/DefaultFormElementStyle";
+import SingleLineInput from "@commons/components/Default/Form/Input/SingleLineInput";
+import Typography from "@commons/components/Default/Typography/Typography";
+import { TypographyType, TypographySize } from "@commons/types/font";
+import { fontSize } from "@styles/font.styles";
 import { useState } from "react";
-import Button from "../../../@commons/components/Default/Button/Button";
-import { ButtonVariant } from "../../../@commons/components/Default/Button/Button.styled";
-import SingleLineInput from "../../../@commons/components/Default/Input/SingleLineInput";
-import { SingleLineInputVariant } from "../../../@commons/components/Default/Input/SingleLineInput.styled";
-import { fontSize } from "../../../styles/font.styles";
-import { TypographySize, TypographyType } from "../../../@commons/types/font";
-import Typography from "../../../@commons/components/Default/Typography/Typography";
 
 export default function DesignComponentPage() {
   const ButtonStyles: ButtonVariant[] = [
@@ -15,11 +15,7 @@ export default function DesignComponentPage() {
     "Outlined",
     "Text",
   ];
-  const SingleLineInputStyles: SingleLineInputVariant[] = [
-    "Filled",
-    "Outlined",
-    "Text",
-  ];
+  const SingleLineInputStyles: DefaultStyleFormElementVariant[] = ["Filled"];
 
   const [value, setValue] = useState<string>("");
   const onChangeValue = (value: string) => {

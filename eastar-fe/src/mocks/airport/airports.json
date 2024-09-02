@@ -1,0 +1,12 @@
+[
+  { "label": "서울", "value": "SEL" },
+  { "label": "부산", "value": "PUS" },
+  { "label": "제주", "value": "CJU" },
+  { "label": "대구", "value": "TAE" },
+  { "label": "광주", "value": "KWJ" },
+  { "label": "청주", "value": "CJJ" },
+  { "label": "양양", "value": "YNY" },
+  { "label": "울산", "value": "USN" },
+  { "label": "포항", "value": "KPO" },
+  { "label": "사천", "value": "HIN" }
+]

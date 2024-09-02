@@ -1,3 +1,5 @@
+// @ts-check
+
 import { createFolderStructure } from "eslint-plugin-project-structure";
 
 export const folderStructureConfig = createFolderStructure({
@@ -29,25 +31,20 @@ export const folderStructureConfig = createFolderStructure({
           { name: "assets", children: [{ name: "*" }] },
           {
             name: "domains",
-            children: [
-              {
-                name: "*",
-                children: [
-                  { name: "apis", ruleId: "tsRule" },
-                  { name: "components", ruleId: "componentRule" },
-                  { name: "hooks", ruleId: "hooksRule" },
-                  { name: "layouts", ruleId: "componentRule" },
-                  { name: "pages", ruleId: "componentRule" },
-                  { name: "types", ruleId: "tsRule" },
-                ],
-              },
-            ],
+            ruleId: "domainRule",
           },
           {
             name: "styles",
             children: [
               { name: "*.styles.ts" },
               { name: "Theme", children: [{ name: "*.theme.ts" }] },
+            ],
+          },
+          {
+            name: "mocks",
+            children: [
+              { name: "*.json" },
+              { name: "{camelCase}", children: [{ name: "*.json" }] },
             ],
           },
         ],
@@ -93,6 +90,32 @@ export const folderStructureConfig = createFolderStructure({
             { name: ".gitkeep" },
             { name: "{camelCase}(.*)?.ts" },
             { name: "{camelCase}", ruleId: "tsRule" },
+          ],
+        },
+      ],
+    },
+    domainRule: {
+      children: [
+        {
+          name: "{kebab-case}",
+          children: [
+            { name: "apis", ruleId: "tsRule" },
+            { name: "components", ruleId: "componentRule" },
+            { name: "hooks", ruleId: "hooksRule" },
+            { name: "layouts", ruleId: "componentRule" },
+            { name: "pages", ruleId: "componentRule" },
+            { name: "types", ruleId: "tsRule" },
+            {
+              name: "{kebab-case}",
+              children: [
+                { name: "apis", ruleId: "tsRule" },
+                { name: "components", ruleId: "componentRule" },
+                { name: "hooks", ruleId: "hooksRule" },
+                { name: "layouts", ruleId: "componentRule" },
+                { name: "pages", ruleId: "componentRule" },
+                { name: "types", ruleId: "tsRule" },
+              ],
+            },
           ],
         },
       ],

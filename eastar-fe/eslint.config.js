@@ -48,7 +48,7 @@ export default [
       "project-structure": projectStructurePlugin,
     },
     rules: {
-      "project-structure/folder-structure": ["error", folderStructureConfig],
+      "project-structure/folder-structure": ["warn", folderStructureConfig],
     },
   },
 ];

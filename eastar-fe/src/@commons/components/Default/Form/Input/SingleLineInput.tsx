@@ -1,15 +1,17 @@
-import { ChangeEvent, InputHTMLAttributes } from "react";
-import StyledSingleLineInput, {
-  SingleLineInputVariant,
-} from "./SingleLineInput.styled";
+import { ChangeEvent } from "react";
+import StyledSingleLineInput from "./SingleLineInput.styled";
+import {
+  DefaultStyleFormElement,
+  DefaultStyleFormElementVariant,
+} from "../DefaultFormElementStyle";
 
 type SingleLineInputProps = {
   value: string;
   onChange: (value: string) => void;
-  style?: SingleLineInputVariant;
+  style?: DefaultStyleFormElementVariant;
   disabled?: boolean;
   placeholder?: string;
-  type?: InputHTMLAttributes<HTMLInputElement>["type"];
+  type?: React.HTMLInputTypeAttribute;
 };
 
 /**
@@ -36,14 +38,16 @@ export default function SingleLineInput({
     onChange(e.target.value);
   };
   return (
-    <StyledSingleLineInput
-      type={type || "text"}
-      tabIndex={disabled ? -1 : 0}
+    <DefaultStyleFormElement
       $variant={style || "Filled"}
       $isDisabled={disabled}
-      onChange={handleChange}
-      value={value}
-      placeholder={disabled ? "입력하실 수 없습니다" : placeholder}
-    />
+    >
+      <StyledSingleLineInput
+        type={type || "text"}
+        onChange={handleChange}
+        value={value}
+        placeholder={disabled ? "입력하실 수 없습니다" : placeholder}
+      />
+    </DefaultStyleFormElement>
   );
 }

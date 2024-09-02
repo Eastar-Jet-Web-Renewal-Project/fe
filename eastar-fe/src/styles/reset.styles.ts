@@ -91,10 +91,8 @@ export const resetCSS = css`
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
     text-decoration: none;
-    color: inherit;
   }
   /* HTML5 display-role reset for older browsers */
   article,
@@ -131,5 +129,8 @@ export const resetCSS = css`
   table {
     border-collapse: collapse;
     border-spacing: 0;
+  }
+  * {
+    color: inherit;
   }
 `;
