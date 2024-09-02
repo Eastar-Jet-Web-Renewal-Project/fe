@@ -36,7 +36,7 @@ export default function Checkbox({
             name={name}
             value={option.value}
             checked={selectedOptions.includes(option)}
-            onClick={() => handleCheckboxClick(option)}
+            onChange={() => handleCheckboxClick(option)}
           />
           <label htmlFor={option.label}>{option.label}</label>
         </div>
