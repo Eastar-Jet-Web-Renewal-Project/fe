@@ -49,3 +49,7 @@ export function mapValueToLabels<T>(
 ) {
   return mapValuesToLabels(labelValuePairs, [value], options)[0];
 }
+
+export function getOptionFromValue<T>(labelValuePairs: Option<T>[], value: T) {
+  return labelValuePairs.find((pair) => pair.value === value);
+}

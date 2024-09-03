@@ -1,33 +1,46 @@
-import Button from "@commons/components/Default/Button/Button";
 import FormElement from "@commons/components/Default/Form/FormElement/FormElement";
 import SingleLineInput from "@commons/components/Default/Form/Input/SingleLineInput";
 import TimePicker from "@commons/components/Default/Form/Picker/TimePicker/TimePicker";
 import Checkbox from "@commons/components/Default/Form/Selection/Checkbox/Checkbox";
-import Typography from "@commons/components/Default/Typography/Typography";
 import Dropdown from "@commons/components/Portal/Dropdown/Dropdown";
-import { Option } from "@commons/types/commons";
-import { useState } from "react";
 
-import airports from "@mocks/airport/airports.json";
 import { DAYS } from "@commons/constants/time/days";
-import Spacer from "@commons/components/Default/Spacer";
+import { Option } from "@commons/types/commons";
 
-export default function FlightInfoForm() {
-  //TODO: 추후 object로 처리
-  const [flightName, setFlightName] = useState<string>("");
-  const [departure, setDeparture] = useState<Option | null>(null);
-  const [arrival, setArrival] = useState<Option | null>(null);
-  const [departureTime, setDepartureTime] = useState<string>("");
-  const [arrivalTime, setArrivalTime] = useState<string>("");
-  const [flightDay, setFlightDay] = useState<Option[]>([]);
+export type FlightInfoFormProps = {
+  flightInfo: {
+    flightCode: string;
+    departureAirport: Option;
+    arrivalAirport: Option;
+    departureTime: string;
+    arrivalTime: string;
+    dayOfOperation: Option[];
+  };
+  onFlightInfoChange: (flightInfo: FlightInfoFormProps["flightInfo"]) => void;
+  airports: Option[];
+};
+
+export default function FlightInfoForm({
+  flightInfo,
+  onFlightInfoChange,
+  airports,
+}: FlightInfoFormProps) {
+  const handleFlightInfoChange =
+    (key: keyof FlightInfoFormProps["flightInfo"]) =>
+    (value: FlightInfoFormProps["flightInfo"][typeof key]) => {
+      onFlightInfoChange({
+        ...flightInfo,
+        [key]: value,
+      });
+    };
 
   return (
     <form>
       <FormElement label="항공편 명">
         <SingleLineInput
           placeholder="항공편 명"
-          value={flightName}
-          onChange={setFlightName}
+          value={flightInfo.flightCode}
+          onChange={handleFlightInfoChange("flightCode")}
         />
       </FormElement>
 
@@ -37,11 +50,11 @@ export default function FlightInfoForm() {
         <Dropdown
           optionsProps={{
             options: airports,
-            onClick: setDeparture,
+            onClick: handleFlightInfoChange("departureAirport"),
           }}
           triggerProps={{
             placeholder: "출발 공항",
-            content: departure?.label,
+            content: flightInfo.departureAirport.label,
           }}
           isCloseWhenClickOption
         />
@@ -51,34 +64,38 @@ export default function FlightInfoForm() {
         <Dropdown
           optionsProps={{
             options: airports,
-            onClick: setArrival,
+            onClick: handleFlightInfoChange("arrivalAirport"),
           }}
-          triggerProps={{ placeholder: "도착 공항", content: arrival?.label }}
+          triggerProps={{
+            placeholder: "도착 공항",
+            content: flightInfo.arrivalAirport.label,
+          }}
           isCloseWhenClickOption
         />
       </FormElement>
 
       {/* 해당 시간 이후 편 조회 */}
-      <FormElement
-        label="출발 시간"
-        isRequired
-        isDisabled={false}
-        isVertical={false}
-      >
-        <TimePicker value={departureTime} onChange={setDepartureTime} />
+      <FormElement label="출발 시간" isRequired>
+        <TimePicker
+          value={flightInfo.departureTime}
+          onChange={handleFlightInfoChange("departureTime")}
+        />
       </FormElement>
 
       {/* 해당 시간 이후 편 조회 */}
       <FormElement label="도착 시간">
-        <TimePicker value={arrivalTime} onChange={setArrivalTime} />
+        <TimePicker
+          value={flightInfo.arrivalTime}
+          onChange={handleFlightInfoChange("arrivalTime")}
+        />
       </FormElement>
       {/* or 검사 */}
       <FormElement label="운항 요일">
         <Checkbox
-          name={"flightDay"}
+          name={"dayOfOperation"}
           options={DAYS}
-          selectedOptions={flightDay}
-          onCheckboxClick={setFlightDay}
+          selectedOptions={flightInfo.dayOfOperation}
+          onCheckboxClick={handleFlightInfoChange("dayOfOperation")}
         />
       </FormElement>
     </form>
