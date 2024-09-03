@@ -8,7 +8,7 @@ import { Option } from "@commons/types/commons";
  * @param options - 옵션 객체 (keepOriginalIfNotFound: 라벨을 찾지 못했을 때 원래 값을 유지할지 여부)
  * @returns 라벨 배열
  */
-export function mapValuesToLabels<T>(
+export function mapValuesToLabel<T>(
   labelValuePairs: Option<T>[],
   values: T[],
   options: {
@@ -47,9 +47,19 @@ export function mapValueToLabels<T>(
     keepOriginalIfNotFound?: boolean;
   } = {},
 ) {
-  return mapValuesToLabels(labelValuePairs, [value], options)[0];
+  return mapValuesToLabel(labelValuePairs, [value], options)[0];
 }
 
-export function getOptionFromValue<T>(labelValuePairs: Option<T>[], value: T) {
-  return labelValuePairs.find((pair) => pair.value === value);
+export function mapValueToOption<T>(
+  labelValuePairs: Option<T>[],
+  value: T,
+  options: {
+    default?: boolean;
+  } = {},
+) {
+  return (
+    labelValuePairs.find((pair) => pair.value === value) ||
+    options.default ||
+    null
+  );
 }
