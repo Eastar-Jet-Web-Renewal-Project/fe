@@ -1,1802 +1,2002 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "flightCode": "ZE9631",
-    "departureAirport": "PUS",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "HND",
     "departureTime": "10:00",
     "arrivalTime": "14:00",
-    "flightDay": ["FRI", "SAT"]
+    "dayOfOperation": ["FRI", "SAT"]
   },
   {
-    "id": "2",
+    "id": 2,
     "flightCode": "ZE6843",
-    "departureAirport": "GMP",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCodeCode": "SFO",
     "departureTime": "16:00",
     "arrivalTime": "06:00",
-    "flightDay": ["TUE", "FRI", "THU", "WED"]
+    "dayOfOperation": ["TUE", "FRI", "THU", "WED"]
   },
   {
-    "id": "3",
+    "id": 3,
     "flightCode": "ZE2816",
-    "departureAirport": "PUS",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "PEK",
     "departureTime": "08:00",
     "arrivalTime": "08:00",
-    "flightDay": ["THU", "FRI", "SAT", "WED"]
+    "dayOfOperation": ["THU", "FRI", "SAT", "WED"]
   },
   {
-    "id": "4",
+    "id": 4,
     "flightCode": "ZE2681",
-    "departureAirport": "PUS",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "NRT",
     "departureTime": "12:00",
     "arrivalTime": "12:00",
-    "flightDay": ["THU", "TUE", "MON"]
+    "dayOfOperation": ["THU", "TUE", "MON"]
   },
   {
-    "id": "5",
+    "id": 5,
     "flightCode": "ZE2554",
-    "departureAirport": "PUS",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "LAX",
     "departureTime": "14:00",
     "arrivalTime": "18:00",
-    "flightDay": ["WED", "SAT", "MON", "TUE"]
+    "dayOfOperation": ["WED", "SAT", "MON", "TUE"]
   },
   {
-    "id": "6",
+    "id": 6,
     "flightCode": "ZE7653",
-    "departureAirport": "GMP",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "LAX",
     "departureTime": "06:00",
     "arrivalTime": "08:00",
-    "flightDay": ["WED", "THU", "FRI", "MON"]
+    "dayOfOperation": ["WED", "THU", "FRI", "MON"]
   },
   {
-    "id": "7",
+    "id": 7,
     "flightCode": "ZE2750",
-    "departureAirport": "CJU",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "SFO",
     "departureTime": "08:00",
     "arrivalTime": "10:00",
-    "flightDay": ["MON", "THU", "TUE", "SUN", "SAT"]
+    "dayOfOperation": ["MON", "THU", "TUE", "SUN", "SAT"]
   },
   {
-    "id": "8",
+    "id": 8,
     "flightCode": "ZE9474",
-    "departureAirport": "ICN",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "HND",
     "departureTime": "18:00",
     "arrivalTime": "12:00",
-    "flightDay": ["WED", "MON", "THU"]
+    "dayOfOperation": ["WED", "MON", "THU"]
   },
   {
-    "id": "9",
+    "id": 9,
     "flightCode": "ZE6247",
-    "departureAirport": "GMP",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "HND",
     "departureTime": "16:00",
     "arrivalTime": "14:00",
-    "flightDay": ["FRI", "SAT", "WED"]
+    "dayOfOperation": ["FRI", "SAT", "WED"]
   },
   {
-    "id": "10",
+    "id": 10,
     "flightCode": "ZE1938",
-    "departureAirport": "CJU",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "NRT",
     "departureTime": "18:00",
     "arrivalTime": "14:00",
-    "flightDay": ["SAT", "MON"]
+    "dayOfOperation": ["SAT", "MON"]
   },
   {
-    "id": "11",
+    "id": 11,
     "flightCode": "ZE3366",
-    "departureAirport": "GMP",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "NRT",
     "departureTime": "16:00",
     "arrivalTime": "18:00",
-    "flightDay": ["SUN", "WED"]
+    "dayOfOperation": ["SUN", "WED"]
   },
   {
-    "id": "12",
+    "id": 12,
     "flightCode": "ZE4530",
-    "departureAirport": "ICN",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "NRT",
     "departureTime": "06:00",
     "arrivalTime": "18:00",
-    "flightDay": ["MON", "SUN", "FRI"]
+    "dayOfOperation": ["MON", "SUN", "FRI"]
   },
   {
-    "id": "13",
+    "id": 13,
     "flightCode": "ZE8961",
-    "departureAirport": "GMP",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "SFO",
     "departureTime": "16:00",
     "arrivalTime": "10:00",
-    "flightDay": ["THU", "MON", "WED", "SUN"]
+    "dayOfOperation": ["THU", "MON", "WED", "SUN"]
   },
   {
-    "id": "14",
+    "id": 14,
     "flightCode": "ZE6871",
-    "departureAirport": "CJU",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "NRT",
     "departureTime": "06:00",
     "arrivalTime": "08:00",
-    "flightDay": ["SAT", "SUN"]
+    "dayOfOperation": ["SAT", "SUN"]
   },
   {
-    "id": "15",
+    "id": 15,
     "flightCode": "ZE8793",
-    "departureAirport": "CJU",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "LAX",
     "departureTime": "06:00",
     "arrivalTime": "06:00",
-    "flightDay": ["THU", "TUE", "MON", "SUN", "FRI"]
+    "dayOfOperation": ["THU", "TUE", "MON", "SUN", "FRI"]
   },
   {
-    "id": "16",
+    "id": 16,
     "flightCode": "ZE4476",
-    "departureAirport": "GMP",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "SFO",
     "departureTime": "06:00",
     "arrivalTime": "16:00",
-    "flightDay": ["WED", "SAT"]
+    "dayOfOperation": ["WED", "SAT"]
   },
   {
-    "id": "17",
+    "id": 17,
     "flightCode": "ZE3449",
-    "departureAirport": "GMP",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "HND",
     "departureTime": "16:00",
     "arrivalTime": "06:00",
-    "flightDay": ["WED", "MON", "FRI", "THU", "SAT"]
+    "dayOfOperation": ["WED", "MON", "FRI", "THU", "SAT"]
   },
   {
-    "id": "18",
+    "id": 18,
     "flightCode": "ZE9477",
-    "departureAirport": "CJU",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "SFO",
     "departureTime": "18:00",
     "arrivalTime": "18:00",
-    "flightDay": ["WED", "FRI"]
+    "dayOfOperation": ["WED", "FRI"]
   },
   {
-    "id": "19",
+    "id": 19,
     "flightCode": "ZE5476",
-    "departureAirport": "PUS",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "NRT",
     "departureTime": "16:00",
     "arrivalTime": "08:00",
-    "flightDay": ["FRI", "SAT", "WED"]
+    "dayOfOperation": ["FRI", "SAT", "WED"]
   },
   {
-    "id": "20",
+    "id": 20,
     "flightCode": "ZE7960",
-    "departureAirport": "PUS",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "NRT",
     "departureTime": "06:00",
     "arrivalTime": "12:00",
-    "flightDay": ["MON", "SAT", "SUN"]
+    "dayOfOperation": ["MON", "SAT", "SUN"]
   },
   {
-    "id": "21",
+    "id": 21,
     "flightCode": "ZE2457",
-    "departureAirport": "CJU",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "LAX",
     "departureTime": "12:00",
     "arrivalTime": "12:00",
-    "flightDay": ["SUN", "SAT"]
+    "dayOfOperation": ["SUN", "SAT"]
   },
   {
-    "id": "22",
+    "id": 22,
     "flightCode": "ZE4858",
-    "departureAirport": "CJU",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "PEK",
     "departureTime": "18:00",
     "arrivalTime": "08:00",
-    "flightDay": ["MON", "THU"]
+    "dayOfOperation": ["MON", "THU"]
   },
   {
-    "id": "23",
+    "id": 23,
     "flightCode": "ZE7978",
-    "departureAirport": "GMP",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "SFO",
     "departureTime": "14:00",
     "arrivalTime": "06:00",
-    "flightDay": ["SAT", "THU", "MON", "SUN"]
+    "dayOfOperation": ["SAT", "THU", "MON", "SUN"]
   },
   {
-    "id": "24",
+    "id": 24,
     "flightCode": "ZE7584",
-    "departureAirport": "ICN",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "LAX",
     "departureTime": "18:00",
     "arrivalTime": "12:00",
-    "flightDay": ["SAT", "FRI"]
+    "dayOfOperation": ["SAT", "FRI"]
   },
   {
-    "id": "25",
+    "id": 25,
     "flightCode": "ZE4589",
-    "departureAirport": "CJU",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "HND",
     "departureTime": "18:00",
     "arrivalTime": "14:00",
-    "flightDay": ["MON", "SAT", "TUE", "WED", "SUN"]
+    "dayOfOperation": ["MON", "SAT", "TUE", "WED", "SUN"]
   },
   {
-    "id": "26",
+    "id": 26,
     "flightCode": "ZE3955",
-    "departureAirport": "GMP",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "NRT",
     "departureTime": "18:00",
     "arrivalTime": "18:00",
-    "flightDay": ["SUN", "MON", "FRI"]
+    "dayOfOperation": ["SUN", "MON", "FRI"]
   },
   {
-    "id": "27",
+    "id": 27,
     "flightCode": "ZE5336",
-    "departureAirport": "ICN",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "HND",
     "departureTime": "10:00",
     "arrivalTime": "10:00",
-    "flightDay": ["MON", "SUN", "TUE"]
+    "dayOfOperation": ["MON", "SUN", "TUE"]
   },
   {
-    "id": "28",
+    "id": 28,
     "flightCode": "ZE7341",
-    "departureAirport": "CJU",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "HND",
     "departureTime": "10:00",
     "arrivalTime": "18:00",
-    "flightDay": ["SAT", "SUN", "FRI", "MON", "TUE"]
+    "dayOfOperation": ["SAT", "SUN", "FRI", "MON", "TUE"]
   },
   {
-    "id": "29",
+    "id": 29,
     "flightCode": "ZE5302",
-    "departureAirport": "CJU",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "PEK",
     "departureTime": "10:00",
     "arrivalTime": "12:00",
-    "flightDay": ["MON", "FRI", "SAT", "THU"]
+    "dayOfOperation": ["MON", "FRI", "SAT", "THU"]
   },
   {
-    "id": "30",
+    "id": 30,
     "flightCode": "ZE5567",
-    "departureAirport": "PUS",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "HND",
     "departureTime": "18:00",
     "arrivalTime": "16:00",
-    "flightDay": ["SUN", "TUE", "WED", "THU"]
+    "dayOfOperation": ["SUN", "TUE", "WED", "THU"]
   },
   {
-    "id": "31",
+    "id": 31,
     "flightCode": "ZE1740",
-    "departureAirport": "GMP",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "PEK",
     "departureTime": "16:00",
     "arrivalTime": "18:00",
-    "flightDay": ["FRI", "MON"]
+    "dayOfOperation": ["FRI", "MON"]
   },
   {
-    "id": "32",
+    "id": 32,
     "flightCode": "ZE7119",
-    "departureAirport": "CJU",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "NRT",
     "departureTime": "10:00",
     "arrivalTime": "18:00",
-    "flightDay": ["SUN", "THU", "WED", "MON"]
+    "dayOfOperation": ["SUN", "THU", "WED", "MON"]
   },
   {
-    "id": "33",
+    "id": 33,
     "flightCode": "ZE5209",
-    "departureAirport": "CJU",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "NRT",
     "departureTime": "12:00",
     "arrivalTime": "12:00",
-    "flightDay": ["THU", "MON", "TUE"]
+    "dayOfOperation": ["THU", "MON", "TUE"]
   },
   {
-    "id": "34",
+    "id": 34,
     "flightCode": "ZE2748",
-    "departureAirport": "PUS",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "HND",
     "departureTime": "06:00",
     "arrivalTime": "16:00",
-    "flightDay": ["SUN", "MON", "WED"]
+    "dayOfOperation": ["SUN", "MON", "WED"]
   },
   {
-    "id": "35",
+    "id": 35,
     "flightCode": "ZE9339",
-    "departureAirport": "PUS",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "NRT",
     "departureTime": "18:00",
     "arrivalTime": "10:00",
-    "flightDay": ["FRI", "THU"]
+    "dayOfOperation": ["FRI", "THU"]
   },
   {
-    "id": "36",
+    "id": 36,
     "flightCode": "ZE1170",
-    "departureAirport": "CJU",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "NRT",
     "departureTime": "18:00",
     "arrivalTime": "14:00",
-    "flightDay": ["MON", "SUN", "SAT", "TUE"]
+    "dayOfOperation": ["MON", "SUN", "SAT", "TUE"]
   },
   {
-    "id": "37",
+    "id": 37,
     "flightCode": "ZE1146",
-    "departureAirport": "CJU",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "HND",
     "departureTime": "08:00",
     "arrivalTime": "10:00",
-    "flightDay": ["MON", "THU", "TUE", "SUN"]
+    "dayOfOperation": ["MON", "THU", "TUE", "SUN"]
   },
   {
-    "id": "38",
+    "id": 38,
     "flightCode": "ZE7234",
-    "departureAirport": "PUS",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "HND",
     "departureTime": "18:00",
     "arrivalTime": "10:00",
-    "flightDay": ["FRI", "MON", "SAT", "WED", "SUN"]
+    "dayOfOperation": ["FRI", "MON", "SAT", "WED", "SUN"]
   },
   {
-    "id": "39",
+    "id": 39,
     "flightCode": "ZE2493",
-    "departureAirport": "CJU",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "PEK",
     "departureTime": "16:00",
     "arrivalTime": "18:00",
-    "flightDay": ["TUE", "WED", "SUN", "THU"]
+    "dayOfOperation": ["TUE", "WED", "SUN", "THU"]
   },
   {
-    "id": "40",
+    "id": 40,
     "flightCode": "ZE1615",
-    "departureAirport": "ICN",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "PEK",
     "departureTime": "06:00",
     "arrivalTime": "10:00",
-    "flightDay": ["THU", "FRI", "WED", "TUE", "SAT"]
+    "dayOfOperation": ["THU", "FRI", "WED", "TUE", "SAT"]
   },
   {
-    "id": "41",
+    "id": 41,
     "flightCode": "ZE1918",
-    "departureAirport": "GMP",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "SFO",
     "departureTime": "18:00",
     "arrivalTime": "10:00",
-    "flightDay": ["FRI", "SUN", "THU"]
+    "dayOfOperation": ["FRI", "SUN", "THU"]
   },
   {
-    "id": "42",
+    "id": 42,
     "flightCode": "ZE1133",
-    "departureAirport": "ICN",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "PEK",
     "departureTime": "08:00",
     "arrivalTime": "12:00",
-    "flightDay": ["THU", "SAT", "WED", "TUE", "MON"]
+    "dayOfOperation": ["THU", "SAT", "WED", "TUE", "MON"]
   },
   {
-    "id": "43",
+    "id": 43,
     "flightCode": "ZE8581",
-    "departureAirport": "GMP",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "SFO",
     "departureTime": "14:00",
     "arrivalTime": "06:00",
-    "flightDay": ["SAT", "MON", "FRI", "WED"]
+    "dayOfOperation": ["SAT", "MON", "FRI", "WED"]
   },
   {
-    "id": "44",
+    "id": 44,
     "flightCode": "ZE9155",
-    "departureAirport": "CJU",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "PEK",
     "departureTime": "14:00",
     "arrivalTime": "14:00",
-    "flightDay": ["TUE", "MON"]
+    "dayOfOperation": ["TUE", "MON"]
   },
   {
-    "id": "45",
+    "id": 45,
     "flightCode": "ZE4475",
-    "departureAirport": "ICN",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "SFO",
     "departureTime": "12:00",
     "arrivalTime": "06:00",
-    "flightDay": ["WED", "SUN", "FRI"]
+    "dayOfOperation": ["WED", "SUN", "FRI"]
   },
   {
-    "id": "46",
+    "id": 46,
     "flightCode": "ZE6996",
-    "departureAirport": "GMP",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "LAX",
     "departureTime": "08:00",
     "arrivalTime": "14:00",
-    "flightDay": ["SUN", "THU"]
+    "dayOfOperation": ["SUN", "THU"]
   },
   {
-    "id": "47",
+    "id": 47,
     "flightCode": "ZE6127",
-    "departureAirport": "CJU",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "LAX",
     "departureTime": "16:00",
     "arrivalTime": "18:00",
-    "flightDay": ["SUN", "FRI", "SAT"]
+    "dayOfOperation": ["SUN", "FRI", "SAT"]
   },
   {
-    "id": "48",
+    "id": 48,
     "flightCode": "ZE4289",
-    "departureAirport": "GMP",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "LAX",
     "departureTime": "08:00",
     "arrivalTime": "06:00",
-    "flightDay": ["TUE", "THU", "SAT", "SUN", "MON"]
+    "dayOfOperation": ["TUE", "THU", "SAT", "SUN", "MON"]
   },
   {
-    "id": "49",
+    "id": 49,
     "flightCode": "ZE9673",
-    "departureAirport": "GMP",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "LAX",
     "departureTime": "06:00",
     "arrivalTime": "08:00",
-    "flightDay": ["SUN", "FRI"]
+    "dayOfOperation": ["SUN", "FRI"]
   },
   {
-    "id": "50",
+    "id": 50,
     "flightCode": "ZE2940",
-    "departureAirport": "GMP",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "HND",
     "departureTime": "06:00",
     "arrivalTime": "18:00",
-    "flightDay": ["SUN", "SAT", "WED", "THU", "TUE"]
+    "dayOfOperation": ["SUN", "SAT", "WED", "THU", "TUE"]
   },
   {
-    "id": "51",
+    "id": 51,
     "flightCode": "ZE2488",
-    "departureAirport": "GMP",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "NRT",
     "departureTime": "10:00",
     "arrivalTime": "16:00",
-    "flightDay": ["TUE", "SUN", "WED", "SAT", "FRI"]
+    "dayOfOperation": ["TUE", "SUN", "WED", "SAT", "FRI"]
   },
   {
-    "id": "52",
+    "id": 52,
     "flightCode": "ZE8184",
-    "departureAirport": "ICN",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "LAX",
     "departureTime": "16:00",
     "arrivalTime": "16:00",
-    "flightDay": ["MON", "WED", "FRI"]
+    "dayOfOperation": ["MON", "WED", "FRI"]
   },
   {
-    "id": "53",
+    "id": 53,
     "flightCode": "ZE1889",
-    "departureAirport": "ICN",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "NRT",
     "departureTime": "10:00",
     "arrivalTime": "10:00",
-    "flightDay": ["SUN", "WED"]
+    "dayOfOperation": ["SUN", "WED"]
   },
   {
-    "id": "54",
+    "id": 54,
     "flightCode": "ZE5588",
-    "departureAirport": "CJU",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "LAX",
     "departureTime": "10:00",
     "arrivalTime": "18:00",
-    "flightDay": ["MON", "FRI", "WED", "SAT", "SUN"]
+    "dayOfOperation": ["MON", "FRI", "WED", "SAT", "SUN"]
   },
   {
-    "id": "55",
+    "id": 55,
     "flightCode": "ZE8979",
-    "departureAirport": "GMP",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "LAX",
     "departureTime": "16:00",
     "arrivalTime": "10:00",
-    "flightDay": ["SUN", "FRI", "THU", "MON", "TUE"]
+    "dayOfOperation": ["SUN", "FRI", "THU", "MON", "TUE"]
   },
   {
-    "id": "56",
+    "id": 56,
     "flightCode": "ZE4818",
-    "departureAirport": "ICN",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "HND",
     "departureTime": "12:00",
     "arrivalTime": "06:00",
-    "flightDay": ["TUE", "MON", "WED", "SUN", "FRI"]
+    "dayOfOperation": ["TUE", "MON", "WED", "SUN", "FRI"]
   },
   {
-    "id": "57",
+    "id": 57,
     "flightCode": "ZE6550",
-    "departureAirport": "CJU",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "NRT",
     "departureTime": "18:00",
     "arrivalTime": "08:00",
-    "flightDay": ["WED", "MON", "SUN", "TUE", "THU"]
+    "dayOfOperation": ["WED", "MON", "SUN", "TUE", "THU"]
   },
   {
-    "id": "58",
+    "id": 58,
     "flightCode": "ZE5415",
-    "departureAirport": "ICN",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "NRT",
     "departureTime": "12:00",
     "arrivalTime": "18:00",
-    "flightDay": ["SAT", "THU"]
+    "dayOfOperation": ["SAT", "THU"]
   },
   {
-    "id": "59",
+    "id": 59,
     "flightCode": "ZE7763",
-    "departureAirport": "PUS",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "LAX",
     "departureTime": "12:00",
     "arrivalTime": "12:00",
-    "flightDay": ["THU", "WED", "FRI", "TUE", "SAT"]
+    "dayOfOperation": ["THU", "WED", "FRI", "TUE", "SAT"]
   },
   {
-    "id": "60",
+    "id": 60,
     "flightCode": "ZE9410",
-    "departureAirport": "GMP",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "NRT",
     "departureTime": "16:00",
     "arrivalTime": "10:00",
-    "flightDay": ["SUN", "TUE", "WED", "MON", "FRI"]
+    "dayOfOperation": ["SUN", "TUE", "WED", "MON", "FRI"]
   },
   {
-    "id": "61",
+    "id": 61,
     "flightCode": "ZE5530",
-    "departureAirport": "ICN",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "LAX",
     "departureTime": "06:00",
     "arrivalTime": "08:00",
-    "flightDay": ["SAT", "THU", "WED", "SUN", "FRI"]
+    "dayOfOperation": ["SAT", "THU", "WED", "SUN", "FRI"]
   },
   {
-    "id": "62",
+    "id": 62,
     "flightCode": "ZE8647",
-    "departureAirport": "GMP",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "HND",
     "departureTime": "14:00",
     "arrivalTime": "16:00",
-    "flightDay": ["SUN", "TUE", "MON", "THU", "WED"]
+    "dayOfOperation": ["SUN", "TUE", "MON", "THU", "WED"]
   },
   {
-    "id": "63",
+    "id": 63,
     "flightCode": "ZE8397",
-    "departureAirport": "CJU",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "LAX",
     "departureTime": "08:00",
     "arrivalTime": "18:00",
-    "flightDay": ["TUE", "WED"]
+    "dayOfOperation": ["TUE", "WED"]
   },
   {
-    "id": "64",
+    "id": 64,
     "flightCode": "ZE5051",
-    "departureAirport": "CJU",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "SFO",
     "departureTime": "06:00",
     "arrivalTime": "16:00",
-    "flightDay": ["TUE", "THU", "MON", "FRI"]
+    "dayOfOperation": ["TUE", "THU", "MON", "FRI"]
   },
   {
-    "id": "65",
+    "id": 65,
     "flightCode": "ZE4122",
-    "departureAirport": "CJU",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "LAX",
     "departureTime": "18:00",
     "arrivalTime": "10:00",
-    "flightDay": ["SUN", "MON", "FRI"]
+    "dayOfOperation": ["SUN", "MON", "FRI"]
   },
   {
-    "id": "66",
+    "id": 66,
     "flightCode": "ZE3596",
-    "departureAirport": "PUS",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "HND",
     "departureTime": "10:00",
     "arrivalTime": "18:00",
-    "flightDay": ["TUE", "MON", "THU", "SAT"]
+    "dayOfOperation": ["TUE", "MON", "THU", "SAT"]
   },
   {
-    "id": "67",
+    "id": 67,
     "flightCode": "ZE8418",
-    "departureAirport": "PUS",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "NRT",
     "departureTime": "06:00",
     "arrivalTime": "18:00",
-    "flightDay": ["WED", "TUE"]
+    "dayOfOperation": ["WED", "TUE"]
   },
   {
-    "id": "68",
+    "id": 68,
     "flightCode": "ZE4946",
-    "departureAirport": "GMP",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "PEK",
     "departureTime": "10:00",
     "arrivalTime": "16:00",
-    "flightDay": ["TUE", "FRI"]
+    "dayOfOperation": ["TUE", "FRI"]
   },
   {
-    "id": "69",
+    "id": 69,
     "flightCode": "ZE5613",
-    "departureAirport": "CJU",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "LAX",
     "departureTime": "16:00",
     "arrivalTime": "14:00",
-    "flightDay": ["THU", "SAT", "SUN", "TUE"]
+    "dayOfOperation": ["THU", "SAT", "SUN", "TUE"]
   },
   {
-    "id": "70",
+    "id": 70,
     "flightCode": "ZE3063",
-    "departureAirport": "CJU",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "PEK",
     "departureTime": "06:00",
     "arrivalTime": "14:00",
-    "flightDay": ["MON", "SUN", "WED", "SAT", "THU"]
+    "dayOfOperation": ["MON", "SUN", "WED", "SAT", "THU"]
   },
   {
-    "id": "71",
+    "id": 71,
     "flightCode": "ZE8502",
-    "departureAirport": "PUS",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "PEK",
     "departureTime": "06:00",
     "arrivalTime": "10:00",
-    "flightDay": ["SAT", "SUN", "WED", "THU"]
+    "dayOfOperation": ["SAT", "SUN", "WED", "THU"]
   },
   {
-    "id": "72",
+    "id": 72,
     "flightCode": "ZE5517",
-    "departureAirport": "PUS",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "HND",
     "departureTime": "12:00",
     "arrivalTime": "12:00",
-    "flightDay": ["SUN", "WED"]
+    "dayOfOperation": ["SUN", "WED"]
   },
   {
-    "id": "73",
+    "id": 73,
     "flightCode": "ZE9118",
-    "departureAirport": "CJU",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "LAX",
     "departureTime": "06:00",
     "arrivalTime": "06:00",
-    "flightDay": ["FRI", "THU", "SUN", "SAT"]
+    "dayOfOperation": ["FRI", "THU", "SUN", "SAT"]
   },
   {
-    "id": "74",
+    "id": 74,
     "flightCode": "ZE8612",
-    "departureAirport": "ICN",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "SFO",
     "departureTime": "14:00",
     "arrivalTime": "08:00",
-    "flightDay": ["SAT", "FRI"]
+    "dayOfOperation": ["SAT", "FRI"]
   },
   {
-    "id": "75",
+    "id": 75,
     "flightCode": "ZE4335",
-    "departureAirport": "CJU",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "PEK",
     "departureTime": "08:00",
     "arrivalTime": "10:00",
-    "flightDay": ["SUN", "FRI"]
+    "dayOfOperation": ["SUN", "FRI"]
   },
   {
-    "id": "76",
+    "id": 76,
     "flightCode": "ZE6278",
-    "departureAirport": "CJU",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "LAX",
     "departureTime": "16:00",
     "arrivalTime": "12:00",
-    "flightDay": ["THU", "SAT"]
+    "dayOfOperation": ["THU", "SAT"]
   },
   {
-    "id": "77",
+    "id": 77,
     "flightCode": "ZE5868",
-    "departureAirport": "CJU",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "HND",
     "departureTime": "08:00",
     "arrivalTime": "14:00",
-    "flightDay": ["MON", "SAT", "FRI", "WED", "THU"]
+    "dayOfOperation": ["MON", "SAT", "FRI", "WED", "THU"]
   },
   {
-    "id": "78",
+    "id": 78,
     "flightCode": "ZE8511",
-    "departureAirport": "ICN",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "PEK",
     "departureTime": "18:00",
     "arrivalTime": "10:00",
-    "flightDay": ["WED", "FRI"]
+    "dayOfOperation": ["WED", "FRI"]
   },
   {
-    "id": "79",
+    "id": 79,
     "flightCode": "ZE2342",
-    "departureAirport": "PUS",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "HND",
     "departureTime": "16:00",
     "arrivalTime": "14:00",
-    "flightDay": ["TUE", "WED", "THU", "FRI"]
+    "dayOfOperation": ["TUE", "WED", "THU", "FRI"]
   },
   {
-    "id": "80",
+    "id": 80,
     "flightCode": "ZE4243",
-    "departureAirport": "CJU",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "HND",
     "departureTime": "08:00",
     "arrivalTime": "06:00",
-    "flightDay": ["WED", "SUN"]
+    "dayOfOperation": ["WED", "SUN"]
   },
   {
-    "id": "81",
+    "id": 81,
     "flightCode": "ZE7456",
-    "departureAirport": "PUS",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "PEK",
     "departureTime": "10:00",
     "arrivalTime": "08:00",
-    "flightDay": ["SAT", "WED", "SUN", "FRI"]
+    "dayOfOperation": ["SAT", "WED", "SUN", "FRI"]
   },
   {
-    "id": "82",
+    "id": 82,
     "flightCode": "ZE9540",
-    "departureAirport": "PUS",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "SFO",
     "departureTime": "14:00",
     "arrivalTime": "16:00",
-    "flightDay": ["WED", "THU", "MON", "FRI", "TUE"]
+    "dayOfOperation": ["WED", "THU", "MON", "FRI", "TUE"]
   },
   {
-    "id": "83",
+    "id": 83,
     "flightCode": "ZE8439",
-    "departureAirport": "GMP",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "SFO",
     "departureTime": "08:00",
     "arrivalTime": "14:00",
-    "flightDay": ["WED", "SUN", "MON", "TUE", "FRI"]
+    "dayOfOperation": ["WED", "SUN", "MON", "TUE", "FRI"]
   },
   {
-    "id": "84",
+    "id": 84,
     "flightCode": "ZE3414",
-    "departureAirport": "GMP",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "NRT",
     "departureTime": "18:00",
     "arrivalTime": "12:00",
-    "flightDay": ["FRI", "TUE", "THU", "WED", "SAT"]
+    "dayOfOperation": ["FRI", "TUE", "THU", "WED", "SAT"]
   },
   {
-    "id": "85",
+    "id": 85,
     "flightCode": "ZE8309",
-    "departureAirport": "GMP",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "SFO",
     "departureTime": "12:00",
     "arrivalTime": "14:00",
-    "flightDay": ["MON", "WED", "FRI", "SAT"]
+    "dayOfOperation": ["MON", "WED", "FRI", "SAT"]
   },
   {
-    "id": "86",
+    "id": 86,
     "flightCode": "ZE3719",
-    "departureAirport": "CJU",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "PEK",
     "departureTime": "18:00",
     "arrivalTime": "08:00",
-    "flightDay": ["THU", "WED", "SAT"]
+    "dayOfOperation": ["THU", "WED", "SAT"]
   },
   {
-    "id": "87",
+    "id": 87,
     "flightCode": "ZE4304",
-    "departureAirport": "ICN",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "PEK",
     "departureTime": "18:00",
     "arrivalTime": "14:00",
-    "flightDay": ["WED", "THU"]
+    "dayOfOperation": ["WED", "THU"]
   },
   {
-    "id": "88",
+    "id": 88,
     "flightCode": "ZE3648",
-    "departureAirport": "CJU",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "LAX",
     "departureTime": "06:00",
     "arrivalTime": "14:00",
-    "flightDay": ["TUE", "WED", "FRI", "SAT", "SUN"]
+    "dayOfOperation": ["TUE", "WED", "FRI", "SAT", "SUN"]
   },
   {
-    "id": "89",
+    "id": 89,
     "flightCode": "ZE2415",
-    "departureAirport": "CJU",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "LAX",
     "departureTime": "06:00",
     "arrivalTime": "16:00",
-    "flightDay": ["SUN", "WED", "SAT", "FRI"]
+    "dayOfOperation": ["SUN", "WED", "SAT", "FRI"]
   },
   {
-    "id": "90",
+    "id": 90,
     "flightCode": "ZE1600",
-    "departureAirport": "CJU",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "HND",
     "departureTime": "08:00",
     "arrivalTime": "06:00",
-    "flightDay": ["SUN", "FRI", "THU", "SAT"]
+    "dayOfOperation": ["SUN", "FRI", "THU", "SAT"]
   },
   {
-    "id": "91",
+    "id": 91,
     "flightCode": "ZE6628",
-    "departureAirport": "ICN",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "HND",
     "departureTime": "06:00",
     "arrivalTime": "18:00",
-    "flightDay": ["TUE", "SAT"]
+    "dayOfOperation": ["TUE", "SAT"]
   },
   {
-    "id": "92",
+    "id": 92,
     "flightCode": "ZE8197",
-    "departureAirport": "GMP",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "LAX",
     "departureTime": "14:00",
     "arrivalTime": "08:00",
-    "flightDay": ["FRI", "SUN"]
+    "dayOfOperation": ["FRI", "SUN"]
   },
   {
-    "id": "93",
+    "id": 93,
     "flightCode": "ZE8890",
-    "departureAirport": "ICN",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "PEK",
     "departureTime": "12:00",
     "arrivalTime": "16:00",
-    "flightDay": ["FRI", "TUE", "SAT"]
+    "dayOfOperation": ["FRI", "TUE", "SAT"]
   },
   {
-    "id": "94",
+    "id": 94,
     "flightCode": "ZE8989",
-    "departureAirport": "GMP",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "SFO",
     "departureTime": "14:00",
     "arrivalTime": "10:00",
-    "flightDay": ["SAT", "MON", "FRI", "SUN"]
+    "dayOfOperation": ["SAT", "MON", "FRI", "SUN"]
   },
   {
-    "id": "95",
+    "id": 95,
     "flightCode": "ZE2130",
-    "departureAirport": "PUS",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "PEK",
     "departureTime": "18:00",
     "arrivalTime": "10:00",
-    "flightDay": ["SUN", "THU"]
+    "dayOfOperation": ["SUN", "THU"]
   },
   {
-    "id": "96",
+    "id": 96,
     "flightCode": "ZE5691",
-    "departureAirport": "ICN",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "LAX",
     "departureTime": "08:00",
     "arrivalTime": "14:00",
-    "flightDay": ["SUN", "SAT"]
+    "dayOfOperation": ["SUN", "SAT"]
   },
   {
-    "id": "97",
+    "id": 97,
     "flightCode": "ZE7034",
-    "departureAirport": "CJU",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "NRT",
     "departureTime": "12:00",
     "arrivalTime": "16:00",
-    "flightDay": ["MON", "TUE", "WED", "SAT", "FRI"]
+    "dayOfOperation": ["MON", "TUE", "WED", "SAT", "FRI"]
   },
   {
-    "id": "98",
+    "id": 98,
     "flightCode": "ZE8755",
-    "departureAirport": "PUS",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "PEK",
     "departureTime": "06:00",
     "arrivalTime": "08:00",
-    "flightDay": ["MON", "SAT", "FRI"]
+    "dayOfOperation": ["MON", "SAT", "FRI"]
   },
   {
-    "id": "99",
+    "id": 99,
     "flightCode": "ZE9276",
-    "departureAirport": "CJU",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "NRT",
     "departureTime": "08:00",
     "arrivalTime": "06:00",
-    "flightDay": ["SAT", "FRI", "SUN", "WED", "TUE"]
+    "dayOfOperation": ["SAT", "FRI", "SUN", "WED", "TUE"]
   },
   {
-    "id": "100",
+    "id": 100,
     "flightCode": "ZE3322",
-    "departureAirport": "CJU",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "NRT",
     "departureTime": "16:00",
     "arrivalTime": "12:00",
-    "flightDay": ["FRI", "TUE", "MON", "THU", "SUN"]
+    "dayOfOperation": ["FRI", "TUE", "MON", "THU", "SUN"]
   },
   {
-    "id": "101",
+    "id": 101,
     "flightCode": "ZE9491",
-    "departureAirport": "GMP",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "NRT",
     "departureTime": "16:00",
     "arrivalTime": "10:00",
-    "flightDay": ["MON", "SAT"]
+    "dayOfOperation": ["MON", "SAT"]
   },
   {
-    "id": "102",
+    "id": 102,
     "flightCode": "ZE7480",
-    "departureAirport": "CJU",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "HND",
     "departureTime": "14:00",
     "arrivalTime": "18:00",
-    "flightDay": ["FRI", "THU"]
+    "dayOfOperation": ["FRI", "THU"]
   },
   {
-    "id": "103",
+    "id": 103,
     "flightCode": "ZE3823",
-    "departureAirport": "ICN",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "LAX",
     "departureTime": "08:00",
     "arrivalTime": "10:00",
-    "flightDay": ["MON", "FRI", "TUE", "SUN"]
+    "dayOfOperation": ["MON", "FRI", "TUE", "SUN"]
   },
   {
-    "id": "104",
+    "id": 104,
     "flightCode": "ZE6386",
-    "departureAirport": "CJU",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "PEK",
     "departureTime": "06:00",
     "arrivalTime": "12:00",
-    "flightDay": ["FRI", "SAT", "SUN", "WED", "TUE"]
+    "dayOfOperation": ["FRI", "SAT", "SUN", "WED", "TUE"]
   },
   {
-    "id": "105",
+    "id": 105,
     "flightCode": "ZE8087",
-    "departureAirport": "GMP",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "LAX",
     "departureTime": "12:00",
     "arrivalTime": "08:00",
-    "flightDay": ["WED", "THU", "SAT", "TUE"]
+    "dayOfOperation": ["WED", "THU", "SAT", "TUE"]
   },
   {
-    "id": "106",
+    "id": 106,
     "flightCode": "ZE7745",
-    "departureAirport": "GMP",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "LAX",
     "departureTime": "18:00",
     "arrivalTime": "14:00",
-    "flightDay": ["THU", "SAT", "SUN", "MON"]
+    "dayOfOperation": ["THU", "SAT", "SUN", "MON"]
   },
   {
-    "id": "107",
+    "id": 107,
     "flightCode": "ZE1118",
-    "departureAirport": "GMP",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "PEK",
     "departureTime": "10:00",
     "arrivalTime": "16:00",
-    "flightDay": ["MON", "FRI", "TUE", "SAT"]
+    "dayOfOperation": ["MON", "FRI", "TUE", "SAT"]
   },
   {
-    "id": "108",
+    "id": 108,
     "flightCode": "ZE2183",
-    "departureAirport": "CJU",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "NRT",
     "departureTime": "06:00",
     "arrivalTime": "18:00",
-    "flightDay": ["MON", "SUN"]
+    "dayOfOperation": ["MON", "SUN"]
   },
   {
-    "id": "109",
+    "id": 109,
     "flightCode": "ZE6178",
-    "departureAirport": "ICN",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "LAX",
     "departureTime": "08:00",
     "arrivalTime": "18:00",
-    "flightDay": ["MON", "FRI", "TUE"]
+    "dayOfOperation": ["MON", "FRI", "TUE"]
   },
   {
-    "id": "110",
+    "id": 110,
     "flightCode": "ZE9504",
-    "departureAirport": "CJU",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "HND",
     "departureTime": "06:00",
     "arrivalTime": "12:00",
-    "flightDay": ["THU", "TUE"]
+    "dayOfOperation": ["THU", "TUE"]
   },
   {
-    "id": "111",
+    "id": 111,
     "flightCode": "ZE7745",
-    "departureAirport": "ICN",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "SFO",
     "departureTime": "14:00",
     "arrivalTime": "08:00",
-    "flightDay": ["SUN", "TUE"]
+    "dayOfOperation": ["SUN", "TUE"]
   },
   {
-    "id": "112",
+    "id": 112,
     "flightCode": "ZE6828",
-    "departureAirport": "GMP",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "NRT",
     "departureTime": "14:00",
     "arrivalTime": "08:00",
-    "flightDay": ["TUE", "WED"]
+    "dayOfOperation": ["TUE", "WED"]
   },
   {
-    "id": "113",
+    "id": 113,
     "flightCode": "ZE5661",
-    "departureAirport": "PUS",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "LAX",
     "departureTime": "12:00",
     "arrivalTime": "12:00",
-    "flightDay": ["FRI", "MON", "SAT", "WED"]
+    "dayOfOperation": ["FRI", "MON", "SAT", "WED"]
   },
   {
-    "id": "114",
+    "id": 114,
     "flightCode": "ZE7895",
-    "departureAirport": "GMP",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "NRT",
     "departureTime": "10:00",
     "arrivalTime": "18:00",
-    "flightDay": ["WED", "MON"]
+    "dayOfOperation": ["WED", "MON"]
   },
   {
-    "id": "115",
+    "id": 115,
     "flightCode": "ZE6700",
-    "departureAirport": "CJU",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "LAX",
     "departureTime": "12:00",
     "arrivalTime": "18:00",
-    "flightDay": ["TUE", "SUN", "WED"]
+    "dayOfOperation": ["TUE", "SUN", "WED"]
   },
   {
-    "id": "116",
+    "id": 116,
     "flightCode": "ZE4280",
-    "departureAirport": "CJU",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "HND",
     "departureTime": "12:00",
     "arrivalTime": "14:00",
-    "flightDay": ["TUE", "SUN"]
+    "dayOfOperation": ["TUE", "SUN"]
   },
   {
-    "id": "117",
+    "id": 117,
     "flightCode": "ZE4128",
-    "departureAirport": "ICN",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "LAX",
     "departureTime": "12:00",
     "arrivalTime": "10:00",
-    "flightDay": ["FRI", "SAT", "MON", "WED", "TUE"]
+    "dayOfOperation": ["FRI", "SAT", "MON", "WED", "TUE"]
   },
   {
-    "id": "118",
+    "id": 118,
     "flightCode": "ZE8333",
-    "departureAirport": "PUS",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "PEK",
     "departureTime": "12:00",
     "arrivalTime": "18:00",
-    "flightDay": ["TUE", "WED", "FRI", "THU", "MON"]
+    "dayOfOperation": ["TUE", "WED", "FRI", "THU", "MON"]
   },
   {
-    "id": "119",
+    "id": 119,
     "flightCode": "ZE9180",
-    "departureAirport": "GMP",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "HND",
     "departureTime": "14:00",
     "arrivalTime": "06:00",
-    "flightDay": ["FRI", "THU", "SAT"]
+    "dayOfOperation": ["FRI", "THU", "SAT"]
   },
   {
-    "id": "120",
+    "id": 120,
     "flightCode": "ZE8749",
-    "departureAirport": "GMP",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "SFO",
     "departureTime": "06:00",
     "arrivalTime": "06:00",
-    "flightDay": ["TUE", "SUN"]
+    "dayOfOperation": ["TUE", "SUN"]
   },
   {
-    "id": "121",
+    "id": 121,
     "flightCode": "ZE7143",
-    "departureAirport": "CJU",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "HND",
     "departureTime": "16:00",
     "arrivalTime": "08:00",
-    "flightDay": ["TUE", "SUN", "THU"]
+    "dayOfOperation": ["TUE", "SUN", "THU"]
   },
   {
-    "id": "122",
+    "id": 122,
     "flightCode": "ZE4776",
-    "departureAirport": "PUS",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "SFO",
     "departureTime": "06:00",
     "arrivalTime": "16:00",
-    "flightDay": ["SAT", "THU", "SUN"]
+    "dayOfOperation": ["SAT", "THU", "SUN"]
   },
   {
-    "id": "123",
+    "id": 123,
     "flightCode": "ZE6936",
-    "departureAirport": "CJU",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "NRT",
     "departureTime": "14:00",
     "arrivalTime": "06:00",
-    "flightDay": ["WED", "TUE", "THU", "SAT", "FRI"]
+    "dayOfOperation": ["WED", "TUE", "THU", "SAT", "FRI"]
   },
   {
-    "id": "124",
+    "id": 124,
     "flightCode": "ZE9376",
-    "departureAirport": "GMP",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "HND",
     "departureTime": "10:00",
     "arrivalTime": "16:00",
-    "flightDay": ["WED", "SAT", "FRI", "TUE"]
+    "dayOfOperation": ["WED", "SAT", "FRI", "TUE"]
   },
   {
-    "id": "125",
+    "id": 125,
     "flightCode": "ZE3761",
-    "departureAirport": "ICN",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "NRT",
     "departureTime": "08:00",
     "arrivalTime": "16:00",
-    "flightDay": ["SUN", "MON", "WED"]
+    "dayOfOperation": ["SUN", "MON", "WED"]
   },
   {
-    "id": "126",
+    "id": 126,
     "flightCode": "ZE2775",
-    "departureAirport": "GMP",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "LAX",
     "departureTime": "14:00",
     "arrivalTime": "08:00",
-    "flightDay": ["TUE", "FRI"]
+    "dayOfOperation": ["TUE", "FRI"]
   },
   {
-    "id": "127",
+    "id": 127,
     "flightCode": "ZE8869",
-    "departureAirport": "ICN",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "SFO",
     "departureTime": "18:00",
     "arrivalTime": "12:00",
-    "flightDay": ["WED", "TUE"]
+    "dayOfOperation": ["WED", "TUE"]
   },
   {
-    "id": "128",
+    "id": 128,
     "flightCode": "ZE1219",
-    "departureAirport": "CJU",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "PEK",
     "departureTime": "14:00",
     "arrivalTime": "10:00",
-    "flightDay": ["WED", "SAT", "TUE"]
+    "dayOfOperation": ["WED", "SAT", "TUE"]
   },
   {
-    "id": "129",
+    "id": 129,
     "flightCode": "ZE8497",
-    "departureAirport": "CJU",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "PEK",
     "departureTime": "16:00",
     "arrivalTime": "10:00",
-    "flightDay": ["SUN", "FRI", "TUE"]
+    "dayOfOperation": ["SUN", "FRI", "TUE"]
   },
   {
-    "id": "130",
+    "id": 130,
     "flightCode": "ZE8399",
-    "departureAirport": "PUS",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "NRT",
     "departureTime": "12:00",
     "arrivalTime": "06:00",
-    "flightDay": ["WED", "SAT", "SUN"]
+    "dayOfOperation": ["WED", "SAT", "SUN"]
   },
   {
-    "id": "131",
+    "id": 131,
     "flightCode": "ZE2454",
-    "departureAirport": "PUS",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "SFO",
     "departureTime": "12:00",
     "arrivalTime": "16:00",
-    "flightDay": ["THU", "MON", "SUN", "WED", "SAT"]
+    "dayOfOperation": ["THU", "MON", "SUN", "WED", "SAT"]
   },
   {
-    "id": "132",
+    "id": 132,
     "flightCode": "ZE6868",
-    "departureAirport": "ICN",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "HND",
     "departureTime": "06:00",
     "arrivalTime": "14:00",
-    "flightDay": ["TUE", "FRI", "MON", "SUN", "THU"]
+    "dayOfOperation": ["TUE", "FRI", "MON", "SUN", "THU"]
   },
   {
-    "id": "133",
+    "id": 133,
     "flightCode": "ZE3347",
-    "departureAirport": "ICN",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "LAX",
     "departureTime": "18:00",
     "arrivalTime": "14:00",
-    "flightDay": ["THU", "MON", "SAT", "FRI"]
+    "dayOfOperation": ["THU", "MON", "SAT", "FRI"]
   },
   {
-    "id": "134",
+    "id": 134,
     "flightCode": "ZE5175",
-    "departureAirport": "PUS",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "PEK",
     "departureTime": "06:00",
     "arrivalTime": "14:00",
-    "flightDay": ["FRI", "TUE", "SUN"]
+    "dayOfOperation": ["FRI", "TUE", "SUN"]
   },
   {
-    "id": "135",
+    "id": 135,
     "flightCode": "ZE2625",
-    "departureAirport": "ICN",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "LAX",
     "departureTime": "12:00",
     "arrivalTime": "14:00",
-    "flightDay": ["THU", "SAT", "WED", "SUN", "FRI"]
+    "dayOfOperation": ["THU", "SAT", "WED", "SUN", "FRI"]
   },
   {
-    "id": "136",
+    "id": 136,
     "flightCode": "ZE5523",
-    "departureAirport": "CJU",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "SFO",
     "departureTime": "16:00",
     "arrivalTime": "08:00",
-    "flightDay": ["THU", "MON"]
+    "dayOfOperation": ["THU", "MON"]
   },
   {
-    "id": "137",
+    "id": 137,
     "flightCode": "ZE6737",
-    "departureAirport": "ICN",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "SFO",
     "departureTime": "12:00",
     "arrivalTime": "10:00",
-    "flightDay": ["WED", "MON", "FRI"]
+    "dayOfOperation": ["WED", "MON", "FRI"]
   },
   {
-    "id": "138",
+    "id": 138,
     "flightCode": "ZE4799",
-    "departureAirport": "PUS",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "NRT",
     "departureTime": "08:00",
     "arrivalTime": "06:00",
-    "flightDay": ["SUN", "THU", "WED", "SAT"]
+    "dayOfOperation": ["SUN", "THU", "WED", "SAT"]
   },
   {
-    "id": "139",
+    "id": 139,
     "flightCode": "ZE6103",
-    "departureAirport": "GMP",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "NRT",
     "departureTime": "18:00",
     "arrivalTime": "08:00",
-    "flightDay": ["SAT", "FRI", "THU"]
+    "dayOfOperation": ["SAT", "FRI", "THU"]
   },
   {
-    "id": "140",
+    "id": 140,
     "flightCode": "ZE9111",
-    "departureAirport": "PUS",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "HND",
     "departureTime": "14:00",
     "arrivalTime": "06:00",
-    "flightDay": ["FRI", "MON", "SAT", "WED", "SUN"]
+    "dayOfOperation": ["FRI", "MON", "SAT", "WED", "SUN"]
   },
   {
-    "id": "141",
+    "id": 141,
     "flightCode": "ZE9790",
-    "departureAirport": "GMP",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "NRT",
     "departureTime": "06:00",
     "arrivalTime": "06:00",
-    "flightDay": ["SAT", "SUN", "WED", "FRI", "TUE"]
+    "dayOfOperation": ["SAT", "SUN", "WED", "FRI", "TUE"]
   },
   {
-    "id": "142",
+    "id": 142,
     "flightCode": "ZE9860",
-    "departureAirport": "PUS",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "SFO",
     "departureTime": "18:00",
     "arrivalTime": "18:00",
-    "flightDay": ["TUE", "MON"]
+    "dayOfOperation": ["TUE", "MON"]
   },
   {
-    "id": "143",
+    "id": 143,
     "flightCode": "ZE4836",
-    "departureAirport": "PUS",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "LAX",
     "departureTime": "08:00",
     "arrivalTime": "12:00",
-    "flightDay": ["SAT", "THU"]
+    "dayOfOperation": ["SAT", "THU"]
   },
   {
-    "id": "144",
+    "id": 144,
     "flightCode": "ZE5809",
-    "departureAirport": "PUS",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "HND",
     "departureTime": "08:00",
     "arrivalTime": "18:00",
-    "flightDay": ["THU", "MON"]
+    "dayOfOperation": ["THU", "MON"]
   },
   {
-    "id": "145",
+    "id": 145,
     "flightCode": "ZE6843",
-    "departureAirport": "CJU",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "LAX",
     "departureTime": "18:00",
     "arrivalTime": "06:00",
-    "flightDay": ["TUE", "THU", "SUN", "SAT", "MON"]
+    "dayOfOperation": ["TUE", "THU", "SUN", "SAT", "MON"]
   },
   {
-    "id": "146",
+    "id": 146,
     "flightCode": "ZE5711",
-    "departureAirport": "ICN",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "SFO",
     "departureTime": "08:00",
     "arrivalTime": "16:00",
-    "flightDay": ["SAT", "FRI", "SUN", "WED", "MON"]
+    "dayOfOperation": ["SAT", "FRI", "SUN", "WED", "MON"]
   },
   {
-    "id": "147",
+    "id": 147,
     "flightCode": "ZE3803",
-    "departureAirport": "GMP",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "LAX",
     "departureTime": "14:00",
     "arrivalTime": "06:00",
-    "flightDay": ["SAT", "THU"]
+    "dayOfOperation": ["SAT", "THU"]
   },
   {
-    "id": "148",
+    "id": 148,
     "flightCode": "ZE6632",
-    "departureAirport": "CJU",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "PEK",
     "departureTime": "16:00",
     "arrivalTime": "08:00",
-    "flightDay": ["TUE", "FRI", "MON", "THU"]
+    "dayOfOperation": ["TUE", "FRI", "MON", "THU"]
   },
   {
-    "id": "149",
+    "id": 149,
     "flightCode": "ZE7092",
-    "departureAirport": "CJU",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "HND",
     "departureTime": "16:00",
     "arrivalTime": "06:00",
-    "flightDay": ["MON", "SUN", "WED", "FRI", "TUE"]
+    "dayOfOperation": ["MON", "SUN", "WED", "FRI", "TUE"]
   },
   {
-    "id": "150",
+    "id": 150,
     "flightCode": "ZE5015",
-    "departureAirport": "GMP",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "LAX",
     "departureTime": "06:00",
     "arrivalTime": "18:00",
-    "flightDay": ["SAT", "FRI", "SUN", "TUE"]
+    "dayOfOperation": ["SAT", "FRI", "SUN", "TUE"]
   },
   {
-    "id": "151",
+    "id": 151,
     "flightCode": "ZE1232",
-    "departureAirport": "GMP",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "SFO",
     "departureTime": "12:00",
     "arrivalTime": "10:00",
-    "flightDay": ["THU", "SUN"]
+    "dayOfOperation": ["THU", "SUN"]
   },
   {
-    "id": "152",
+    "id": 152,
     "flightCode": "ZE8010",
-    "departureAirport": "PUS",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "LAX",
     "departureTime": "08:00",
     "arrivalTime": "14:00",
-    "flightDay": ["SUN", "MON", "WED", "FRI", "SAT"]
+    "dayOfOperation": ["SUN", "MON", "WED", "FRI", "SAT"]
   },
   {
-    "id": "153",
+    "id": 153,
     "flightCode": "ZE4125",
-    "departureAirport": "PUS",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "PEK",
     "departureTime": "06:00",
     "arrivalTime": "06:00",
-    "flightDay": ["FRI", "SAT", "WED"]
+    "dayOfOperation": ["FRI", "SAT", "WED"]
   },
   {
-    "id": "154",
+    "id": 154,
     "flightCode": "ZE3735",
-    "departureAirport": "CJU",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "LAX",
     "departureTime": "10:00",
     "arrivalTime": "14:00",
-    "flightDay": ["TUE", "WED", "MON", "THU"]
+    "dayOfOperation": ["TUE", "WED", "MON", "THU"]
   },
   {
-    "id": "155",
+    "id": 155,
     "flightCode": "ZE7486",
-    "departureAirport": "ICN",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "LAX",
     "departureTime": "16:00",
     "arrivalTime": "18:00",
-    "flightDay": ["WED", "MON"]
+    "dayOfOperation": ["WED", "MON"]
   },
   {
-    "id": "156",
+    "id": 156,
     "flightCode": "ZE1242",
-    "departureAirport": "GMP",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "SFO",
     "departureTime": "16:00",
     "arrivalTime": "16:00",
-    "flightDay": ["TUE", "MON", "WED", "SAT"]
+    "dayOfOperation": ["TUE", "MON", "WED", "SAT"]
   },
   {
-    "id": "157",
+    "id": 157,
     "flightCode": "ZE4298",
-    "departureAirport": "GMP",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "NRT",
     "departureTime": "14:00",
     "arrivalTime": "10:00",
-    "flightDay": ["TUE", "SUN"]
+    "dayOfOperation": ["TUE", "SUN"]
   },
   {
-    "id": "158",
+    "id": 158,
     "flightCode": "ZE1042",
-    "departureAirport": "CJU",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "LAX",
     "departureTime": "16:00",
     "arrivalTime": "14:00",
-    "flightDay": ["MON", "WED", "FRI", "SAT"]
+    "dayOfOperation": ["MON", "WED", "FRI", "SAT"]
   },
   {
-    "id": "159",
+    "id": 159,
     "flightCode": "ZE7422",
-    "departureAirport": "GMP",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "NRT",
     "departureTime": "18:00",
     "arrivalTime": "12:00",
-    "flightDay": ["THU", "FRI", "SUN"]
+    "dayOfOperation": ["THU", "FRI", "SUN"]
   },
   {
-    "id": "160",
+    "id": 160,
     "flightCode": "ZE1719",
-    "departureAirport": "PUS",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "SFO",
     "departureTime": "12:00",
     "arrivalTime": "14:00",
-    "flightDay": ["SUN", "SAT", "MON"]
+    "dayOfOperation": ["SUN", "SAT", "MON"]
   },
   {
-    "id": "161",
+    "id": 161,
     "flightCode": "ZE9030",
-    "departureAirport": "GMP",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "LAX",
     "departureTime": "06:00",
     "arrivalTime": "14:00",
-    "flightDay": ["THU", "SAT", "SUN", "WED", "TUE"]
+    "dayOfOperation": ["THU", "SAT", "SUN", "WED", "TUE"]
   },
   {
-    "id": "162",
+    "id": 162,
     "flightCode": "ZE7999",
-    "departureAirport": "CJU",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "NRT",
     "departureTime": "16:00",
     "arrivalTime": "08:00",
-    "flightDay": ["FRI", "TUE", "THU", "SAT"]
+    "dayOfOperation": ["FRI", "TUE", "THU", "SAT"]
   },
   {
-    "id": "163",
+    "id": 163,
     "flightCode": "ZE9099",
-    "departureAirport": "PUS",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "LAX",
     "departureTime": "14:00",
     "arrivalTime": "18:00",
-    "flightDay": ["WED", "TUE"]
+    "dayOfOperation": ["WED", "TUE"]
   },
   {
-    "id": "164",
+    "id": 164,
     "flightCode": "ZE3035",
-    "departureAirport": "ICN",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "SFO",
     "departureTime": "14:00",
     "arrivalTime": "10:00",
-    "flightDay": ["TUE", "SAT"]
+    "dayOfOperation": ["TUE", "SAT"]
   },
   {
-    "id": "165",
+    "id": 165,
     "flightCode": "ZE1434",
-    "departureAirport": "PUS",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "LAX",
     "departureTime": "08:00",
     "arrivalTime": "08:00",
-    "flightDay": ["TUE", "SUN"]
+    "dayOfOperation": ["TUE", "SUN"]
   },
   {
-    "id": "166",
+    "id": 166,
     "flightCode": "ZE1603",
-    "departureAirport": "CJU",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "NRT",
     "departureTime": "10:00",
     "arrivalTime": "12:00",
-    "flightDay": ["FRI", "THU", "WED", "MON"]
+    "dayOfOperation": ["FRI", "THU", "WED", "MON"]
   },
   {
-    "id": "167",
+    "id": 167,
     "flightCode": "ZE3359",
-    "departureAirport": "CJU",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "PEK",
     "departureTime": "18:00",
     "arrivalTime": "18:00",
-    "flightDay": ["THU", "FRI", "MON"]
+    "dayOfOperation": ["THU", "FRI", "MON"]
   },
   {
-    "id": "168",
+    "id": 168,
     "flightCode": "ZE7393",
-    "departureAirport": "GMP",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "HND",
     "departureTime": "06:00",
     "arrivalTime": "14:00",
-    "flightDay": ["SUN", "MON", "THU"]
+    "dayOfOperation": ["SUN", "MON", "THU"]
   },
   {
-    "id": "169",
+    "id": 169,
     "flightCode": "ZE9365",
-    "departureAirport": "ICN",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "SFO",
     "departureTime": "12:00",
     "arrivalTime": "08:00",
-    "flightDay": ["FRI", "SAT", "WED", "TUE"]
+    "dayOfOperation": ["FRI", "SAT", "WED", "TUE"]
   },
   {
-    "id": "170",
+    "id": 170,
     "flightCode": "ZE5528",
-    "departureAirport": "GMP",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "HND",
     "departureTime": "12:00",
     "arrivalTime": "12:00",
-    "flightDay": ["FRI", "TUE"]
+    "dayOfOperation": ["FRI", "TUE"]
   },
   {
-    "id": "171",
+    "id": 171,
     "flightCode": "ZE4243",
-    "departureAirport": "ICN",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "PEK",
     "departureTime": "12:00",
     "arrivalTime": "12:00",
-    "flightDay": ["SAT", "FRI", "THU"]
+    "dayOfOperation": ["SAT", "FRI", "THU"]
   },
   {
-    "id": "172",
+    "id": 172,
     "flightCode": "ZE5167",
-    "departureAirport": "ICN",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "PEK",
     "departureTime": "14:00",
     "arrivalTime": "10:00",
-    "flightDay": ["SAT", "MON", "FRI"]
+    "dayOfOperation": ["SAT", "MON", "FRI"]
   },
   {
-    "id": "173",
+    "id": 173,
     "flightCode": "ZE3663",
-    "departureAirport": "ICN",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "SFO",
     "departureTime": "14:00",
     "arrivalTime": "10:00",
-    "flightDay": ["FRI", "THU"]
+    "dayOfOperation": ["FRI", "THU"]
   },
   {
-    "id": "174",
+    "id": 174,
     "flightCode": "ZE6296",
-    "departureAirport": "PUS",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "NRT",
     "departureTime": "14:00",
     "arrivalTime": "06:00",
-    "flightDay": ["MON", "SAT", "TUE"]
+    "dayOfOperation": ["MON", "SAT", "TUE"]
   },
   {
-    "id": "175",
+    "id": 175,
     "flightCode": "ZE4181",
-    "departureAirport": "GMP",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "HND",
     "departureTime": "06:00",
     "arrivalTime": "18:00",
-    "flightDay": ["SAT", "TUE", "SUN"]
+    "dayOfOperation": ["SAT", "TUE", "SUN"]
   },
   {
-    "id": "176",
+    "id": 176,
     "flightCode": "ZE4834",
-    "departureAirport": "CJU",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "HND",
     "departureTime": "14:00",
     "arrivalTime": "16:00",
-    "flightDay": ["FRI", "WED", "SAT", "THU"]
+    "dayOfOperation": ["FRI", "WED", "SAT", "THU"]
   },
   {
-    "id": "177",
+    "id": 177,
     "flightCode": "ZE6041",
-    "departureAirport": "CJU",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "SFO",
     "departureTime": "16:00",
     "arrivalTime": "10:00",
-    "flightDay": ["SAT", "WED", "SUN"]
+    "dayOfOperation": ["SAT", "WED", "SUN"]
   },
   {
-    "id": "178",
+    "id": 178,
     "flightCode": "ZE8484",
-    "departureAirport": "CJU",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "PEK",
     "departureTime": "18:00",
     "arrivalTime": "08:00",
-    "flightDay": ["SUN", "WED", "SAT", "THU", "MON"]
+    "dayOfOperation": ["SUN", "WED", "SAT", "THU", "MON"]
   },
   {
-    "id": "179",
+    "id": 179,
     "flightCode": "ZE2742",
-    "departureAirport": "GMP",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "SFO",
     "departureTime": "16:00",
     "arrivalTime": "16:00",
-    "flightDay": ["TUE", "FRI", "MON", "WED", "SUN"]
+    "dayOfOperation": ["TUE", "FRI", "MON", "WED", "SUN"]
   },
   {
-    "id": "180",
+    "id": 180,
     "flightCode": "ZE5390",
-    "departureAirport": "CJU",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "SFO",
     "departureTime": "08:00",
     "arrivalTime": "12:00",
-    "flightDay": ["FRI", "MON", "WED"]
+    "dayOfOperation": ["FRI", "MON", "WED"]
   },
   {
-    "id": "181",
+    "id": 181,
     "flightCode": "ZE7344",
-    "departureAirport": "CJU",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "LAX",
     "departureTime": "08:00",
     "arrivalTime": "18:00",
-    "flightDay": ["MON", "THU", "SUN", "FRI", "WED"]
+    "dayOfOperation": ["MON", "THU", "SUN", "FRI", "WED"]
   },
   {
-    "id": "182",
+    "id": 182,
     "flightCode": "ZE4650",
-    "departureAirport": "CJU",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "NRT",
     "departureTime": "14:00",
     "arrivalTime": "16:00",
-    "flightDay": ["MON", "SAT", "WED", "SUN", "THU"]
+    "dayOfOperation": ["MON", "SAT", "WED", "SUN", "THU"]
   },
   {
-    "id": "183",
+    "id": 183,
     "flightCode": "ZE4713",
-    "departureAirport": "PUS",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "NRT",
     "departureTime": "16:00",
     "arrivalTime": "14:00",
-    "flightDay": ["FRI", "SAT", "THU", "TUE"]
+    "dayOfOperation": ["FRI", "SAT", "THU", "TUE"]
   },
   {
-    "id": "184",
+    "id": 184,
     "flightCode": "ZE1689",
-    "departureAirport": "CJU",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "HND",
     "departureTime": "08:00",
     "arrivalTime": "06:00",
-    "flightDay": ["FRI", "MON", "WED", "SUN"]
+    "dayOfOperation": ["FRI", "MON", "WED", "SUN"]
   },
   {
-    "id": "185",
+    "id": 185,
     "flightCode": "ZE5538",
-    "departureAirport": "PUS",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "PEK",
     "departureTime": "10:00",
     "arrivalTime": "08:00",
-    "flightDay": ["WED", "TUE", "SUN"]
+    "dayOfOperation": ["WED", "TUE", "SUN"]
   },
   {
-    "id": "186",
+    "id": 186,
     "flightCode": "ZE7027",
-    "departureAirport": "CJU",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "NRT",
     "departureTime": "12:00",
     "arrivalTime": "10:00",
-    "flightDay": ["MON", "WED"]
+    "dayOfOperation": ["MON", "WED"]
   },
   {
-    "id": "187",
+    "id": 187,
     "flightCode": "ZE4525",
-    "departureAirport": "CJU",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "SFO",
     "departureTime": "10:00",
     "arrivalTime": "14:00",
-    "flightDay": ["SUN", "SAT", "FRI"]
+    "dayOfOperation": ["SUN", "SAT", "FRI"]
   },
   {
-    "id": "188",
+    "id": 188,
     "flightCode": "ZE8857",
-    "departureAirport": "ICN",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "PEK",
     "departureTime": "14:00",
     "arrivalTime": "18:00",
-    "flightDay": ["WED", "THU", "SAT", "TUE", "MON"]
+    "dayOfOperation": ["WED", "THU", "SAT", "TUE", "MON"]
   },
   {
-    "id": "189",
+    "id": 189,
     "flightCode": "ZE7428",
-    "departureAirport": "ICN",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "HND",
     "departureTime": "18:00",
     "arrivalTime": "14:00",
-    "flightDay": ["MON", "FRI"]
+    "dayOfOperation": ["MON", "FRI"]
   },
   {
-    "id": "190",
+    "id": 190,
     "flightCode": "ZE1187",
-    "departureAirport": "GMP",
-    "arrivalAirport": "NRT",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "NRT",
     "departureTime": "06:00",
     "arrivalTime": "06:00",
-    "flightDay": ["SAT", "MON", "TUE", "SUN"]
+    "dayOfOperation": ["SAT", "MON", "TUE", "SUN"]
   },
   {
-    "id": "191",
+    "id": 191,
     "flightCode": "ZE8751",
-    "departureAirport": "GMP",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "LAX",
     "departureTime": "12:00",
     "arrivalTime": "18:00",
-    "flightDay": ["TUE", "SUN"]
+    "dayOfOperation": ["TUE", "SUN"]
   },
   {
-    "id": "192",
+    "id": 192,
     "flightCode": "ZE2746",
-    "departureAirport": "PUS",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "LAX",
     "departureTime": "06:00",
     "arrivalTime": "12:00",
-    "flightDay": ["WED", "MON"]
+    "dayOfOperation": ["WED", "MON"]
   },
   {
-    "id": "193",
+    "id": 193,
     "flightCode": "ZE7027",
-    "departureAirport": "PUS",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "PUS",
+    "arrivalAirportCode": "PEK",
     "departureTime": "10:00",
     "arrivalTime": "16:00",
-    "flightDay": ["SAT", "FRI"]
+    "dayOfOperation": ["SAT", "FRI"]
   },
   {
-    "id": "194",
+    "id": 194,
     "flightCode": "ZE4632",
-    "departureAirport": "ICN",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "PEK",
     "departureTime": "08:00",
     "arrivalTime": "12:00",
-    "flightDay": ["TUE", "WED", "FRI", "SUN", "MON"]
+    "dayOfOperation": ["TUE", "WED", "FRI", "SUN", "MON"]
   },
   {
-    "id": "195",
+    "id": 195,
     "flightCode": "ZE4212",
-    "departureAirport": "ICN",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "ICN",
+    "arrivalAirportCode": "HND",
     "departureTime": "18:00",
     "arrivalTime": "18:00",
-    "flightDay": ["FRI", "SAT", "THU", "TUE"]
+    "dayOfOperation": ["FRI", "SAT", "THU", "TUE"]
   },
   {
-    "id": "196",
+    "id": 196,
     "flightCode": "ZE8141",
-    "departureAirport": "CJU",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "PEK",
     "departureTime": "06:00",
     "arrivalTime": "12:00",
-    "flightDay": ["SAT", "WED", "TUE", "THU"]
+    "dayOfOperation": ["SAT", "WED", "TUE", "THU"]
   },
   {
-    "id": "197",
+    "id": 197,
     "flightCode": "ZE5903",
-    "departureAirport": "CJU",
-    "arrivalAirport": "LAX",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "LAX",
     "departureTime": "16:00",
     "arrivalTime": "06:00",
-    "flightDay": ["TUE", "FRI", "SAT", "SUN"]
+    "dayOfOperation": ["TUE", "FRI", "SAT", "SUN"]
   },
   {
-    "id": "198",
+    "id": 198,
     "flightCode": "ZE9966",
-    "departureAirport": "CJU",
-    "arrivalAirport": "PEK",
+    "status": "ACTIVE",
+    "departureAirportCode": "CJU",
+    "arrivalAirportCode": "PEK",
     "departureTime": "06:00",
     "arrivalTime": "08:00",
-    "flightDay": ["SAT", "SUN", "WED"]
+    "dayOfOperation": ["SAT", "SUN", "WED"]
   },
   {
-    "id": "199",
+    "id": 199,
     "flightCode": "ZE7062",
-    "departureAirport": "GMP",
-    "arrivalAirport": "HND",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "HND",
     "departureTime": "10:00",
     "arrivalTime": "16:00",
-    "flightDay": ["SAT", "THU", "FRI"]
+    "dayOfOperation": ["SAT", "THU", "FRI"]
   },
   {
-    "id": "200",
+    "id": 200,
     "flightCode": "ZE4094",
-    "departureAirport": "GMP",
-    "arrivalAirport": "SFO",
+    "status": "ACTIVE",
+    "departureAirportCode": "GMP",
+    "arrivalAirportCode": "SFO",
     "departureTime": "12:00",
     "arrivalTime": "08:00",
-    "flightDay": ["MON", "THU", "SUN", "WED"]
+    "dayOfOperation": ["MON", "THU", "SUN", "WED"]
   }
 ]
