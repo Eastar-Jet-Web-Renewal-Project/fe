@@ -1,6 +1,6 @@
 import { Option } from "@commons/types/commons";
 
-export const airports: Option[] = [
+export const airports: Option<string>[] = [
   { label: "방콕", value: "BKK" },
   { label: "부산", value: "PUS" },
   { label: "청주", value: "CJJ" },
@@ -17,11 +17,12 @@ export const airports: Option[] = [
   { label: "미야자키", value: "KMI" },
   { label: "난창", value: "KHN" },
   { label: "닝보", value: "NGB" },
+  { label: "도쿄(나리타)", value: "NRT" },
   { label: "오키나와", value: "OKA" },
   { label: "오사카", value: "KIX" },
   { label: "삿포로", value: "CTS" },
-  { label: "서울", value: "GMP" },
-  { label: "서울", value: "ICN" },
+  { label: "서울(김포)", value: "GMP" },
+  { label: "서울(인천)", value: "ICN" },
   { label: "상하이", value: "PVG" },
   { label: "선양", value: "SHE" },
   { label: "타이베이", value: "TPE" },
