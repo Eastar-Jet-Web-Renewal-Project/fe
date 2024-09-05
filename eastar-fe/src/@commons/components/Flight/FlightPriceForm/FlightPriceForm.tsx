@@ -4,7 +4,7 @@ import Tbody from "@commons/components/Default/Table/Tbody/Tbody";
 import TableRow from "@commons/components/Default/Table/Tbody/TableRow";
 import TableItem from "@commons/components/Default/Table/Tbody/TableItem";
 import SingleLineInput from "@commons/components/Default/Form/Input/SingleLineInput";
-import { flightFareClassification } from "@commons/constants/flight/flightFareClassification";
+import { flightFareClassification } from "@commons/constants/flight/flightFare";
 import Typography from "@commons/components/Default/Typography/Typography";
 import { BookingClass, FlightPrice } from "@commons/types/flight/flightPrice";
 import { mapValueToLabel } from "@commons/utilities/mapping/labelMapping";
