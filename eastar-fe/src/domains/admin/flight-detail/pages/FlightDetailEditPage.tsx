@@ -1,6 +1,6 @@
 import flightDetailMock from "@mocks/flight/flightDetail.json";
 
-import { useLocation, useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import FlightDetailLayout from "../layouts/FlightDetailLayout";
 import { FlightDetailPageResponse } from "@commons/services/api/interfaces/flight/flight";
 import { useFlightInfoForm } from "@commons/hooks/useFlight/useFlightInfoForm";

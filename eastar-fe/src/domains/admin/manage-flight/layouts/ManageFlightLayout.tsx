@@ -1,15 +1,7 @@
-import Table from "@commons/components/Default/Table/Table/Table";
-import Tbody from "@commons/components/Default/Table/Tbody/Tbody";
-import Thead from "@commons/components/Default/Table/Thead/Thead";
 import Typography from "@commons/components/Default/Typography/Typography";
-import TableRow from "@commons/components/Default/Table/Tbody/TableRow";
-import TableItem from "@commons/components/Default/Table/Tbody/TableItem";
 import Spacer from "@commons/components/Default/Spacer";
-import { flightColumn } from "@commons/constants/flight/flightTableColumn";
 import { StyledManageFlightLayout } from "./ManageFlightLayout.styled";
 import FlightInfoForm from "../../../../@commons/components/Flight/FlightForm/FlightInfoForm";
-import { DAYS } from "@commons/constants/time/days";
-import { mapValuesToLabels } from "@commons/utilities/mapping/labelMapping";
 import Divider from "@commons/components/Default/Divider/Divider";
 import Button from "@commons/components/Default/Button/Button";
 import { FlightInfo } from "@commons/types/flight/flightInfo";

@@ -8,7 +8,7 @@ export function getDynamicRoute(
 ): string {
   const dynamicPathRegex = /:(\w+)/g;
 
-  return route.replace(dynamicPathRegex, (match, paramName) => {
+  return route.replace(dynamicPathRegex, (_match, paramName) => {
     if (paramName in params) {
       return String(params[paramName]);
     }
