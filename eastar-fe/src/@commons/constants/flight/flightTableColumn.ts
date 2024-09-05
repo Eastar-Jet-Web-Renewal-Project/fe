@@ -1,8 +1,9 @@
+import { FlightBasicInfo } from "@commons/services/api/interfaces/flight/flight";
 import { Option } from "@commons/types/commons";
 
-export const flightColumn: Option[] = [
+export const flightColumn: Option<keyof FlightBasicInfo>[] = [
   { label: "id", value: "id" },
-  { label: "항공편 명", value: "flightId" },
+  { label: "항공편 명", value: "flightCode" },
   { label: "출발 공항", value: "departureAirportCode" },
   { label: "도착 공항", value: "arrivalAirportCode" },
   { label: "출발 시간", value: "departureTime" },
