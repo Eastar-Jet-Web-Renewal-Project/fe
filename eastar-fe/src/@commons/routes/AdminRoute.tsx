@@ -2,13 +2,17 @@ import CreateFlightPage from "@domains/admin/create-flight/pages/CreateFlightPag
 import FlightDetailPage from "@domains/admin/flight-detail/pages/FlightDetailPage";
 import ManageFlightPage from "@domains/admin/manage-flight/pages/ManageFlightPage";
 import { Route } from "react-router-dom";
+import { ROUTES } from "../constants/routes/routes";
+import FlightDetailEditPage from "@domains/admin/flight-detail/pages/FlightDetailEditPage";
 
 export const adminRouter = (
-  <Route path="/admin">
-    <Route path="flight">
-      <Route path="search" element={<ManageFlightPage />} />
-      <Route path="create" element={<CreateFlightPage />} />
-      <Route path=":id" element={<FlightDetailPage />} />
-    </Route>
-  </Route>
+  <>
+    <Route path={ROUTES.ADMIN.FLIGHT_SEARCH} element={<ManageFlightPage />} />
+    <Route path={ROUTES.ADMIN.FLIGHT_CREATE} element={<CreateFlightPage />} />
+    <Route path={ROUTES.ADMIN.FLIGHT_DETAIL} element={<FlightDetailPage />} />
+    <Route
+      path={ROUTES.ADMIN.FLIGHT_DETAIL_EDIT}
+      element={<FlightDetailEditPage />}
+    />
+  </>
 );
