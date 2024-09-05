@@ -37,11 +37,33 @@ export default function Popover({
     onToggle?.(!isOpen);
   };
 
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    switch (e.key) {
+      case "Escape":
+        onToggle?.(false);
+        break;
+      case "Enter":
+      case " ":
+        onToggle?.(!isOpen);
+        break;
+      case "ArrowDown":
+        e.preventDefault();
+        if (popoverRef.current) popoverRef.current.focus();
+        break;
+      default:
+        break;
+    }
+  };
+
   useDetectOutsideClick([triggerRef, popoverRef], handleOutsideClick);
 
   return (
     <>
-      <StyledPopoverTrigger onClick={handleToggle} ref={triggerRef}>
+      <StyledPopoverTrigger
+        onClick={handleToggle}
+        ref={triggerRef}
+        onKeyDown={handleKeyDown}
+      >
         {Trigger}
       </StyledPopoverTrigger>
       {!isDisabled && isOpen && (
