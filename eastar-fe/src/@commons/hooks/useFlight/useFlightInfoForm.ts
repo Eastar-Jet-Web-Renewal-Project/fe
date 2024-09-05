@@ -6,26 +6,19 @@ export const useFlightInfoForm = (initFlightInfo: FlightInfo) => {
 
   const updateFlightInfo = useCallback(
     (field: keyof FlightInfo, value: FlightInfo[typeof field]) => {
+      //이렇게 관리해야 flightInfo 변경시 특정 field에 대한 validation이 쉬워짐
       setFlightInfo((prev) => ({ ...prev, [field]: value }));
     },
     [],
   );
 
-  const submitFlightInfo = useCallback(
-    (apiCallFunc: (flightInfo: FlightInfo) => void) => {
-      //   TODO: flightInfo Form 유효성 검사로직
-
-      apiCallFunc(flightInfo);
-    },
-    [],
-  );
-
-  const validateFlightInfo = useCallback(() => {}, []);
+  const validateFlightInfo = useCallback(() => {
+    //TODO: validation 로직 추가
+  }, []);
 
   return {
     flightInfo,
     updateFlightInfo,
-    submitFlightInfo,
     validateFlightInfo,
   };
 };
