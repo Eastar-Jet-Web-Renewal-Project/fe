@@ -1,4 +1,7 @@
+import { DefaultLayout } from "@commons/layouts/DefaultLayout.styled";
 import styled from "styled-components";
+
+export const StyledFlightDetailLayout = styled(DefaultLayout)``;
 
 export const StyledFligntDetailLayoutContentWrapper = styled.div`
   width: 100%;

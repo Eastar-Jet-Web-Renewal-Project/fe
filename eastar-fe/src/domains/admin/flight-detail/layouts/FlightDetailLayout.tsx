@@ -8,8 +8,8 @@ import FlightInfoForm from "@commons/components/Flight/FlightForm/FlightInfoForm
 import FlightPriceForm from "@commons/components/Flight/FlightPriceForm/FlightPriceForm";
 import { FlightInfo } from "@commons/types/flight/flightInfo";
 import { FlightPrice } from "@commons/types/flight/flightPrice";
-import { StyledCreateFlightLayout } from "@domains/admin/create-flight/layouts/CreateFlight.styled";
 import {
+  StyledFlightDetailLayout,
   StyledFlightDetailLayoutStickyWrapper,
   StyledFligntDetailLayoutContentWrapper,
 } from "./FlightDetailLayout.styled";
@@ -38,7 +38,7 @@ export default function FlightDetailLayout({
   isEditMode,
 }: FlightDetailLayoutProps) {
   return (
-    <StyledCreateFlightLayout>
+    <StyledFlightDetailLayout>
       <div>
         <Typography
           type={"Heading"}
@@ -88,6 +88,6 @@ export default function FlightDetailLayout({
           />
         </div>
       </StyledFligntDetailLayoutContentWrapper>
-    </StyledCreateFlightLayout>
+    </StyledFlightDetailLayout>
   );
 }
