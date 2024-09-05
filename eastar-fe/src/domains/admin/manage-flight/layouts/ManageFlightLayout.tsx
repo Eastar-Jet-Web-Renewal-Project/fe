@@ -1,26 +1,51 @@
-import Table from "@commons/components/Default/Table/Table/Table";
-import Tbody from "@commons/components/Default/Table/Tbody/Tbody";
-import Thead from "@commons/components/Default/Table/Thead/Thead";
 import Typography from "@commons/components/Default/Typography/Typography";
-import flights from "@mocks/flight/flight.json";
-import TableRow from "@commons/components/Default/Table/Tbody/TableRow";
-import TableItem from "@commons/components/Default/Table/Tbody/TableItem";
 import Spacer from "@commons/components/Default/Spacer";
-import { flightColumn } from "@commons/constants/flight/flightTableColumn";
-import { ManageFlightLayoutContainer } from "./ManageFlightLayout.styled";
-import FlightFindForm from "../components/FlightFindForm/FlightFindForm";
-import { DAYS } from "@commons/constants/time/days";
-import { mapValuesToLabels } from "@commons/utilities/mapping/labelMapping";
+import { StyledManageFlightLayout } from "./ManageFlightLayout.styled";
+import FlightInfoForm from "../../../../@commons/components/Flight/FlightForm/FlightInfoForm";
 import Divider from "@commons/components/Default/Divider/Divider";
+import Button from "@commons/components/Default/Button/Button";
+import { FlightInfo } from "@commons/types/flight/flightInfo";
+import FlightSearchResultTable from "@domains/admin/flight-detail/components/FlightSearchResultTable/FlightSearchResultTable";
+import { FlightSearchResultTableRow } from "../types/flight";
 
-export default function ManageFlightLayout() {
+type ManageFlightLayoutProps = {
+  flightInfo: FlightInfo;
+  onFlightInfoChange: (
+    field: keyof FlightInfo,
+    value: FlightInfo[keyof FlightInfo],
+  ) => void;
+  onSearchFlight: () => void;
+  isSearching: boolean;
+  onFlightClick: (flight: FlightSearchResultTableRow) => void;
+  searchResults: FlightSearchResultTableRow[];
+};
+
+export default function ManageFlightLayout({
+  flightInfo,
+  onFlightInfoChange,
+  searchResults,
+  onSearchFlight,
+  onFlightClick,
+  isSearching,
+}: ManageFlightLayoutProps) {
   return (
-    <ManageFlightLayoutContainer>
+    <StyledManageFlightLayout>
       <Typography type={"Heading"} weight={"extraBold"}>
         항공편 조회
       </Typography>
       <Spacer size={40} />
-      <FlightFindForm />
+
+      <Typography type={"Heading"} size={3} weight="semiBold">
+        항공편 검색
+      </Typography>
+      <Spacer size={20} />
+      <FlightInfoForm
+        flightInfo={flightInfo}
+        onFlightInfoChange={onFlightInfoChange}
+        isDisabled={isSearching}
+      />
+      <Spacer size={20} />
+      <Button content="검색" style="Filled" onClick={onSearchFlight} />
 
       <Spacer size={25} />
       <Divider />
@@ -30,29 +55,10 @@ export default function ManageFlightLayout() {
         항공편 조회 결과
       </Typography>
       <Spacer size={40} />
-      <Table>
-        <Thead columns={flightColumn} />
-        <Tbody>
-          {/* 현재는 mock data */}
-          {flights.map((flight) => (
-            <TableRow key={flight.id} isClickable>
-              <TableItem>{flight.id}</TableItem>
-              <TableItem>
-                <Typography type={"body"} weight={"bold"} color="primary">
-                  {flight.flightName}
-                </Typography>
-              </TableItem>
-              <TableItem>{flight.departureAirport}</TableItem>
-              <TableItem>{flight.arrivalAirport}</TableItem>
-              <TableItem>{flight.departureTime}</TableItem>
-              <TableItem>{flight.arrivalTime}</TableItem>
-              <TableItem>
-                {mapValuesToLabels(DAYS, flight.flightDay).join(", ")}
-              </TableItem>
-            </TableRow>
-          ))}
-        </Tbody>
-      </Table>
-    </ManageFlightLayoutContainer>
+      <FlightSearchResultTable
+        searchResults={searchResults}
+        onRowClick={onFlightClick}
+      />
+    </StyledManageFlightLayout>
   );
 }

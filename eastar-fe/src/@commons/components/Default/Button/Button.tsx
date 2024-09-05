@@ -3,7 +3,7 @@ import { ButtonVariant, StyledButton } from "./Button.styled";
 
 type ButtonProps = {
   content: string;
-  disabled?: boolean;
+  isDisabled?: boolean;
   onClick?: () => void;
   style?: ButtonVariant;
 };
@@ -16,17 +16,17 @@ type ButtonProps = {
  *   content="Click me"
  *   onClick={handleClick}
  *   style="Filled"
- *   disabled={false}
+ *   isDisabled
  * />
  */
 export default function Button({
   content,
-  disabled,
+  isDisabled,
   onClick,
   style,
 }: ButtonProps) {
   const handleClick = () => {
-    if (disabled) return;
+    if (isDisabled) return;
     onClick?.();
   };
   const handleKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
@@ -41,13 +41,13 @@ export default function Button({
     <StyledButton
       ref={ref}
       role="button"
-      tabIndex={disabled ? -1 : 0}
+      tabIndex={isDisabled ? -1 : 0}
       onClick={handleClick}
       onKeyDown={handleKeyDown}
       aria-label={content}
-      aria-disabled={disabled}
+      aria-disabled={isDisabled}
       $variant={style || "Filled"}
-      $isDisabled={disabled}
+      $isDisabled={isDisabled}
       $isHover={isHover}
     >
       {content}

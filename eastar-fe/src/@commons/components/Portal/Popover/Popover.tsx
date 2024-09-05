@@ -11,6 +11,7 @@ type TriggerProps = {
   onToggle?: (isTrigger: boolean) => void;
   doNotCloseOnOutsideClick?: boolean;
   isContentFitTriggerWidth?: boolean;
+  isDisabled?: boolean;
 };
 
 export default function Popover({
@@ -20,6 +21,7 @@ export default function Popover({
   isOpen,
   doNotCloseOnOutsideClick,
   isContentFitTriggerWidth,
+  isDisabled,
 }: TriggerProps) {
   const triggerRef = useRef<HTMLDivElement>(null);
   const popoverRef = useRef<HTMLDivElement>(null);
@@ -35,14 +37,36 @@ export default function Popover({
     onToggle?.(!isOpen);
   };
 
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    switch (e.key) {
+      case "Escape":
+        onToggle?.(false);
+        break;
+      case "Enter":
+      case " ":
+        onToggle?.(!isOpen);
+        break;
+      case "ArrowDown":
+        e.preventDefault();
+        if (popoverRef.current) popoverRef.current.focus();
+        break;
+      default:
+        break;
+    }
+  };
+
   useDetectOutsideClick([triggerRef, popoverRef], handleOutsideClick);
 
   return (
     <>
-      <StyledPopoverTrigger onClick={handleToggle} ref={triggerRef}>
+      <StyledPopoverTrigger
+        onClick={handleToggle}
+        ref={triggerRef}
+        onKeyDown={handleKeyDown}
+      >
         {Trigger}
       </StyledPopoverTrigger>
-      {isOpen && (
+      {!isDisabled && isOpen && (
         <Portal>
           <StylePopoverContent
             $x={x}

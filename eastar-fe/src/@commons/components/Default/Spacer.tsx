@@ -8,8 +8,10 @@ type StyledSpacerProps = {
 const StyledSpacer = styled.div.attrs<StyledSpacerProps>(() => ({
   "aria-hidden": true,
 }))`
-  width: ${(props) => (props.$isHorizontal ? `${props.$size}px` : "1px")};
-  height: ${(props) => (!props.$isHorizontal ? `${props.$size}px` : "1px")};
+  width: ${(props) =>
+    props.$isHorizontal ? `${props.$size}px` : "1px"} !important;
+  height: ${(props) =>
+    !props.$isHorizontal ? `${props.$size}px` : "1px"} !important;
   display: inline-block;
   box-sizing: border-box;
 `;

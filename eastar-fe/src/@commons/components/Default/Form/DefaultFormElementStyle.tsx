@@ -4,13 +4,17 @@ import { border } from "@styles/border.styles";
 import theme from "@styles/Theme/light.theme";
 import styled, { css } from "styled-components";
 
-export type DefaultStyleFormElementVariant = "Filled";
+export type DefaultStyleFormElementVariant = "Filled" | "Text";
 
 export const DefaultStyleFormElementStyles: Variants<DefaultStyleFormElementVariant> =
   {
     Filled: css`
       background-color: ${theme.surfaceContainer};
       color: ${theme.onSurfaceContainer};
+    `,
+    Text: css`
+      background-color: transparent;
+      color: ${theme.onSurfaceContainerLowest};
     `,
     Disabled: css`
       background-color: ${theme.surfaceContainerHighest};
@@ -33,7 +37,7 @@ export type DefaultStyleFormElementProps = {
  */
 export const DefaultStyleFormElement = styled.div<DefaultStyleFormElementProps>`
   width: 100%;
-  min-height: 60px;
+  height: 60px;
 
   padding: 18px 20px;
 

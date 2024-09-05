@@ -7,7 +7,9 @@ type StyledDividerProps = {
 
 export const StyledDivider = styled.div<StyledDividerProps>`
   ${({ $isVertical }) =>
-    $isVertical ? `width: 1px; height: 100%;` : `width: 100%; height: 1px;`}
+    $isVertical
+      ? `width: 1px !important; height: 100%;`
+      : `width: 100%; height: 1px !important;`}
 
   background-color: ${theme.divider};
 `;

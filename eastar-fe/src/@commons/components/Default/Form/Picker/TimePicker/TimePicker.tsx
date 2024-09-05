@@ -7,6 +7,10 @@ type TimePickerProps = {
   onChange: (value: string) => void;
   variant?: "Filled";
   isDisabled?: boolean;
+  options?: Omit<
+    React.InputHTMLAttributes<HTMLInputElement>,
+    "value" | "onChange" | "placeholder" | "type"
+  >;
 };
 
 export default function TimePicker({
@@ -14,6 +18,7 @@ export default function TimePicker({
   isDisabled,
   value,
   onChange,
+  options,
 }: TimePickerProps) {
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     if (isDisabled) return;
@@ -26,10 +31,11 @@ export default function TimePicker({
       $isDisabled={isDisabled}
     >
       <StyledTimePicker
-        type="time"
         value={value}
         onChange={handleChange}
         $isPlaceholder={!value}
+        $isDisabled={isDisabled}
+        {...options}
       />
     </DefaultStyleFormElement>
   );

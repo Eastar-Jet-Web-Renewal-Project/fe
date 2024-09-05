@@ -1,0 +1,94 @@
+{
+  "policy": [
+    {
+      "id": 1,
+      "bookingClassCategory": "Normal Fare",
+      "bookingClass": "Y"
+    },
+    {
+      "id": 2,
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "B"
+    },
+    {
+      "id": 3,
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "H"
+    },
+    {
+      "id": 4,
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "J"
+    },
+    {
+      "id": 5,
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "K"
+    },
+    {
+      "id": 6,
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "L"
+    },
+    {
+      "id": 7,
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "M"
+    },
+    {
+      "id": 8,
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "N"
+    },
+    {
+      "id": 9,
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "O"
+    },
+    {
+      "id": 10,
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "R"
+    },
+    {
+      "id": 11,
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "S"
+    },
+    {
+      "id": 12,
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "U"
+    },
+    {
+      "id": 13,
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "V"
+    },
+    {
+      "id": 14,
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "W"
+    },
+    {
+      "id": 15,
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "X"
+    },
+    {
+      "id": 16,
+      "bookingClassCategory": "Special Fare",
+      "bookingClass": "T"
+    },
+    {
+      "id": 17,
+      "bookingClassCategory": "Special Fare",
+      "bookingClass": "E"
+    },
+    {
+      "id": 18,
+      "bookingClassCategory": "Special Fare",
+      "bookingClass": "I"
+    }
+  ]
+}

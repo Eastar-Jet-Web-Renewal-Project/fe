@@ -20,7 +20,7 @@ export default function FormElement({
 }: FormElementProps) {
   return (
     <StyledFormElement $isVertical={isVertical ? true : false}>
-      <StyledLabelElement>
+      <StyledLabelElement htmlFor={label}>
         {label}
         {isRequired && <StyledAstrik> *</StyledAstrik>}
       </StyledLabelElement>

@@ -1,4 +1,6 @@
-export const DAYS = [
+import { Day, Option } from "@commons/types/commons";
+
+export const DAYS: Option<Day>[] = [
   { label: "월", value: "MON" },
   { label: "화", value: "TUE" },
   { label: "수", value: "WED" },

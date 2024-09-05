@@ -8,8 +8,8 @@ type StyledTimePickerProps = {
 };
 
 export const StyledTimePicker = styled.input.attrs<StyledTimePickerProps>(
-  () => ({
-    type: "time",
+  ({ $isDisabled }) => ({
+    type: $isDisabled ? "text" : "time",
   }),
 )`
   width: 100%;

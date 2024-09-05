@@ -33,7 +33,7 @@ export default function DesignComponentPage() {
         </div>
       ))}
       <h3>diabled</h3>
-      <Button content="Button" disabled />
+      <Button content="Button" isDisabled />
       <h2>SingleLineInput</h2>
       {SingleLineInputStyles.map((style) => (
         <div key={style}>
@@ -47,7 +47,7 @@ export default function DesignComponentPage() {
         </div>
       ))}
       <h3>diabled</h3>
-      <SingleLineInput value={value} onChange={onChangeValue} disabled />
+      <SingleLineInput value={value} onChange={onChangeValue} isDisabled />
       <h2>Typography</h2>
       {Object.entries(fontSize).map(([size, detailedSizeObj]) =>
         Object.keys(detailedSizeObj).map((detailedSize) => (
