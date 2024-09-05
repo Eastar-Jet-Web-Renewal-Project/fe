@@ -1,8 +1,10 @@
 import { FlightPrice } from "@commons/types/flight/flightPrice";
 import { useCallback, useState } from "react";
 
-export const useFlightPriceForm = (initFlightPrice: FlightPrice[]) => {
-  const [flightPrice, setFlightPrice] = useState(initFlightPrice);
+export const useFlightPriceForm = (initFlightPrice?: FlightPrice[]) => {
+  const [flightPrice, setFlightPrice] = useState<FlightPrice[]>(
+    initFlightPrice || [],
+  );
 
   const updateFlightPrice = useCallback(
     (

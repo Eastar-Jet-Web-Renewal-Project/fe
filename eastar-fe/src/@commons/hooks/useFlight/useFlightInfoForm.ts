@@ -1,8 +1,17 @@
 import { FlightInfo } from "@commons/types/flight/flightInfo";
 import { useCallback, useState } from "react";
 
-export const useFlightInfoForm = (initFlightInfo: FlightInfo) => {
-  const [flightInfo, setFlightInfo] = useState(initFlightInfo);
+export const useFlightInfoForm = (initFlightInfo?: FlightInfo) => {
+  const [flightInfo, setFlightInfo] = useState<FlightInfo>(
+    initFlightInfo || {
+      flightCode: "",
+      departureAirport: { label: "", value: "" },
+      arrivalAirport: { label: "", value: "" },
+      departureTime: "",
+      arrivalTime: "",
+      dayOfOperation: [],
+    },
+  );
 
   const updateFlightInfo = useCallback(
     (field: keyof FlightInfo, value: FlightInfo[typeof field]) => {
