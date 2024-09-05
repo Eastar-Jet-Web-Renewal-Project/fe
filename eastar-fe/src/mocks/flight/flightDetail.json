@@ -18,8 +18,6 @@
       { "bookingClass": "M", "price": 45000 },
       { "bookingClass": "N", "price": 40000 },
       { "bookingClass": "O", "price": 35000 },
-      { "bookingClass": "P", "price": 30000 },
-      { "bookingClass": "Q", "price": 25000 },
       { "bookingClass": "R", "price": 20000 },
       { "bookingClass": "S", "price": 15000 },
       { "bookingClass": "U", "price": 10000 },

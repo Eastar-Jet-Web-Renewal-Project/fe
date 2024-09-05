@@ -47,55 +47,45 @@
   {
     "id": 10,
     "classification": "Discount Fare",
-    "fareclass": "P"
+    "fareclass": "R"
   },
   {
     "id": 11,
     "classification": "Discount Fare",
-    "fareclass": "Q"
+    "fareclass": "S"
   },
   {
     "id": 12,
     "classification": "Discount Fare",
-    "fareclass": "R"
+    "fareclass": "U"
   },
   {
     "id": 13,
     "classification": "Discount Fare",
-    "fareclass": "S"
+    "fareclass": "V"
   },
   {
     "id": 14,
     "classification": "Discount Fare",
-    "fareclass": "U"
+    "fareclass": "W"
   },
   {
     "id": 15,
     "classification": "Discount Fare",
-    "fareclass": "V"
-  },
-  {
-    "id": 16,
-    "classification": "Discount Fare",
-    "fareclass": "W"
-  },
-  {
-    "id": 17,
-    "classification": "Discount Fare",
     "fareclass": "X"
   },
   {
-    "id": 18,
+    "id": 16,
     "classification": "Special Fare",
     "fareclass": "T"
   },
   {
-    "id": 19,
+    "id": 17,
     "classification": "Special Fare",
     "fareclass": "E"
   },
   {
-    "id": 20,
+    "id": 18,
     "classification": "Special Fare",
     "fareclass": "I"
   }
