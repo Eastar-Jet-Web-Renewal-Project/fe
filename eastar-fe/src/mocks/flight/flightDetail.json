@@ -7,29 +7,97 @@
   "departureTime": "10:00",
   "arrivalTime": "14:00",
   "dayOfOperation": ["FRI", "SAT"],
-  "prices": {
-    "Normal Fare": [{ "bookingClass": "Y", "price": 120000 }],
-    "Discount Fare": [
-      { "bookingClass": "B", "price": 70000 },
-      { "bookingClass": "H", "price": 65000 },
-      { "bookingClass": "J", "price": 60000 },
-      { "bookingClass": "K", "price": 55000 },
-      { "bookingClass": "L", "price": 50000 },
-      { "bookingClass": "M", "price": 45000 },
-      { "bookingClass": "N", "price": 40000 },
-      { "bookingClass": "O", "price": 35000 },
-      { "bookingClass": "R", "price": 20000 },
-      { "bookingClass": "S", "price": 15000 },
-      { "bookingClass": "U", "price": 10000 },
-      { "bookingClass": "V", "price": 5000 },
-      { "bookingClass": "W", "price": 4000 },
-      { "bookingClass": "X", "price": 3000 },
-      { "bookingClass": "T", "price": 2000 }
-    ],
-    "Special Fare": [
-      { "bookingClass": "Z", "price": 1000 },
-      { "bookingClass": "I", "price": 500 },
-      { "bookingClass": "E", "price": 0 }
-    ]
-  }
+  "prices": [
+    {
+      "bookingClassCategory": "Normal Fare",
+      "bookingClass": "Y",
+      "price": 120000
+    },
+    {
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "B",
+      "price": 70000
+    },
+    {
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "H",
+      "price": 65000
+    },
+    {
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "J",
+      "price": 60000
+    },
+    {
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "K",
+      "price": 55000
+    },
+    {
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "L",
+      "price": 50000
+    },
+    {
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "M",
+      "price": 45000
+    },
+    {
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "N",
+      "price": 40000
+    },
+    {
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "O",
+      "price": 35000
+    },
+    {
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "R",
+      "price": 20000
+    },
+    {
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "S",
+      "price": 15000
+    },
+    {
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "U",
+      "price": 10000
+    },
+    {
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "V",
+      "price": 5000
+    },
+    {
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "W",
+      "price": 4000
+    },
+    {
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "X",
+      "price": 3000
+    },
+    {
+      "bookingClassCategory": "Discount Fare",
+      "bookingClass": "T",
+      "price": 2000
+    },
+    {
+      "bookingClassCategory": "Special Fare",
+      "bookingClass": "Z",
+      "price": 1000
+    },
+    {
+      "bookingClassCategory": "Special Fare",
+      "bookingClass": "I",
+      "price": 500
+    },
+    { "bookingClassCategory": "Special Fare", "bookingClass": "E", "price": 0 }
+  ]
 }

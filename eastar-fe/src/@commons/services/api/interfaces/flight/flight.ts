@@ -18,14 +18,13 @@ export interface FlightBasicInfoAPI {
 }
 
 export interface BasePriceAPI {
+  bookingClassCategory: BookingClassCategory;
   bookingClass: BookingClass;
   price: number;
 }
 
 export interface FlightBasicAPI extends FlightBasicInfoAPI {
-  prices: {
-    [key in BookingClassCategory]: BasePriceAPI[];
-  };
+  prices: BasePriceAPI[];
 }
 
 export interface FlightDetailPageResponse extends FlightBasicAPI {}
@@ -36,3 +35,11 @@ export interface ManageFlightPageResponse {
 
 export interface FlightCreatePageRequest
   extends OptionalObject<FlightBasicAPI> {}
+
+export interface BookingClassPolicyResponse {
+  policy: {
+    id: number;
+    bookingClassCategory: BookingClassCategory;
+    bookingClass: BookingClass;
+  }[];
+}

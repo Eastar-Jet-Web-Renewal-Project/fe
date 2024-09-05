@@ -1,6 +1,7 @@
 import { DAYS } from "./../../constants/time/days";
 import {
   BasePriceAPI,
+  BookingClassPolicyResponse,
   FlightDetailPageResponse,
 } from "@commons/services/api/interfaces/flight/flight";
 import { FlightInfo } from "@commons/types/flight/flightInfo";
@@ -45,37 +46,31 @@ export function adaptFlightInfoToFlightDetailPageResponse(
 export function adaptFlightDetailPageResponseToFlightPrices(
   flightInfo: FlightDetailPageResponse,
 ): FlightPrice[] {
-  return Object.entries(flightInfo.prices).reduce<FlightPrice[]>(
-    (prevArr, [bookingClassCategory, basePrices]) =>
-      prevArr.concat(
-        basePrices.map((basePrice) => ({
-          category: bookingClassCategory as BookingClassCategory,
-          bookingClass: basePrice.bookingClass,
-          price: basePrice.price,
-        })),
-      ),
-    [],
-  );
+  return flightInfo.prices.map<FlightPrice>((price) => ({
+    category: price.bookingClassCategory,
+    bookingClass: price.bookingClass,
+    price: price.price,
+  }));
 }
 
 export function adaptFlightPricesToFlightDetailPageResponse(
   flightPrices: FlightPrice[],
 ): OptionalObject<FlightDetailPageResponse> {
   return {
-    prices: flightPrices.reduce<{
-      [key in BookingClassCategory]: BasePriceAPI[];
-    }>(
-      (prev, flightPrice) => {
-        if (!prev[flightPrice.category]) {
-          prev[flightPrice.category] = [];
-        }
-        prev[flightPrice.category].push({
-          bookingClass: flightPrice.bookingClass,
-          price: flightPrice.price,
-        });
-        return prev;
-      },
-      {} as { [key in BookingClassCategory]: BasePriceAPI[] },
-    ),
+    prices: flightPrices.map<BasePriceAPI>((price) => ({
+      bookingClassCategory: price.category,
+      bookingClass: price.bookingClass,
+      price: price.price,
+    })),
   };
+}
+
+export function adaptBookingClassPolicyResponseToFlightPrice(
+  bookingClassPolicy: BookingClassPolicyResponse,
+): FlightPrice[] {
+  return bookingClassPolicy.policy.map<FlightPrice>((policy) => ({
+    category: policy.bookingClassCategory,
+    bookingClass: policy.bookingClass,
+    price: 0,
+  }));
 }
