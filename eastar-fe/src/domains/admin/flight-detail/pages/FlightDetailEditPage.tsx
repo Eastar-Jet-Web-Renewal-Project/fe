@@ -15,26 +15,29 @@ import { useFlightPriceForm } from "@commons/hooks/useFlight/useFlightPriceForm"
 import { ROUTES } from "@commons/constants/routes/routes";
 import { getDynamicRoute } from "@commons/utilities/routes/routePathGenerators";
 
-export default function FlightDetailPage() {
+export default function FlightDetailEditPage() {
   const { id } = useParams();
   const navigate = useNavigate();
-  const setEditMode = () => {
-    if (!id) return;
 
-    navigate(getDynamicRoute(ROUTES.ADMIN.FLIGHT_DETAIL_EDIT, { id }));
-  };
   //TODO: react-query로 변경
   const [flightData, setFlightData] = useState<FlightDetailPageResponse>(
     flightDetailMock as FlightDetailPageResponse,
   );
 
-  const { flightInfo } = useFlightInfoForm(
-    adaptFlightDetailPageResponseToFlightInfo(flightData),
-  );
+  const { flightInfo, updateFlightInfo, validateFlightInfo } =
+    useFlightInfoForm(adaptFlightDetailPageResponseToFlightInfo(flightData));
 
-  const { flightPrice } = useFlightPriceForm(
-    adaptFlightDetailPageResponseToFlightPrices(flightData),
-  );
+  const { flightPrice, updateFlightPrice, validateFlightPrice } =
+    useFlightPriceForm(adaptFlightDetailPageResponseToFlightPrices(flightData));
+
+  const handleSubmit = () => {
+    if (!id) return;
+    //TODO: 저장 한번 더 물어야함.
+    validateFlightInfo();
+    validateFlightPrice();
+    //TODO: react-query mutate 사용해야함
+    navigate(getDynamicRoute(ROUTES.ADMIN.FLIGHT_DETAIL, { id }));
+  };
 
   useEffect(() => {
     setFlightData((prev) => ({
@@ -47,8 +50,11 @@ export default function FlightDetailPage() {
   return (
     <FlightDetailLayout
       flightInfo={flightInfo}
+      onFlightInfoChange={updateFlightInfo}
       priceInfo={flightPrice}
-      onSubmit={setEditMode}
+      onPriceInfoChange={updateFlightPrice}
+      onSubmit={handleSubmit}
+      isEditMode
     />
   );
 }
