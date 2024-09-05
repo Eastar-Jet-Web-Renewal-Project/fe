@@ -4,6 +4,7 @@ import {
   BookingClass,
   BookingClassCategory,
 } from "@commons/types/flight/flightPrice";
+import { OptionalObject } from "@commons/types/utilType";
 
 export interface FlightBasicInfoAPI {
   id: number;
@@ -21,12 +22,17 @@ export interface BasePriceAPI {
   price: number;
 }
 
-export interface FlightDetailPageResponse extends FlightBasicInfoAPI {
+export interface FlightBasicAPI extends FlightBasicInfoAPI {
   prices: {
     [key in BookingClassCategory]: BasePriceAPI[];
   };
 }
 
+export interface FlightDetailPageResponse extends FlightBasicAPI {}
+
 export interface ManageFlightPageResponse {
   result: FlightBasicInfoAPI[];
 }
+
+export interface FlightCreatePageRequest
+  extends OptionalObject<FlightBasicAPI> {}
