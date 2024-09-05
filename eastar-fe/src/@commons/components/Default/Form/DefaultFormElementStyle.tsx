@@ -37,7 +37,7 @@ export type DefaultStyleFormElementProps = {
  */
 export const DefaultStyleFormElement = styled.div<DefaultStyleFormElementProps>`
   width: 100%;
-  min-height: 60px;
+  height: 60px;
 
   padding: 18px 20px;
 
