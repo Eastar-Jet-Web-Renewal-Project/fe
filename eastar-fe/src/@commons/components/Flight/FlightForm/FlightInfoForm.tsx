@@ -3,35 +3,30 @@ import SingleLineInput from "@commons/components/Default/Form/Input/SingleLineIn
 import TimePicker from "@commons/components/Default/Form/Picker/TimePicker/TimePicker";
 import Checkbox from "@commons/components/Default/Form/Selection/Checkbox/Checkbox";
 import Dropdown from "@commons/components/Portal/Dropdown/Dropdown";
+import { airports } from "@commons/constants/airport/airport";
 
 import { DAYS } from "@commons/constants/time/days";
-import { Option } from "@commons/types/commons";
+import { FlightInfo } from "@commons/types/flight/flightInfo";
 
 export type FlightInfoFormProps = {
-  flightInfo: {
-    flightCode: string;
-    departureAirport: Option;
-    arrivalAirport: Option;
-    departureTime: string;
-    arrivalTime: string;
-    dayOfOperation: Option[];
-  };
-  onFlightInfoChange: (flightInfo: FlightInfoFormProps["flightInfo"]) => void;
-  airports: Option[];
+  flightInfo: FlightInfo;
+  onFlightInfoChange?: (
+    field: keyof FlightInfo,
+    value: FlightInfo[typeof field],
+  ) => void;
+  isDisabled?: boolean;
 };
 
 export default function FlightInfoForm({
   flightInfo,
   onFlightInfoChange,
-  airports,
+  isDisabled,
 }: FlightInfoFormProps) {
   const handleFlightInfoChange =
-    (key: keyof FlightInfoFormProps["flightInfo"]) =>
-    (value: FlightInfoFormProps["flightInfo"][typeof key]) => {
-      onFlightInfoChange({
-        ...flightInfo,
-        [key]: value,
-      });
+    (key: keyof FlightInfo) => (value: FlightInfo[typeof key]) => {
+      if (isDisabled) return;
+
+      onFlightInfoChange?.(key, value);
     };
 
   return (
@@ -41,6 +36,10 @@ export default function FlightInfoForm({
           placeholder="항공편 명"
           value={flightInfo.flightCode}
           onChange={handleFlightInfoChange("flightCode")}
+          isDisabled={isDisabled}
+          options={{
+            id: "항공편 명",
+          }}
         />
       </FormElement>
 
@@ -57,6 +56,7 @@ export default function FlightInfoForm({
             content: flightInfo.departureAirport.label,
           }}
           isCloseWhenClickOption
+          isDisabled={isDisabled}
         />
       </FormElement>
 
@@ -71,6 +71,7 @@ export default function FlightInfoForm({
             content: flightInfo.arrivalAirport.label,
           }}
           isCloseWhenClickOption
+          isDisabled={isDisabled}
         />
       </FormElement>
 
@@ -79,6 +80,10 @@ export default function FlightInfoForm({
         <TimePicker
           value={flightInfo.departureTime}
           onChange={handleFlightInfoChange("departureTime")}
+          isDisabled={isDisabled}
+          options={{
+            id: "항공편 명",
+          }}
         />
       </FormElement>
 
@@ -87,6 +92,10 @@ export default function FlightInfoForm({
         <TimePicker
           value={flightInfo.arrivalTime}
           onChange={handleFlightInfoChange("arrivalTime")}
+          isDisabled={isDisabled}
+          options={{
+            id: "항공편 명",
+          }}
         />
       </FormElement>
       {/* or 검사 */}
@@ -96,6 +105,7 @@ export default function FlightInfoForm({
           options={DAYS}
           selectedOptions={flightInfo.dayOfOperation}
           onCheckboxClick={handleFlightInfoChange("dayOfOperation")}
+          isDisabled={isDisabled}
         />
       </FormElement>
     </form>
