@@ -4,24 +4,26 @@ import {
   DefaultStyleFormElementVariant,
 } from "../../DefaultFormElementStyle";
 
-type CheckboxProps = {
+type CheckboxProps<T> = {
   name: string;
-  options: Option[];
-  selectedOptions: Option[];
-  onCheckboxClick: (selectedOptions: Option[]) => void;
+  options: Option<T>[];
+  selectedOptions: Option<T>[];
+  onCheckboxClick: (selectedOptions: Option<T>[]) => void;
   variant?: DefaultStyleFormElementVariant;
   isDisabled?: boolean;
 };
 
-export default function Checkbox({
+export default function Checkbox<
+  T extends string | number | readonly string[] | undefined,
+>({
   name,
   options,
   selectedOptions,
   onCheckboxClick,
   variant,
   isDisabled,
-}: CheckboxProps) {
-  const handleCheckboxClick = (option: Option) => {
+}: CheckboxProps<T>) {
+  const handleCheckboxClick = (option: Option<T>) => {
     if (isDisabled) return;
 
     const newSelectedOptions = selectedOptions.includes(option)
