@@ -26,3 +26,7 @@ export interface FlightDetailPageResponse extends FlightBasicInfoAPI {
     [key in BookingClassCategory]: BasePriceAPI[];
   };
 }
+
+export interface ManageFlightPageResponse {
+  result: FlightBasicInfoAPI[];
+}
