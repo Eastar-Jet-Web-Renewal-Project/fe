@@ -8,7 +8,7 @@ import { Option } from "@commons/types/commons";
  * @param options - 옵션 객체 (keepOriginalIfNotFound: 라벨을 찾지 못했을 때 원래 값을 유지할지 여부)
  * @returns 라벨 배열
  */
-export function mapValuesToLabel<T>(
+export function mapValuesToLabels<T>(
   labelValuePairs: Option<T>[],
   values: T[],
   options: {
@@ -40,26 +40,39 @@ export function mapValuesToLabel<T>(
  * @param options - 옵션 객체 (keepOriginalIfNotFound: 라벨을 찾지 못했을 때 원래 값을 유지할지 여부)
  * @returns 라벨
  */
-export function mapValueToLabels<T>(
+export function mapValueToLabel<T>(
   labelValuePairs: Option<T>[],
   value: T,
   options: {
     keepOriginalIfNotFound?: boolean;
   } = {},
 ) {
-  return mapValuesToLabel(labelValuePairs, [value], options)[0];
+  return mapValuesToLabels(labelValuePairs, [value], options)[0];
+}
+
+export function mapValuesToOptions<T>(
+  labelValuePairs: Option<T>[],
+  values: T[],
+  options: {
+    default?: string;
+  } = {},
+): Option<T>[] {
+  return values.map((value) =>
+    mapValueToOption(labelValuePairs, value, options),
+  );
 }
 
 export function mapValueToOption<T>(
   labelValuePairs: Option<T>[],
   value: T,
   options: {
-    default?: boolean;
+    default?: string;
   } = {},
-) {
+): Option<T> {
   return (
-    labelValuePairs.find((pair) => pair.value === value) ||
-    options.default ||
-    null
+    labelValuePairs.find((pair) => pair.value === value) || {
+      label: options.default || "정보 없음",
+      value,
+    }
   );
 }
