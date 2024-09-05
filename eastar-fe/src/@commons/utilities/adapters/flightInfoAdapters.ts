@@ -9,10 +9,7 @@ import { mapValuesToOptions, mapValueToOption } from "../mapping/labelMapping";
 import { airports } from "@commons/constants/airport/airport";
 import { Day } from "@commons/types/commons";
 import { OptionalObject } from "@commons/types/utilType";
-import {
-  BookingClassCategory,
-  FlightPrice,
-} from "@commons/types/flight/flightPrice";
+import { FlightPrice } from "@commons/types/flight/flightPrice";
 
 export function adaptFlightDetailPageResponseToFlightInfo(
   flightInfo: FlightDetailPageResponse,
