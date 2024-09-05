@@ -1,4 +1,4 @@
-import CreateFlightPage from "@domains/admin/create-flight/pages/CreateFlightPage";
+import FlightCreatePage from "@domains/admin/flight-detail/pages/FlightCreatePage";
 import FlightDetailPage from "@domains/admin/flight-detail/pages/FlightDetailPage";
 import ManageFlightPage from "@domains/admin/manage-flight/pages/ManageFlightPage";
 import { Route } from "react-router-dom";
@@ -8,7 +8,7 @@ import FlightDetailEditPage from "@domains/admin/flight-detail/pages/FlightDetai
 export const adminRouter = (
   <>
     <Route path={ROUTES.ADMIN.FLIGHT_SEARCH} element={<ManageFlightPage />} />
-    <Route path={ROUTES.ADMIN.FLIGHT_CREATE} element={<CreateFlightPage />} />
+    <Route path={ROUTES.ADMIN.FLIGHT_CREATE} element={<FlightCreatePage />} />
     <Route path={ROUTES.ADMIN.FLIGHT_DETAIL} element={<FlightDetailPage />} />
     <Route
       path={ROUTES.ADMIN.FLIGHT_DETAIL_EDIT}
