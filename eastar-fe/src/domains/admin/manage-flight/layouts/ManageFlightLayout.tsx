@@ -10,7 +10,7 @@ import { flightColumn } from "@commons/constants/flight/flightTableColumn";
 import { StyledManageFlightLayout } from "./ManageFlightLayout.styled";
 import FlightInfoForm from "../../../../@commons/components/Flight/FlightForm/FlightInfoForm";
 import { DAYS } from "@commons/constants/time/days";
-import { mapValuesToLabel } from "@commons/utilities/mapping/labelMapping";
+import { mapValuesToLabels } from "@commons/utilities/mapping/labelMapping";
 import Divider from "@commons/components/Default/Divider/Divider";
 import Button from "@commons/components/Default/Button/Button";
 
@@ -55,7 +55,7 @@ export default function ManageFlightLayout() {
               <TableItem>{flight.departureTime}</TableItem>
               <TableItem>{flight.arrivalTime}</TableItem>
               <TableItem>
-                {mapValuesToLabel(DAYS, flight.flightDay).join(", ")}
+                {mapValuesToLabels(DAYS, flight.flightDay).join(", ")}
               </TableItem>
             </TableRow>
           ))}
