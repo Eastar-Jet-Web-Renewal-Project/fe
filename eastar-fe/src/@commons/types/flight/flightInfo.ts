@@ -1,4 +1,4 @@
-import { Option } from "../commons";
+import { Day, Option } from "../commons";
 
 export type FLIGHT_STATUS =
   | "SEEKING_SLOTS" // 슬롯 확보중
@@ -10,9 +10,9 @@ export type FLIGHT_STATUS =
 
 export type FlightInfo = {
   flightCode: string;
-  departureAirport: Option;
-  arrivalAirport: Option;
+  departureAirport: Option<string>;
+  arrivalAirport: Option<string>;
   departureTime: string;
   arrivalTime: string;
-  dayOfOperation: Option[];
+  dayOfOperation: Option<Day>[];
 };

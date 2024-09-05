@@ -1,8 +1,11 @@
 import { Day } from "@commons/types/commons";
 import { FLIGHT_STATUS } from "@commons/types/flight/flightInfo";
-import { BookingClass } from "@commons/types/flight/flightPrice";
+import {
+  BookingClass,
+  BookingClassCategory,
+} from "@commons/types/flight/flightPrice";
 
-interface FlightBasicInfoAPI {
+export interface FlightBasicInfoAPI {
   id: number;
   flightCode: string;
   status: FLIGHT_STATUS;
@@ -13,15 +16,13 @@ interface FlightBasicInfoAPI {
   dayOfOperation: Day[];
 }
 
-interface BasePriceAPI {
-  id: number;
-  flightId: number;
+export interface BasePriceAPI {
   bookingClass: BookingClass;
   price: number;
 }
 
 export interface FlightDetailPageResponse extends FlightBasicInfoAPI {
   prices: {
-    [key in BookingClass]: number;
+    [key in BookingClassCategory]: BasePriceAPI[];
   };
 }
