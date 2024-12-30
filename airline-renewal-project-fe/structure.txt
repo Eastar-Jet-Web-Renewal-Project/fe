@@ -1,0 +1,58 @@
+├── template
+│  ├── .env.development.local
+│  ├── index.html
+│  ├── package-lock.json
+│  ├── package.json
+│  ├── postcss.config.js
+│  ├── public
+│  │  └── mockServiceWorker.js
+│  ├── src
+│  │  ├── @commons
+│  │  │  ├── assets
+│  │  │  ├── components
+│  │  │  ├── hooks
+│  │  │  ├── layouts
+│  │  │  ├── stores
+│  │  │  ├── types
+│  │  │  └── utilities
+│  │  ├── @config
+│  │  │  ├── constants
+│  │  │  ├── environments
+│  │  │  └── themes
+│  │  ├── @domains
+│  │  │  ├── auth
+│  │  │  │  ├── components
+│  │  │  │  ├── hooks
+│  │  │  │  ├── services
+│  │  │  │  ├── stores
+│  │  │  │  ├── types
+│  │  │  │  └── utils
+│  │  ├── @lib
+│  │  ├── @mocks
+│  │  ├── @network
+│  │  │  ├── apis
+│  │  │  │  ├── auth.api.ts
+│  │  │  │  ├── public.api.ts
+│  │  │  ├── consts
+│  │  │  │  └── error.ts
+│  │  │  ├── interceptors
+│  │  │  │  └── request.interceptor.ts
+│  │  │  ├── services
+│  │  │  │  ├── apiService.ts
+│  │  │  │  ├── errors.ts
+│  │  │  └── types
+│  │  │    └── dtos
+│  │  ├── @pages
+│  │  ├── @routes
+│  │  │  ├── guards
+│  │  │  └── index.tsx
+│  │  ├── @tests
+│  │  ├── App.tsx
+│  │  ├── index.css
+│  │  ├── main.tsx
+│  │  └── vite-env.d.ts
+│  ├── tailwind.config.js
+│  ├── tsconfig.app.json
+│  ├── tsconfig.json
+│  ├── tsconfig.node.json
+│  └── vite.config.ts
