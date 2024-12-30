@@ -1,4 +1,4 @@
-import { ERROR_CODE } from "@network/consts/error";
+import { ERROR_CODE } from "@network/constants/error";
 import axios from "axios";
 
 export class ApiError extends Error {

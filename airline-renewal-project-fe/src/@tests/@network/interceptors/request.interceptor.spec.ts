@@ -4,7 +4,7 @@ import axiosInstance from "@lib/axios";
 import { useAuthStore } from "@domains/auth/stores/authStore";
 import { http, HttpResponse } from "msw";
 import { AuthMockAPI } from "@mocks/auth.mock";
-import { ERROR_CODE } from "@network/consts/error";
+import { ERROR_CODE } from "@network/constants/error";
 import { AuthService } from "@domains/auth/services/authService";
 
 const server = setupServer(
@@ -15,7 +15,7 @@ const server = setupServer(
   }),
   http.get(
     "/public/reset-cookie",
-    ({}) =>
+    ({ }) =>
       new HttpResponse(null, {
         headers: {
           "Content-type": "application/json",

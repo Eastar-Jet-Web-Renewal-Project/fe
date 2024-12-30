@@ -3,7 +3,7 @@ import { useAuthStore } from "@domains/auth/stores/authStore";
 import JWTUtils from "@domains/auth/utils/jwt.util";
 import { AuthAPI } from "@network/apis/auth.api";
 import { PUBLIC_API } from "@network/apis/public.api";
-import { ERROR_CODE } from "@network/consts/error";
+import { ERROR_CODE } from "@network/constants/error";
 import { ApiError } from "@network/services/errors";
 import { InternalAxiosRequestConfig } from "axios";
 

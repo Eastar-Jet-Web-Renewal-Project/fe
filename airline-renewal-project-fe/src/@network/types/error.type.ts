@@ -1,3 +1,3 @@
-import { ERROR_CODE } from "@network/consts/error";
+import { ERROR_CODE } from "@network/constants/error";
 
 export type ErrorCodeType = (typeof ERROR_CODE)[keyof typeof ERROR_CODE];

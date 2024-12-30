@@ -1,4 +1,4 @@
-import { ERROR_CODE } from "@network/consts/error";
+import { ERROR_CODE } from "@network/constants/error";
 import { ApiError } from "@network/services/errors";
 import axios, { AxiosError, AxiosHeaders } from "axios";
 import { afterEach, describe, expect, it, vi } from "vitest";

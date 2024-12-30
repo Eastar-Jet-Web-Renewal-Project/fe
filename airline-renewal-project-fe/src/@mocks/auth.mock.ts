@@ -2,7 +2,7 @@ import { SigninResquestDTO } from "@network/types/dtos/auth.dto";
 import { http, HttpResponse } from "msw";
 
 import * as jose from "jose";
-import { ERROR_CODE } from "@network/consts/error";
+import { ERROR_CODE } from "@network/constants/error";
 import { AuthAPI } from "@network/apis/auth.api";
 
 const SECRET = new TextEncoder().encode("test");
